@@ -13,11 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.acceptAlert()
+WebUI.openBrowser('')
 
-WebUI.acceptAlert()
+WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/icrcng/displayRegister')
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Page_Registration/input__usPersonType (2)'))
 
-WebUI.acceptAlert()
+WebUI.selectOptionByValue(findTestObject('Page_Registration/select_--- Select a level --- (2)'), '147', true)
+
+WebUI.click(findTestObject('Page_Registration/a_State  Province  Region_stat (1)'))
+
+WebUI.click(findTestObject('Page_Registration/a_State  Province  Region_stat (1)'))
+
+WebUI.click(findTestObject('Page_Registration/span_State  Province  Region_u (1)'))
+
+WebUI.click(findTestObject('Page_Registration/div_MD - Maryland (1)'))
 

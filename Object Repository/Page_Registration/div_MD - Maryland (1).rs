@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_MD - Maryland</name>
+   <name>div_MD - Maryland (1)</name>
    <tag></tag>
-   <elementGuidId>31bba1d4-b786-4b83-b2f4-8516f1714bdc</elementGuidId>
+   <elementGuidId>bf5cfbd9-58cd-4399-8ce3-b8193ef850ed</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@id = 'ui-id-1104' and (text() = 'MD - Maryland' or . = 'MD - Maryland')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//*[(@id = &quot;ui-id-2&quot;)]</value>
+         <value>//div[@id='ui-id-131']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ui-id-1104</value>
+      <value>ui-id-131</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,13 +52,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ui-id-1104&quot;)</value>
+      <value>id(&quot;ui-id-131&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//div[@id='ui-id-1104']</value>
+      <value>//div[@id='ui-id-131']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
