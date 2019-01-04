@@ -17,19 +17,31 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
-WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login (1)'))
+WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email Address_username (1)'), 'firstname1@nih.gov')
+WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'firstname1@nih.gov')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password_password (1)'), 'ifTZcph1FO93SVr0dZvNUw==')
+WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_userlogin_0 (1)'))
+WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login/div_Incorrect Email Address.'))
+WebUI.verifyElementPresent(findTestObject('Page_Login/div_Incorrect Email Address.'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Login/div_Incorrect Email Address._1'))
+WebUI.verifyElementPresent(findTestObject('Page_Login/span_Incorrect Email Address.'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_btn btn-default'))
+WebUI.click(findTestObject('Page_Login/button_'))
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'firstname1@nih.edu')
+
+WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'iFGeFYmXIrVXkUXHumJCLw==')
+
+WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Login/div_Incorrect Password.'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Login/span_Incorrect Password.'), 0)
+
+WebUI.click(findTestObject('Page_Login/button_'))
+
+WebUI.click(findTestObject('Page_Login/input_Password_btn btn-default'))
 
