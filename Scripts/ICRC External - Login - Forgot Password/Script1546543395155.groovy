@@ -17,6 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
+'testuser1@nih.gov'
 WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login (2) (1)'))
 
 WebUI.click(findTestObject('Page_Login/a_Forgot your password (1)'))
@@ -33,6 +34,7 @@ WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__u
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Enter a New Password/input__password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
+'P@ssword2'
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Enter a New Password/input__confirmPassword'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Enter a New Password/input__usertoResetPassword_0'))
