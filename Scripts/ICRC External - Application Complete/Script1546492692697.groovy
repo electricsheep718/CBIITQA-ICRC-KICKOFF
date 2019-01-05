@@ -13,12 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+not_run: WebUI.callTestCase(findTestCase('ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/icrcng/private/application.action')
 
+'Requires Data Driven Test FILE!\r\n'
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Email Address_username (2)'), 'firstname1@nih.edu')
 
+'Use the same password for all logins - P@ssword1 '
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_ICRC Application/input_Password_password (2)'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Password_userlogin_0 (2)'))
@@ -115,26 +119,6 @@ WebUI.click(findTestObject('Object Repository/Page_ICRC Application/label_Emerge
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_Emergency Contact Number (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_1 (1)'), '1')
-
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_2 (1)'), '12')
-
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_3 (1)'), '123')
-
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_4 (1)'), '1234')
-
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_5 (1)'), '12345')
-
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_6 (1)'), '123456')
-
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_7 (1)'), '1234567')
-
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_8 (1)'), '12345678')
-
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_9 (1)'), '123456789')
-
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_10 (1)'), '1234567891')
-
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_11 (1)'), '1234567891')
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_Are you a MARC Student (1)'))
@@ -173,11 +157,7 @@ WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_MD - Mar
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/h3_Academic InformationEducati (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_Academic InformationEducatio (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_Academic InformationEducatio (1)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduSchool (1)'), 'John Hopkins University')
+WebUI.setText(findTestObject('Page_ICRC Application/input__eduSchool (1)'), 'John Hopkins University')
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduDateFrom (1)'), '01/01/2004')
 
@@ -281,17 +261,13 @@ WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__exp
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/textarea__expAccSummary2 (1)'), 'Brief Description of Duties')
 
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_Add_1 (1)'))
+WebUI.click(findTestObject('Page_ICRC Application/div_Name of Mentor (1)'))
+
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/a_Add_1 (1)'), 0)
+
+WebUI.click(findTestObject('Page_ICRC Application/a_Add_1 (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_Add                    Upd_1 (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_Characters 27 (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_Work Experience (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_Work Experience (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_Work Experience (1)'))
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Place of Employment_expA (1)'), 'John Hopkins University')
 
@@ -306,6 +282,8 @@ WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_End 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Hours Per Week_expAccHou (1)'), '40')
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/textarea_Brief Summary of Duti (1)'), 'Brief Summary of Duties')
+
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/a_Add_2 (1)'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_Add_2 (1)'))
 
