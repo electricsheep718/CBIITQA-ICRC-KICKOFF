@@ -263,7 +263,7 @@ WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/textarea__
 
 WebUI.click(findTestObject('Page_ICRC Application/div_Name of Mentor (1)'))
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/a_Add_1 (1)'), 0)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_ICRC Application/a_Add_1 (1)'))
 
