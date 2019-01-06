@@ -23,19 +23,19 @@ WebUI.setEncryptedText(findTestObject('Page_NIH Login User Name and Passwo/input
 
 WebUI.click(findTestObject('Page_NIH Login User Name and Passwo/input_Change Password_Image2'))
 
-WebUI.click(findTestObject('Page_Home/div_Go to page_rollover-label- (1)'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Home/div_Go to page_rollover-label- (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Application Process/i_In Process_fa fa-lock btn bt'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Application Process/input_An email notification co (1)'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('Page_Application Process/input_An email notification co (1)'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Application Process/input_An email notification co (1)'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Application Process/input_An email notification co_4'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('Page_Application Process/input_An email notification co_4'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Application Process/input_An email notification co_4'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Application Process/i_In Process_fa fa-lock btn bt_1'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('Page_Application Process/i_In Process_fa fa-lock btn bt_1'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Application Process/i_In Process_fa fa-lock btn bt_1'))
 
