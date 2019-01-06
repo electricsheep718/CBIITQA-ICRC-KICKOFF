@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="28" tests="3" failures="0" errors="0">
+   <testsuite name="Login" tests="3" failures="0" errors="0" time="28" timestamp="2019-01-05 21:57:03" hostname="rashids2 - NCI-02055813-L.nci.nih.gov" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rashids2\\git\\CBIITQA-ICRC-KICKOFF\\Reports\\Login\\20190105_215659"/>
+         <property name="logFiles" value="C:\\Users\\rashids2\\git\\CBIITQA-ICRC-KICKOFF\\Reports\\Login\\20190105_215659\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rashids2 - NCI-02055813-L.nci.nih.gov"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.242.221.71"/>
+         <property name="sessionId" value="1802b9071f44d9d46140b71f124facf4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ICRC External - Login Sample Data File" classname="Test Cases/ICRC External - Login Sample Data File" status="PASSED">
+         <system-out><![CDATA[2019-01-05 21:57:03 - [TEST_CASE][PASSED] - Test Cases/ICRC External - Login Sample Data File: Test Cases/ICRC External - Login Sample Data File
+
+2019-01-05 21:57:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-05 21:57:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-05 21:57:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-05 21:57:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-05 21:57:08 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-05 21:57:10 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-05 21:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Introduction to Cancer Researc/a_Login")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Login' is clicked on
+
+2019-01-05 21:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Login' is clicked on
+
+2019-01-05 21:57:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Email Address_username"), emailaddress): Text 'ncitester@nih.gov' is set on object 'Object Repository/Page_Login/input_Email Address_username'
+
+2019-01-05 21:57:11 - [MESSAGE][PASSED] - Text 'ncitester@nih.gov' is set on object 'Object Repository/Page_Login/input_Email Address_username'
+
+2019-01-05 21:57:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "iFGeFYmXIrWy72D5I5E8Dw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+2019-01-05 21:57:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+2019-01-05 21:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Password_userlogin_0")): Object: 'Object Repository/Page_Login/input_Password_userlogin_0' is clicked on
+
+2019-01-05 21:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Password_userlogin_0' is clicked on
+
+2019-01-05 21:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_ICRC Application/a_Log out (1)")): Object: 'Object Repository/Page_ICRC Application/a_Log out (1)' is clicked on
+
+2019-01-05 21:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ICRC Application/a_Log out (1)' is clicked on
+
+2019-01-05 21:57:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-05 21:57:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ICRC External - Login Sample Data File" classname="Test Cases/ICRC External - Login Sample Data File" status="PASSED">
+         <system-out><![CDATA[2019-01-05 21:57:15 - [TEST_CASE][PASSED] - Test Cases/ICRC External - Login Sample Data File: Test Cases/ICRC External - Login Sample Data File
+
+2019-01-05 21:57:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-05 21:57:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-05 21:57:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-05 21:57:17 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-05 21:57:19 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-05 21:57:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Introduction to Cancer Researc/a_Login")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Login' is clicked on
+
+2019-01-05 21:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Login' is clicked on
+
+2019-01-05 21:57:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Email Address_username"), emailaddress): Text 'ncitester1@nih.gov' is set on object 'Object Repository/Page_Login/input_Email Address_username'
+
+2019-01-05 21:57:21 - [MESSAGE][PASSED] - Text 'ncitester1@nih.gov' is set on object 'Object Repository/Page_Login/input_Email Address_username'
+
+2019-01-05 21:57:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "iFGeFYmXIrWy72D5I5E8Dw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+2019-01-05 21:57:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+2019-01-05 21:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Password_userlogin_0")): Object: 'Object Repository/Page_Login/input_Password_userlogin_0' is clicked on
+
+2019-01-05 21:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Password_userlogin_0' is clicked on
+
+2019-01-05 21:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_ICRC Application/a_Log out (1)")): Object: 'Object Repository/Page_ICRC Application/a_Log out (1)' is clicked on
+
+2019-01-05 21:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ICRC Application/a_Log out (1)' is clicked on
+
+2019-01-05 21:57:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-05 21:57:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ICRC External - Login Sample Data File" classname="Test Cases/ICRC External - Login Sample Data File" status="PASSED">
+         <system-out><![CDATA[2019-01-05 21:57:24 - [TEST_CASE][PASSED] - Test Cases/ICRC External - Login Sample Data File: Test Cases/ICRC External - Login Sample Data File
+
+2019-01-05 21:57:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-05 21:57:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-05 21:57:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-05 21:57:26 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-05 21:57:28 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-05 21:57:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Introduction to Cancer Researc/a_Login")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Login' is clicked on
+
+2019-01-05 21:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Login' is clicked on
+
+2019-01-05 21:57:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Email Address_username"), emailaddress): Text 'ncitester2@nih.gov' is set on object 'Object Repository/Page_Login/input_Email Address_username'
+
+2019-01-05 21:57:29 - [MESSAGE][PASSED] - Text 'ncitester2@nih.gov' is set on object 'Object Repository/Page_Login/input_Email Address_username'
+
+2019-01-05 21:57:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "iFGeFYmXIrWy72D5I5E8Dw=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+2019-01-05 21:57:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+2019-01-05 21:57:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Password_userlogin_0")): Object: 'Object Repository/Page_Login/input_Password_userlogin_0' is clicked on
+
+2019-01-05 21:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Password_userlogin_0' is clicked on
+
+2019-01-05 21:57:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_ICRC Application/a_Log out (1)")): Object: 'Object Repository/Page_ICRC Application/a_Log out (1)' is clicked on
+
+2019-01-05 21:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ICRC Application/a_Log out (1)' is clicked on
+
+2019-01-05 21:57:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-05 21:57:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-05 21:57:03 - [TEST_SUITE][PASSED] - Login: Test Cases/ICRC External - Login Sample Data File]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 71.0.3578.98,,2019-01-05 21:57:03,2019-01-05 21:57:32,28.950s,PASSED
+,,,,,,
+Test Cases/ICRC External - Login Sample Data File,Chrome 71.0.3578.98,Login with Data File,2019-01-05 21:57:03,2019-01-05 21:57:15,11.222s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-05 21:57:04,2019-01-05 21:57:08,4.337s,PASSED
+"navigateToUrl(""https://icrc-test.nci.nih.gov/"")",Chrome 71.0.3578.98,,2019-01-05 21:57:08,2019-01-05 21:57:10,1.781s,PASSED
+"click(findTestObject(""Object Repository/Page_Introduction to Cancer Researc/a_Login""))",Chrome 71.0.3578.98,,2019-01-05 21:57:10,2019-01-05 21:57:11,0.660s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Email Address_username""), emailaddress)",Chrome 71.0.3578.98,,2019-01-05 21:57:11,2019-01-05 21:57:11,0.359s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password_password""), ""iFGeFYmXIrWy72D5I5E8Dw=="")",Chrome 71.0.3578.98,,2019-01-05 21:57:11,2019-01-05 21:57:12,0.329s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/input_Password_userlogin_0""))",Chrome 71.0.3578.98,,2019-01-05 21:57:12,2019-01-05 21:57:14,1.919s,PASSED
+"click(findTestObject(""Page_ICRC Application/a_Log out (1)""))",Chrome 71.0.3578.98,,2019-01-05 21:57:14,2019-01-05 21:57:14,0.433s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-05 21:57:14,2019-01-05 21:57:15,0.755s,PASSED
+,,,,,,
+Test Cases/ICRC External - Login Sample Data File,Chrome 71.0.3578.98,Login with Data File,2019-01-05 21:57:15,2019-01-05 21:57:24,9.394s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-05 21:57:15,2019-01-05 21:57:17,2.260s,PASSED
+"navigateToUrl(""https://icrc-test.nci.nih.gov/"")",Chrome 71.0.3578.98,,2019-01-05 21:57:17,2019-01-05 21:57:19,1.495s,PASSED
+"click(findTestObject(""Object Repository/Page_Introduction to Cancer Researc/a_Login""))",Chrome 71.0.3578.98,,2019-01-05 21:57:19,2019-01-05 21:57:20,1.941s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Email Address_username""), emailaddress)",Chrome 71.0.3578.98,,2019-01-05 21:57:20,2019-01-05 21:57:21,0.362s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password_password""), ""iFGeFYmXIrWy72D5I5E8Dw=="")",Chrome 71.0.3578.98,,2019-01-05 21:57:21,2019-01-05 21:57:21,0.281s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/input_Password_userlogin_0""))",Chrome 71.0.3578.98,,2019-01-05 21:57:21,2019-01-05 21:57:23,1.884s,PASSED
+"click(findTestObject(""Page_ICRC Application/a_Log out (1)""))",Chrome 71.0.3578.98,,2019-01-05 21:57:23,2019-01-05 21:57:23,0.379s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-05 21:57:23,2019-01-05 21:57:24,0.759s,PASSED
+,,,,,,
+Test Cases/ICRC External - Login Sample Data File,Chrome 71.0.3578.98,Login with Data File,2019-01-05 21:57:24,2019-01-05 21:57:32,7.781s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-05 21:57:24,2019-01-05 21:57:26,1.991s,PASSED
+"navigateToUrl(""https://icrc-test.nci.nih.gov/"")",Chrome 71.0.3578.98,,2019-01-05 21:57:26,2019-01-05 21:57:28,1.731s,PASSED
+"click(findTestObject(""Object Repository/Page_Introduction to Cancer Researc/a_Login""))",Chrome 71.0.3578.98,,2019-01-05 21:57:28,2019-01-05 21:57:28,0.493s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Email Address_username""), emailaddress)",Chrome 71.0.3578.98,,2019-01-05 21:57:28,2019-01-05 21:57:29,0.326s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password_password""), ""iFGeFYmXIrWy72D5I5E8Dw=="")",Chrome 71.0.3578.98,,2019-01-05 21:57:29,2019-01-05 21:57:29,0.216s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/input_Password_userlogin_0""))",Chrome 71.0.3578.98,,2019-01-05 21:57:29,2019-01-05 21:57:31,1.824s,PASSED
+"click(findTestObject(""Page_ICRC Application/a_Log out (1)""))",Chrome 71.0.3578.98,,2019-01-05 21:57:31,2019-01-05 21:57:31,0.419s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-05 21:57:31,2019-01-05 21:57:32,0.730s,PASSED
