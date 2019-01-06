@@ -20,8 +20,8 @@ import internal.GlobalVariable
 
 public class CustomKeywords {
 	@Keyword
-	def sayHello(){
+	def sayHello(String name){
 
-		println("\n    Hello World.... \n")
+		println("\n    Hello "+name+"\n")
 	}
 }
