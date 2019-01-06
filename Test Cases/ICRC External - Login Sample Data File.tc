@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with Data File</description>
+   <name>ICRC External - Login Sample Data File</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>edf26e87-af68-451f-9df5-c3abe7a7461a</testCaseGuid>
+</TestCaseEntity>
