@@ -5,4 +5,11 @@
    <tag>login</tag>
    <comment></comment>
    <testCaseGuid>edf26e87-af68-451f-9df5-c3abe7a7461a</testCaseGuid>
+   <variable>
+      <defaultValue>'ncitester@nih.gov'</defaultValue>
+      <description></description>
+      <id>3c697e63-05f6-47c7-9b17-a4bff0413025</id>
+      <masked>false</masked>
+      <name>emailaddress</name>
+   </variable>
 </TestCaseEntity>
