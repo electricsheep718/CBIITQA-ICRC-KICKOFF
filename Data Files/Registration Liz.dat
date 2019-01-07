@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
-   <description>Usernames</description>
-   <name>Test Data 1</name>
+   <description></description>
+   <name>Registration Liz</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>606c3fa5-ef52-4c00-93ac-851ccf71e018</dataFileGUID>
+   <dataFileGUID>d074ba36-df00-4bd6-b346-f41ceddcb740</dataFileGUID>
    <dataSourceUrl>C:\Users\andreyeve\Katalon Studio\CBIITQA-ICRC-KICKOFF 1\Data for registration Liz.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>

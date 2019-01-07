@@ -18,13 +18,13 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
 'testuser1@nih.gov'
-WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login (2) (1)'))
+WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login'))
 
-WebUI.click(findTestObject('Page_Login/a_Forgot your password (1)'))
+WebUI.click(findTestObject('Page_Login/a_Forgot your password'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__username (1)'), 'testuser1@nih.gov')
+WebUI.setText(findTestObject('Page_Forgot Your Password/input__username'), 'testuser1@nih.gov')
 
-WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoForgotPassword_0 (1)'))
+WebUI.click(findTestObject('Page_Forgot Your Password/input__usertoForgotPassword_0'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__answer1'), 'nick')
 
@@ -32,22 +32,22 @@ WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input_
 
 WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoSecurityQuestion_'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Enter a New Password/input__password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
+WebUI.setText(findTestObject('Object Repository/Page_Enter a New Password/input__password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
 'P@ssword2'
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Enter a New Password/input__confirmPassword'), 'iFGeFYmXIrWy72D5I5E8Dw==')
+WebUI.setText(findTestObject('Object Repository/Page_Enter a New Password/input__confirmPassword'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Enter a New Password/input__usertoResetPassword_0'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Enter a New Password/input__confirmPassword'), 'iFGeFYmXIrVXkUXHumJCLw==')
+WebUI.setText(findTestObject('Object Repository/Page_Enter a New Password/input__confirmPassword'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Enter a New Password/input__usertoResetPassword_0'))
 
-WebUI.setText(findTestObject('Page_Login/input_Email Address_username (3)'), 'testuser1@nih.gov')
+WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'testuser1@nih.gov')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password (3)'), 'iFGeFYmXIrVXkUXHumJCLw==')
+WebUI.setText(findTestObject('Page_Login/input_Password_password'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
-WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0 (3)'))
+WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0'))
 
-WebUI.click(findTestObject('Page_ICRC Application/a_Log out (2)'))
+WebUI.click(findTestObject('Page_ICRC Application/a_Log out'))
 
