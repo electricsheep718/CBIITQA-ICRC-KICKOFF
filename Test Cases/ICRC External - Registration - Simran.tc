@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case for Sign-Up</description>
+   <name>ICRC External - Registration - Simran</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>31168b83-d10c-4edf-9b9b-c66f387b74da</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d2acdb10-2201-470c-bba5-f812159e30a2</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f151c29f-3627-4fd8-8c38-753740712d11</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ffabbafc-d503-4621-a1f1-5d2144b347b8</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>67f46b1b-92f0-4a72-be5c-d408e5c4d58d</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c6905b6-e409-4309-9729-b209ba807f53</id>
+      <masked>false</masked>
+      <name>ConfirmPassword</name>
+   </variable>
+</TestCaseEntity>

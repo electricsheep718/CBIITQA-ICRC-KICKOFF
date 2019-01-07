@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
-   <description>Usernames</description>
-   <name>Test Data 1</name>
+   <description></description>
+   <name>DataOne-Registration-Simran</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>606c3fa5-ef52-4c00-93ac-851ccf71e018</dataFileGUID>
-   <dataSourceUrl>C:\Users\kaurs3\Katalon Studio\ICRC_KickOff_Simran_GitAttempt\CBIITQA-ICRC-KICKOFF 1\DataOne.xlsx</dataSourceUrl>
+   <dataFileGUID>cb0b2b00-2965-448a-a20d-faa18aa2b58b</dataFileGUID>
+   <dataSourceUrl>C:\Users\kaurs3\Katalon Studio\ICRC_KickOff_Simran_GitAttempt\CBIITQA-ICRC-KICKOFF 1\DataOne-Registration.Simran.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

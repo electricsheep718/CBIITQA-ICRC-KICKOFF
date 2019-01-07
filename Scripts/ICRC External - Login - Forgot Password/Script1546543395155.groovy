@@ -20,11 +20,15 @@ WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 'testuser1@nih.gov'
 WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login (2) (1)'))
 
-WebUI.click(findTestObject('Page_Login/a_Forgot your password (1)'))
+WebUI.delay(0)
+
+WebUI.click(findTestObject('Page_Login/a_Forgot your password'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__username (1)'), 'testuser1@nih.gov')
 
 WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoForgotPassword_0 (1)'))
+
+WebUI.acceptAlert()
 
 WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__answer1'), 'nick')
 
