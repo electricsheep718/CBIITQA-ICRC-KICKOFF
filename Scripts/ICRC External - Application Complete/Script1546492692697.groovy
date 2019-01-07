@@ -20,7 +20,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/icrcng/private/application.action')
 
 'Requires Data Driven Test FILE!\r\n'
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Email Address_username (2)'), 'firstname1@nih.edu')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Email Address_username (2)'), 'ncitester1@nih.gov')
 
 'Use the same password for all logins - P@ssword1 '
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_ICRC Application/input_Password_password (2)'), 'iFGeFYmXIrWy72D5I5E8Dw==')
