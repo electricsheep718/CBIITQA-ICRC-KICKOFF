@@ -19,29 +19,20 @@ WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
 WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login'))
 
-WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'firstname1@nih.gov')
-
-WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'iFGeFYmXIrVXkUXHumJCLw==')
-
-WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0'))
-
-WebUI.verifyElementPresent(findTestObject('Page_Login/div_Incorrect Email Address.'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page_Login/span_Incorrect Email Address.'), 0)
-
-WebUI.click(findTestObject('Page_Login/button_'))
-
 WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'firstname1@nih.edu')
 
 WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
 WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Login/div_Incorrect Password.'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Login/div_Incorrect Email Address.'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Page_Login/span_Incorrect Password.'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Login/span_Incorrect Email Address.'), 5)
+
+WebUI.verifyTextPresent('Your account has been locked. Please use the Forgot your password link to reset your password.', 
+    false)
 
 WebUI.click(findTestObject('Page_Login/button_'))
 
-WebUI.click(findTestObject('Page_Login/input_Password_btn btn-default'))
+WebUI.closeBrowser()
 
