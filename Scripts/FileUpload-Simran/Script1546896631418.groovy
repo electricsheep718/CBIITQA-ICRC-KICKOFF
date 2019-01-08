@@ -13,5 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'com.test.demo.CustomKeywords.sayHello'('sami')
+WebUI.callTestCase(findTestCase('ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.maximizeWindow()
+
+WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input__upload'), 'C:\\Users\\kaurs3\\Documents\\ICRC-NG\\PDFs_Test')
+
+WebUI.acceptAlert()
 

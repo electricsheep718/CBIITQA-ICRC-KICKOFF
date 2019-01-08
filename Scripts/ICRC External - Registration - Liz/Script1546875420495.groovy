@@ -63,9 +63,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Address 
 
 WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Address Line 2_address2 (1)'), 'Apt 1')
 
-WebUI.click(findTestObject('Object Repository/Page_Registration/a_State  Province  Region_stat (2)'))
-
 WebUI.setText(findTestObject('Object Repository/Page_Registration/input_City_city (1)'), 'Rockville')
+
+WebUI.click(findTestObject('Object Repository/Page_Registration/a_State  Province  Region_stat (2)'))
 
 WebUI.waitForElementPresent(findTestObject('Page_Registration/div_MD - Maryland_2'), 0)
 
@@ -105,7 +105,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Registration/se
 WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)'), 'nickname1')
 
 'disabled for now!'
-not_run: WebUI.click(findTestObject('Page_Registration/input_CANCEL_registerButton (1)'))
+WebUI.click(findTestObject('Page_Registration/input_CANCEL_registerButton (1)'))
 
 WebUI.closeBrowser()
 

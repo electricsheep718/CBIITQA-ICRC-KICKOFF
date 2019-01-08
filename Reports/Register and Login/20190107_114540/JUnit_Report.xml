@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register and Login" time="35" tests="0" failures="3" errors="0">
+   <testsuite name="Register and Login" tests="0" failures="3" errors="0" time="35" timestamp="2019-01-07 11:45:44" hostname="andreyeve - NCI-02055139-L.nci.nih.gov" id="Test Suites/Register and Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\andreyeve\\Katalon Studio\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Register and Login\\20190107_114540"/>
+         <property name="logFiles" value="C:\\Users\\andreyeve\\Katalon Studio\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Register and Login\\20190107_114540\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\andreyeve\\Katalon Studio\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Register and Login\\20190107_114540\\1546879557940.png, C:\\Users\\andreyeve\\Katalon Studio\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Register and Login\\20190107_114540\\1546879568599.png, C:\\Users\\andreyeve\\Katalon Studio\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Register and Login\\20190107_114540\\1546879578416.png"/>
+         <property name="hostName" value="andreyeve - NCI-02055139-L.nci.nih.gov"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.172.20.72"/>
+         <property name="sessionId" value="99ad6cd5cd12d4864486b9ee3d4e1690"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/ICRC External - Registration - Liz" classname="Test Cases/ICRC External - Registration - Liz" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-07 11:45:44 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Liz: Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)
+
+
+2019-01-07 11:45:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-07 11:45:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-07 11:45:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-07 11:45:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-07 11:45:48 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-07 11:45:52 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-07 11:45:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Introduction to Cancer Researc/a_Register")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-07 11:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-07 11:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)")): Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-07 11:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-07 11:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Alien Registration Number (1)")): Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-07 11:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-07 11:45:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "162", true): All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:45:55 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:45:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "164", true): All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:45:56 - [MESSAGE][PASSED] - All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)")): Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-07 11:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-07 11:45:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "149", true): All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:45:56 - [MESSAGE][PASSED] - All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:45:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)"), "166", true): All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-07 11:45:56 - [MESSAGE][PASSED] - All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-07 11:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Prefix (1)")): Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-07 11:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-07 11:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Prefix            --Select (1)")): Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-07 11:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-07 11:45:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_First Name (1)")): Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-07 11:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-07 11:45:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_First Name (1)")): Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-07 11:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-07 11:45:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__firstName (1)"), FirstName): Text 'FirsName1' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-07 11:45:57 - [MESSAGE][PASSED] - Text 'FirsName1' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-07 11:45:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__lastName (1)"), LastName): Text 'LastName1' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-07 11:45:57 - [MESSAGE][PASSED] - Text 'LastName1' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-07 11:45:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__email (1)"), EmailAddress): Text 'ncitester1@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-07 11:45:57 - [MESSAGE][PASSED] - Text 'ncitester1@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-07 11:45:57 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password): setEncryptedText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)
+
+
+2019-01-07 11:45:58 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+[[ATTACHMENT|C:\\Users\\andreyeve\\Katalon Studio\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Register and Login\\20190107_114540\\1546879557940.png]]
+
+2019-01-07 11:45:58 - [MESSAGE][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-07 11:45:44 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Liz: Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ICRC External - Registration - Liz" classname="Test Cases/ICRC External - Registration - Liz" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-07 11:45:58 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Liz: Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)
+
+
+2019-01-07 11:45:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-07 11:45:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-07 11:46:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-07 11:46:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-07 11:46:01 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-07 11:46:05 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-07 11:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Introduction to Cancer Researc/a_Register")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-07 11:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-07 11:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)")): Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-07 11:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-07 11:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Alien Registration Number (1)")): Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-07 11:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-07 11:46:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "162", true): All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:06 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "164", true): All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:06 - [MESSAGE][PASSED] - All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)")): Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-07 11:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-07 11:46:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "149", true): All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:07 - [MESSAGE][PASSED] - All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:46:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)"), "166", true): All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-07 11:46:07 - [MESSAGE][PASSED] - All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-07 11:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Prefix (1)")): Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-07 11:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-07 11:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Prefix            --Select (1)")): Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-07 11:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-07 11:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_First Name (1)")): Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-07 11:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-07 11:46:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_First Name (1)")): Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-07 11:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-07 11:46:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__firstName (1)"), FirstName): Text 'FirsName2' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-07 11:46:08 - [MESSAGE][PASSED] - Text 'FirsName2' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-07 11:46:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__lastName (1)"), LastName): Text 'LastName2' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-07 11:46:08 - [MESSAGE][PASSED] - Text 'LastName2' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-07 11:46:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__email (1)"), EmailAddress): Text 'ncitester2@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-07 11:46:08 - [MESSAGE][PASSED] - Text 'ncitester2@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-07 11:46:08 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password): setEncryptedText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)
+
+
+2019-01-07 11:46:08 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+[[ATTACHMENT|C:\\Users\\andreyeve\\Katalon Studio\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Register and Login\\20190107_114540\\1546879568599.png]]
+
+2019-01-07 11:46:08 - [MESSAGE][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-07 11:45:58 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Liz: Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ICRC External - Registration - Liz" classname="Test Cases/ICRC External - Registration - Liz" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-07 11:46:08 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Liz: Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)
+
+
+2019-01-07 11:46:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-07 11:46:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-07 11:46:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-07 11:46:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-07 11:46:11 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-07 11:46:14 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-07 11:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Introduction to Cancer Researc/a_Register")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-07 11:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-07 11:46:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:46:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)")): Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-07 11:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-07 11:46:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Alien Registration Number (1)")): Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-07 11:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-07 11:46:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "162", true): All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:16 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "164", true): All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:16 - [MESSAGE][PASSED] - All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)")): Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-07 11:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-07 11:46:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "149", true): All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:17 - [MESSAGE][PASSED] - All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-07 11:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-07 11:46:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)"), "166", true): All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-07 11:46:17 - [MESSAGE][PASSED] - All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-07 11:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Prefix (1)")): Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-07 11:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-07 11:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Prefix            --Select (1)")): Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-07 11:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-07 11:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_First Name (1)")): Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-07 11:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-07 11:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_First Name (1)")): Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-07 11:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-07 11:46:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__firstName (1)"), FirstName): Text 'FirsName3' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-07 11:46:18 - [MESSAGE][PASSED] - Text 'FirsName3' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-07 11:46:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__lastName (1)"), LastName): Text 'LastName3' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-07 11:46:18 - [MESSAGE][PASSED] - Text 'LastName3' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-07 11:46:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__email (1)"), EmailAddress): Text 'ncitester3@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-07 11:46:18 - [MESSAGE][PASSED] - Text 'ncitester3@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-07 11:46:18 - [TEST_STEP][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password): setEncryptedText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)
+
+
+2019-01-07 11:46:18 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+[[ATTACHMENT|C:\\Users\\andreyeve\\Katalon Studio\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Register and Login\\20190107_114540\\1546879578416.png]]
+
+2019-01-07 11:46:18 - [MESSAGE][FAILED] - setEncryptedText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-07 11:46:08 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Liz: Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-07 11:45:44 - [TEST_SUITE][FAILED] - Register and Login: Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-07 11:45:44 - [TEST_SUITE][FAILED] - Register and Login: Test Cases/ICRC External - Registration - Liz FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object 'Object Repository/Page_Registration/input__password (1)' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:981)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$4.call(Unknown Source)
+	at ICRC External - Registration - Liz.run(ICRC External - Registration - Liz:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546879540900.run(TempTestSuite1546879540900.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

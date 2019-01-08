@@ -13,11 +13,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.acceptAlert()
+WebUI.openBrowser('')
 
-WebUI.acceptAlert()
+WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login'))
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'firstname1@nih.edu')
+
+WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'iFGeFYmXIrVXkUXHumJCLw==')
+
+WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Login/div_Incorrect Email Address.'), 5)
+
+WebUI.verifyElementPresent(findTestObject('Page_Login/span_Incorrect Email Address.'), 5)
+
+WebUI.verifyTextPresent('Your account has been locked. Please use the Forgot your password link to reset your password.', 
+    false)
+
+WebUI.click(findTestObject('Page_Login/button_'))
+
+WebUI.closeBrowser()
 

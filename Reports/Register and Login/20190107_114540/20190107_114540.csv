@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register and Login,Chrome 71.0.3578.98,Register and Login,2019-01-07 11:45:44,2019-01-07 11:46:19,35.250s,FAILED
+,,,,,,
+Test Cases/ICRC External - Registration - Liz,Chrome 71.0.3578.98,Test Case for Sign-Up,2019-01-07 11:45:44,2019-01-07 11:45:58,13.753s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-07 11:45:45,2019-01-07 11:45:48,3.144s,PASSED
+"navigateToUrl(""https://icrc-test.nci.nih.gov/"")",Chrome 71.0.3578.98,,2019-01-07 11:45:48,2019-01-07 11:45:52,4.055s,PASSED
+"click(findTestObject(""Page_Introduction to Cancer Researc/a_Register""))",Chrome 71.0.3578.98,,2019-01-07 11:45:52,2019-01-07 11:45:54,2.438s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/input__usPersonType (3)""))",Chrome 71.0.3578.98,,2019-01-07 11:45:54,2019-01-07 11:45:55,0.164s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:45:55,2019-01-07 11:45:55,0.101s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_Alien Registration Number (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:45:55,2019-01-07 11:45:55,0.137s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--- Select a level --- (3)""), ""162"", true)",Chrome 71.0.3578.98,,2019-01-07 11:45:55,2019-01-07 11:45:55,0.451s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--- Select a level --- (3)""), ""164"", true)",Chrome 71.0.3578.98,,2019-01-07 11:45:55,2019-01-07 11:45:56,0.281s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:45:56,2019-01-07 11:45:56,0.111s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--- Select a level --- (3)""), ""149"", true)",Chrome 71.0.3578.98,,2019-01-07 11:45:56,2019-01-07 11:45:56,0.291s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/input__usPersonType (3)""))",Chrome 71.0.3578.98,,2019-01-07 11:45:56,2019-01-07 11:45:56,0.087s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)""), ""166"", true)",Chrome 71.0.3578.98,,2019-01-07 11:45:56,2019-01-07 11:45:56,0.310s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/label_Prefix (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:45:56,2019-01-07 11:45:56,0.107s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_Prefix            --Select (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:45:56,2019-01-07 11:45:57,0.138s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/label_First Name (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:45:57,2019-01-07 11:45:57,0.092s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_First Name (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:45:57,2019-01-07 11:45:57,0.112s,PASSED
+"setText(findTestObject(""Object Repository/Page_Registration/input__firstName (1)""), FirstName)",Chrome 71.0.3578.98,,2019-01-07 11:45:57,2019-01-07 11:45:57,0.176s,PASSED
+"setText(findTestObject(""Object Repository/Page_Registration/input__lastName (1)""), LastName)",Chrome 71.0.3578.98,,2019-01-07 11:45:57,2019-01-07 11:45:57,0.162s,PASSED
+"setText(findTestObject(""Object Repository/Page_Registration/input__email (1)""), EmailAddress)",Chrome 71.0.3578.98,,2019-01-07 11:45:57,2019-01-07 11:45:57,0.222s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Registration/input__password (1)""), Password)",Chrome 71.0.3578.98,,2019-01-07 11:45:57,2019-01-07 11:45:58,0.484s,FAILED
+,,,,,,
+Test Cases/ICRC External - Registration - Liz,Chrome 71.0.3578.98,Test Case for Sign-Up,2019-01-07 11:45:58,2019-01-07 11:46:08,10.590s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-07 11:45:58,2019-01-07 11:46:01,3.360s,PASSED
+"navigateToUrl(""https://icrc-test.nci.nih.gov/"")",Chrome 71.0.3578.98,,2019-01-07 11:46:01,2019-01-07 11:46:05,3.358s,PASSED
+"click(findTestObject(""Page_Introduction to Cancer Researc/a_Register""))",Chrome 71.0.3578.98,,2019-01-07 11:46:05,2019-01-07 11:46:05,0.510s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/input__usPersonType (3)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:05,2019-01-07 11:46:05,0.160s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:05,2019-01-07 11:46:05,0.139s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_Alien Registration Number (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:05,2019-01-07 11:46:06,0.141s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--- Select a level --- (3)""), ""162"", true)",Chrome 71.0.3578.98,,2019-01-07 11:46:06,2019-01-07 11:46:06,0.332s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--- Select a level --- (3)""), ""164"", true)",Chrome 71.0.3578.98,,2019-01-07 11:46:06,2019-01-07 11:46:06,0.278s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:06,2019-01-07 11:46:06,0.095s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--- Select a level --- (3)""), ""149"", true)",Chrome 71.0.3578.98,,2019-01-07 11:46:06,2019-01-07 11:46:07,0.225s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/input__usPersonType (3)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:07,2019-01-07 11:46:07,0.153s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)""), ""166"", true)",Chrome 71.0.3578.98,,2019-01-07 11:46:07,2019-01-07 11:46:07,0.326s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/label_Prefix (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:07,2019-01-07 11:46:07,0.099s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_Prefix            --Select (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:07,2019-01-07 11:46:07,0.164s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/label_First Name (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:07,2019-01-07 11:46:07,0.095s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_First Name (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:07,2019-01-07 11:46:07,0.115s,PASSED
+"setText(findTestObject(""Object Repository/Page_Registration/input__firstName (1)""), FirstName)",Chrome 71.0.3578.98,,2019-01-07 11:46:07,2019-01-07 11:46:08,0.192s,PASSED
+"setText(findTestObject(""Object Repository/Page_Registration/input__lastName (1)""), LastName)",Chrome 71.0.3578.98,,2019-01-07 11:46:08,2019-01-07 11:46:08,0.178s,PASSED
+"setText(findTestObject(""Object Repository/Page_Registration/input__email (1)""), EmailAddress)",Chrome 71.0.3578.98,,2019-01-07 11:46:08,2019-01-07 11:46:08,0.241s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Registration/input__password (1)""), Password)",Chrome 71.0.3578.98,,2019-01-07 11:46:08,2019-01-07 11:46:08,0.337s,FAILED
+,,,,,,
+Test Cases/ICRC External - Registration - Liz,Chrome 71.0.3578.98,Test Case for Sign-Up,2019-01-07 11:46:08,2019-01-07 11:46:18,9.798s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-07 11:46:08,2019-01-07 11:46:11,2.376s,PASSED
+"navigateToUrl(""https://icrc-test.nci.nih.gov/"")",Chrome 71.0.3578.98,,2019-01-07 11:46:11,2019-01-07 11:46:14,2.676s,PASSED
+"click(findTestObject(""Page_Introduction to Cancer Researc/a_Register""))",Chrome 71.0.3578.98,,2019-01-07 11:46:14,2019-01-07 11:46:15,1.713s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/input__usPersonType (3)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:15,2019-01-07 11:46:15,0.120s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:15,2019-01-07 11:46:15,0.102s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_Alien Registration Number (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:15,2019-01-07 11:46:16,0.120s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--- Select a level --- (3)""), ""162"", true)",Chrome 71.0.3578.98,,2019-01-07 11:46:16,2019-01-07 11:46:16,0.305s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--- Select a level --- (3)""), ""164"", true)",Chrome 71.0.3578.98,,2019-01-07 11:46:16,2019-01-07 11:46:16,0.304s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:16,2019-01-07 11:46:16,0.140s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--- Select a level --- (3)""), ""149"", true)",Chrome 71.0.3578.98,,2019-01-07 11:46:16,2019-01-07 11:46:17,0.218s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/input__usPersonType (3)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:17,2019-01-07 11:46:17,0.084s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)""), ""166"", true)",Chrome 71.0.3578.98,,2019-01-07 11:46:17,2019-01-07 11:46:17,0.297s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/label_Prefix (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:17,2019-01-07 11:46:17,0.098s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_Prefix            --Select (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:17,2019-01-07 11:46:17,0.128s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/label_First Name (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:17,2019-01-07 11:46:17,0.088s,PASSED
+"click(findTestObject(""Object Repository/Page_Registration/div_First Name (1)""))",Chrome 71.0.3578.98,,2019-01-07 11:46:17,2019-01-07 11:46:17,0.115s,PASSED
+"setText(findTestObject(""Object Repository/Page_Registration/input__firstName (1)""), FirstName)",Chrome 71.0.3578.98,,2019-01-07 11:46:17,2019-01-07 11:46:18,0.158s,PASSED
+"setText(findTestObject(""Object Repository/Page_Registration/input__lastName (1)""), LastName)",Chrome 71.0.3578.98,,2019-01-07 11:46:18,2019-01-07 11:46:18,0.163s,PASSED
+"setText(findTestObject(""Object Repository/Page_Registration/input__email (1)""), EmailAddress)",Chrome 71.0.3578.98,,2019-01-07 11:46:18,2019-01-07 11:46:18,0.230s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Registration/input__password (1)""), Password)",Chrome 71.0.3578.98,,2019-01-07 11:46:18,2019-01-07 11:46:18,0.337s,FAILED
