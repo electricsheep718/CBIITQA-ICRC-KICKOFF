@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__upload</name>
+   <name>input_Password_userlogin_0 (4)</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>5d10669f-0146-428c-b89e-e5285c98f78e</elementGuidId>
-=======
-   <elementGuidId>c7b37c0b-6f9a-4825-9069-a04e319a453e</elementGuidId>
->>>>>>> branch 'master' of https://github.com/electricsheep718/CBIITQA-ICRC-KICKOFF/
+   <elementGuidId>7d116dec-4459-48db-ae5d-8b900b6ec1fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='transcriptInput']</value>
+         <value>//input[@id='userlogin_0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,70 +24,77 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>file</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>value</name>
       <type>Main</type>
-      <value>upload</value>
+      <value>LOGIN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>transcriptInput</value>
+      <value>userlogin_0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-url</name>
+      <name>class</name>
       <type>Main</type>
-      <value>uploadApplicantFile?appId=155</value>
+      <value>btn btn-primary pull-right</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transcriptInput&quot;)</value>
+      <value>id(&quot;userlogin_0&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@id='transcriptInput']</value>
+      <value>//input[@id='userlogin_0']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='collapseFive']/div/div[2]/div/div/div/input</value>
+      <value>//div[@id='newboxes1']/div[5]/div[3]/input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[37]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading, please wait...'])[8]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address:'])[1]/following::input[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Name'])[1]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register now'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[7]/div[2]/div/div[2]/div/div/div/input</value>
+      <value>//input[2]</value>
    </webElementXpaths>
 </WebElementEntity>
