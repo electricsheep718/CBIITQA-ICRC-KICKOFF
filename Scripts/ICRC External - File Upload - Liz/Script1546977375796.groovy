@@ -29,11 +29,3 @@ WebUI.scrollToElement(findTestObject('Page_ICRC Application/Page_ICRC Applicatio
 
 WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Financial Document - Mus'), 'C:\\Users\\andreyeve\\Desktop\\NewFile.pdf')
 
-not_run: dd()
-
-def dd() {
-    Runtime runTime = Runtime.getRuntime()
-
-    Process process = runTime.exec('C:\\Users\\andreyeve\\Desktop\\FileUpload.exe')
-}
-
