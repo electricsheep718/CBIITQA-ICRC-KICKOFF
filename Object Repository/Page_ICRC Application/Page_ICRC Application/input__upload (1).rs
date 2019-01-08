@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__upload</name>
+   <name>input__upload (1)</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>5d10669f-0146-428c-b89e-e5285c98f78e</elementGuidId>
-=======
-   <elementGuidId>c7b37c0b-6f9a-4825-9069-a04e319a453e</elementGuidId>
->>>>>>> branch 'master' of https://github.com/electricsheep718/CBIITQA-ICRC-KICKOFF/
+   <elementGuidId>d779120a-c5a4-4e46-96d3-f466a474a840</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

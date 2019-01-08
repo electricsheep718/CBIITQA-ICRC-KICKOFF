@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__upload</name>
+   <name>input_Financial Document - Mus</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>5d10669f-0146-428c-b89e-e5285c98f78e</elementGuidId>
-=======
-   <elementGuidId>c7b37c0b-6f9a-4825-9069-a04e319a453e</elementGuidId>
->>>>>>> branch 'master' of https://github.com/electricsheep718/CBIITQA-ICRC-KICKOFF/
+   <elementGuidId>f190ec68-194c-4dad-ba11-da379d156d90</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='transcriptInput']</value>
+         <value>//input[@id='financialDocsInput']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>transcriptInput</value>
+      <value>financialDocsInput</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -56,42 +52,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transcriptInput&quot;)</value>
+      <value>id(&quot;financialDocsInput&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@id='transcriptInput']</value>
+      <value>//input[@id='financialDocsInput']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='collapseFive']/div/div[2]/div/div/div/input</value>
+      <value>//div[@id='collapseFive']/div/div[2]/div[3]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[37]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial Document - Must upload most recent federal tax return form.'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading, please wait...'])[8]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No matching records found'])[3]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Name'])[1]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading, please wait...'])[10]/preceding::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Name'])[3]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[7]/div[2]/div/div[2]/div/div/div/input</value>
+      <value>//div[2]/div/div[2]/div[3]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

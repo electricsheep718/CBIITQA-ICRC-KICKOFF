@@ -265,9 +265,9 @@ WebUI.click(findTestObject('Page_ICRC Application/div_Name of Mentor (1)'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_ICRC Application/a_Add_1 (1)'))
-
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_Add                    Upd_1 (1)'))
+
+WebUI.click(findTestObject('Page_ICRC Application/a_Add_1 (1)'))
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Place of Employment_expA (1)'), 'John Hopkins University')
 
