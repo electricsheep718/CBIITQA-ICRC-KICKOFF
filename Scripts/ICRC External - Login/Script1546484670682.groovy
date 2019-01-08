@@ -27,5 +27,5 @@ WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_userlogi
 
 not_run: WebUI.click(findTestObject('Page_ICRC Application/a_Log out (1)'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 
