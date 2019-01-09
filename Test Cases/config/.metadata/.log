@@ -1,0 +1,1170 @@
+!SESSION 2019-01-09 16:34:22.572 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\kaurs3\Documents\GitHub\CBIITQA-ICRC-KICKOFF\Test Cases\FileUpload-Simran-updated.tc
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data config C:\Users\kaurs3\Documents\GitHub\CBIITQA-ICRC-KICKOFF\Test Cases\FileUpload-Simran-updated.tc
+
+!ENTRY com.kms.katalon 4 0 2019-01-09 16:34:25.497
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2019-01-09 16:34:25.501
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.170
+!MESSAGE Could not install bundle plugins/atu.testrecorder.screen-recorder_2.1.0.jar   A bundle is already installed with the name "atu.testrecorder.screen-recorder" and version "2.1.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.178
+!MESSAGE Could not install bundle plugins/com.fasterxml.jackson.core.jackson-annotations_2.9.1.jar   A bundle is already installed with the name "com.fasterxml.jackson.core.jackson-annotations" and version "2.9.1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.188
+!MESSAGE Could not install bundle plugins/com.fasterxml.jackson.core.jackson-core_2.9.6.jar   A bundle is already installed with the name "com.fasterxml.jackson.core.jackson-core" and version "2.9.6"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.201
+!MESSAGE Could not install bundle plugins/com.fasterxml.jackson.core.jackson-databind_2.9.1.jar   A bundle is already installed with the name "com.fasterxml.jackson.core.jackson-databind" and version "2.9.1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.205
+!MESSAGE Could not install bundle plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-xml_2.9.1.jar   A bundle is already installed with the name "com.fasterxml.jackson.dataformat.jackson-dataformat-xml" and version "2.9.1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.209
+!MESSAGE Could not install bundle plugins/com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.9.6.jar   A bundle is already installed with the name "com.fasterxml.jackson.dataformat.jackson-dataformat-yaml" and version "2.9.6"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.215
+!MESSAGE Could not install bundle plugins/com.fasterxml.jackson.module.jackson-module-jaxb-annotations_2.9.1.jar   A bundle is already installed with the name "com.fasterxml.jackson.module.jackson-module-jaxb-annotations" and version "2.9.1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.219
+!MESSAGE Could not install bundle plugins/com.fasterxml.woodstox.woodstox-core_5.0.3.jar   A bundle is already installed with the name "com.fasterxml.woodstox.woodstox-core" and version "5.0.3"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.222
+!MESSAGE Could not install bundle plugins/com.google.gson_2.8.0.jar   A bundle is already installed with the name "com.google.gson" and version "2.8.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.226
+!MESSAGE Could not install bundle plugins/com.google.guava_23.0.0.jar   A bundle is already installed with the name "com.google.guava" and version "23.0.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.230
+!MESSAGE Could not install bundle plugins/com.google.http-client.google-http-client_1.22.0.jar   A bundle is already installed with the name "com.google.http-client.google-http-client" and version "1.22.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.233
+!MESSAGE Could not install bundle plugins/com.google.oauth-client.google-oauth-client_1.22.0.jar   A bundle is already installed with the name "com.google.oauth-client.google-oauth-client" and version "1.22.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.237
+!MESSAGE Could not install bundle plugins/com.ibm.icu_56.1.0.v201601250100.jar   A bundle is already installed with the name "com.ibm.icu" and version "56.1.0.v201601250100"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.241
+!MESSAGE Could not install bundle plugins/com.jcraft.jsch_0.1.54.v20170116-1932.jar   A bundle is already installed with the name "com.jcraft.jsch" and version "0.1.54.v20170116-1932"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.244
+!MESSAGE Could not install bundle plugins/com.kms.katalon.application_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.application" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.247
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.checkpoint_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.checkpoint" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.250
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.codeassist_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.codeassist" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.252
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.components.impl_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.components.impl" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.255
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.components_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.components" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.258
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.execution_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.execution" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.261
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.explorer_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.explorer" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.263
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.export_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.export" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.266
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.folder_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.folder" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.269
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.global_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.global" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.271
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.import_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.import" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.274
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.integration.analytics_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.integration.analytics" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.276
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.integration.cucumber_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.integration.cucumber" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.279
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.integration.git_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.integration.git" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.282
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.integration.jira_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.integration.jira" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.284
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.integration.kobiton_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.integration.kobiton" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.287
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.integration.qtest.activation_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.integration.qtest.activation" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.293
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.integration.slack_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.integration.slack" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.295
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.keyword_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.keyword" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.298
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.mobile.objectspy_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.mobile.objectspy" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.300
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.mobile.recorder_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.mobile.recorder" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.302
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.mobile_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.mobile" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.305
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.objectrepository_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.objectrepository" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.307
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.preferences_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.preferences" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.310
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.project_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.project" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.313
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.properties_1.0.0.jar   A bundle is already installed with the name "com.kms.katalon.composer.properties" and version "1.0.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.316
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.report_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.report" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.318
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.resources_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.resources" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.321
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.search_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.search" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.323
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.testcase_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.testcase" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.326
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.testdata_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.testdata" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.328
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.testlistener_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.testlistener" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.331
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.testsuite.collection_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.testsuite.collection" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.334
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.testsuite_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.testsuite" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.336
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.util_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.util" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.339
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.webservice_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.webservice" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.341
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.webui.objectspy_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.webui.objectspy" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.344
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.webui.recorder_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.webui.recorder" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.347
+!MESSAGE Could not install bundle plugins/com.kms.katalon.composer.webui_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.composer.webui" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.350
+!MESSAGE Could not install bundle plugins/com.kms.katalon.console_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.console" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.354
+!MESSAGE Could not install bundle plugins/com.kms.katalon.constant_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.constant" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.357
+!MESSAGE Could not install bundle plugins/com.kms.katalon.controller_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.controller" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.360
+!MESSAGE Could not install bundle plugins/com.kms.katalon.core.appium_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.core.appium" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.362
+!MESSAGE Could not install bundle plugins/com.kms.katalon.core.cucumber_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.core.cucumber" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.365
+!MESSAGE Could not install bundle plugins/com.kms.katalon.core.mobile_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.core.mobile" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.368
+!MESSAGE Could not install bundle plugins/com.kms.katalon.core.webservice_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.core.webservice" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.371
+!MESSAGE Could not install bundle plugins/com.kms.katalon.core.webui_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.core.webui" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.373
+!MESSAGE Could not install bundle plugins/com.kms.katalon.core_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.core" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.376
+!MESSAGE Could not install bundle plugins/com.kms.katalon.custom_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.custom" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.378
+!MESSAGE Could not install bundle plugins/com.kms.katalon.dal.file_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.dal.file" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.381
+!MESSAGE Could not install bundle plugins/com.kms.katalon.dal_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.dal" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.382
+!MESSAGE Could not install bundle plugins/com.kms.katalon.entity_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.entity" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.384
+!MESSAGE Could not install bundle plugins/com.kms.katalon.execution.mobile_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.execution.mobile" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.387
+!MESSAGE Could not install bundle plugins/com.kms.katalon.execution.webservice_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.execution.webservice" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.389
+!MESSAGE Could not install bundle plugins/com.kms.katalon.execution.webui_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.execution.webui" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.391
+!MESSAGE Could not install bundle plugins/com.kms.katalon.execution_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.execution" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.393
+!MESSAGE Could not install bundle plugins/com.kms.katalon.groovy_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.groovy" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.395
+!MESSAGE Could not install bundle plugins/com.kms.katalon.integration.analytics_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.integration.analytics" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.397
+!MESSAGE Could not install bundle plugins/com.kms.katalon.integration.jira_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.integration.jira" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.399
+!MESSAGE Could not install bundle plugins/com.kms.katalon.integration.kobiton_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.integration.kobiton" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.402
+!MESSAGE Could not install bundle plugins/com.kms.katalon.jasper_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.jasper" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.404
+!MESSAGE Could not install bundle plugins/com.kms.katalon.logging_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.logging" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.406
+!MESSAGE Could not install bundle plugins/com.kms.katalon.preferences_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.preferences" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.409
+!MESSAGE Could not install bundle plugins/com.kms.katalon.selenium-standalone_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.selenium-standalone" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.411
+!MESSAGE Could not install bundle plugins/com.kms.katalon.selenium.ide_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.selenium.ide" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.414
+!MESSAGE Could not install bundle plugins/com.kms.katalon.support.testing.katserver_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.support.testing.katserver" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.416
+!MESSAGE Could not install bundle plugins/com.kms.katalon.tracking.service_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.tracking.service" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.419
+!MESSAGE Could not install bundle plugins/com.kms.katalon.tracking_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.tracking" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.421
+!MESSAGE Could not install bundle plugins/com.kms.katalon.util_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon.util" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.423
+!MESSAGE Could not install bundle plugins/com.kms.katalon_1.0.0.201811060107.jar   A bundle is already installed with the name "com.kms.katalon" and version "1.0.0.201811060107"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.426
+!MESSAGE Could not install bundle plugins/com.microsoft.sqlserver.sqljdbc4_4.1.5605.100.jar   A bundle is already installed with the name "com.microsoft.sqlserver.sqljdbc4" and version "4.1.5605.100"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.429
+!MESSAGE Could not install bundle plugins/com.mysql.jdbc_5.1.38.jar   A bundle is already installed with the name "com.mysql.jdbc" and version "5.1.38"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.432
+!MESSAGE Could not install bundle plugins/com.oracle.jdbc.ojdbc7_12.1.0.2.jar   A bundle is already installed with the name "com.oracle.jdbc.ojdbc7" and version "12.1.0.2"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.434
+!MESSAGE Could not install bundle plugins/cucumber.eclipse.editor_0.0.22.201808290854.jar   A bundle is already installed with the name "cucumber.eclipse.editor" and version "0.0.22.201808290854"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.437
+!MESSAGE Could not install bundle plugins/cucumber.eclipse.steps.integration_0.0.22.201808290854.jar   A bundle is already installed with the name "cucumber.eclipse.steps.integration" and version "0.0.22.201808290854"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.439
+!MESSAGE Could not install bundle plugins/cucumber.eclipse.steps.jdt_0.0.22.201808290854.jar   A bundle is already installed with the name "cucumber.eclipse.steps.jdt" and version "0.0.22.201808290854"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.442
+!MESSAGE Could not install bundle plugins/io.cucumber.core_3.0.2.jar   A bundle is already installed with the name "io.cucumber.core" and version "3.0.2"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.444
+!MESSAGE Could not install bundle plugins/io.cucumber.datatable-dependencies_1.0.3.jar   A bundle is already installed with the name "io.cucumber.datatable-dependencies" and version "1.0.3"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.447
+!MESSAGE Could not install bundle plugins/io.cucumber.datatable_1.0.3.jar   A bundle is already installed with the name "io.cucumber.datatable" and version "1.0.3"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.449
+!MESSAGE Could not install bundle plugins/io.cucumber.expressions_5.0.19.jar   A bundle is already installed with the name "io.cucumber.expressions" and version "5.0.19"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.451
+!MESSAGE Could not install bundle plugins/io.cucumber.gherkin_5.0.0.jar   A bundle is already installed with the name "io.cucumber.gherkin" and version "5.0.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.454
+!MESSAGE Could not install bundle plugins/io.cucumber.html_0.2.7.jar   A bundle is already installed with the name "io.cucumber.html" and version "0.2.7"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.457
+!MESSAGE Could not install bundle plugins/io.cucumber.java_3.0.2.jar   A bundle is already installed with the name "io.cucumber.java" and version "3.0.2"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.460
+!MESSAGE Could not install bundle plugins/io.cucumber.junit_3.0.2.jar   A bundle is already installed with the name "io.cucumber.junit" and version "3.0.2"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.462
+!MESSAGE Could not install bundle plugins/io.cucumber.tag-expressions_1.1.1.jar   A bundle is already installed with the name "io.cucumber.tag-expressions" and version "1.1.1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.464
+!MESSAGE Could not install bundle plugins/io.swagger.annotations_2.0.0.rc2.jar   A bundle is already installed with the name "io.swagger.annotations" and version "2.0.0.rc2"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.466
+!MESSAGE Could not install bundle plugins/io.swagger.core_2.0.0.rc2.jar   A bundle is already installed with the name "io.swagger.core" and version "2.0.0.rc2"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.469
+!MESSAGE Could not install bundle plugins/io.swagger.models_2.0.0.rc2.jar   A bundle is already installed with the name "io.swagger.models" and version "2.0.0.rc2"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.471
+!MESSAGE Could not install bundle plugins/io.swagger.parser-core_2.0.0.rc1.jar   A bundle is already installed with the name "io.swagger.parser-core" and version "2.0.0.rc1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.473
+!MESSAGE Could not install bundle plugins/io.swagger.parser-v2-converter_2.0.0.rc1.jar   A bundle is already installed with the name "io.swagger.parser-v2-converter" and version "2.0.0.rc1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.475
+!MESSAGE Could not install bundle plugins/io.swagger.parser-v2_2.0.0.rc1.jar   A bundle is already installed with the name "io.swagger.parser-v2" and version "2.0.0.rc1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.478
+!MESSAGE Could not install bundle plugins/javaewah_0.7.9.v201605172130.jar   A bundle is already installed with the name "javaewah" and version "0.7.9.v201605172130"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.480
+!MESSAGE Could not install bundle plugins/javax.activation_1.1.0.jar   A bundle is already installed with the name "javax.activation" and version "1.1.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.482
+!MESSAGE Could not install bundle plugins/javax.annotation_1.2.0.v201602091430.jar   A bundle is already installed with the name "javax.annotation" and version "1.2.0.v201602091430"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.484
+!MESSAGE Could not install bundle plugins/javax.el_2.2.0.v201303151357.jar   A bundle is already installed with the name "javax.el" and version "2.2.0.v201303151357"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.486
+!MESSAGE Could not install bundle plugins/javax.inject_1.0.0.v20091030.jar   A bundle is already installed with the name "javax.inject" and version "1.0.0.v20091030"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.489
+!MESSAGE Could not install bundle plugins/javax.mail_1.4.0.jar   A bundle is already installed with the name "javax.mail" and version "1.4.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.491
+!MESSAGE Could not install bundle plugins/javax.servlet.jsp_2.2.0.v201112011158.jar   A bundle is already installed with the name "javax.servlet.jsp" and version "2.2.0.v201112011158"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.493
+!MESSAGE Could not install bundle plugins/javax.servlet_3.1.0.v201410161800.jar   A bundle is already installed with the name "javax.servlet" and version "3.1.0.v201410161800"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.495
+!MESSAGE Could not install bundle plugins/javax.validation.api_1.1.0.Final.jar   A bundle is already installed with the name "javax.validation.api" and version "1.1.0.Final"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.497
+!MESSAGE Could not install bundle plugins/javax.websocket-api_1.1.0.jar   A bundle is already installed with the name "javax.websocket-api" and version "1.1.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.499
+!MESSAGE Could not install bundle plugins/javax.ws.rs_1.1.1.v20130318-1750.jar   A bundle is already installed with the name "javax.ws.rs" and version "1.1.1.v20130318-1750"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.502
+!MESSAGE Could not install bundle plugins/javax.xml_1.3.4.v201005080400.jar   A bundle is already installed with the name "javax.xml" and version "1.3.4.v201005080400"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.505
+!MESSAGE Could not install bundle plugins/jaxen_1.1.6.jar   A bundle is already installed with the name "jaxen" and version "1.1.6"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.508
+!MESSAGE Could not install bundle plugins/net.lingala.zip4j_1.2.5.jar   A bundle is already installed with the name "net.lingala.zip4j" and version "1.2.5"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.510
+!MESSAGE Could not install bundle plugins/net.sf.jopt-simple.jopt-simple_5.0.0.jar   A bundle is already installed with the name "net.sf.jopt-simple.jopt-simple" and version "5.0.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.512
+!MESSAGE Could not install bundle plugins/net.sf.supercsv.super-csv_2.1.0.jar   A bundle is already installed with the name "net.sf.supercsv.super-csv" and version "2.1.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.514
+!MESSAGE Could not install bundle plugins/org.apache.ant.launcher_1.9.6.jar   A bundle is already installed with the name "org.apache.ant.launcher" and version "1.9.6"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.517
+!MESSAGE Could not install bundle plugins/org.apache.ant_1.9.6.v201510161327/   A bundle is already installed with the name "org.apache.ant" and version "1.9.6.v201510161327"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.520
+!MESSAGE Could not install bundle plugins/org.apache.aries.spifly.dynamic.bundle_1.0.8.jar   A bundle is already installed with the name "org.apache.aries.spifly.dynamic.bundle" and version "1.0.8"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.522
+!MESSAGE Could not install bundle plugins/org.apache.aries.util_1.0.0.jar   A bundle is already installed with the name "org.apache.aries.util" and version "1.0.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.525
+!MESSAGE Could not install bundle plugins/org.apache.batik.css_1.7.0.v201011041433.jar   A bundle is already installed with the name "org.apache.batik.css" and version "1.7.0.v201011041433"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.527
+!MESSAGE Could not install bundle plugins/org.apache.batik.util.gui_1.7.0.v200903091627.jar   A bundle is already installed with the name "org.apache.batik.util.gui" and version "1.7.0.v200903091627"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.529
+!MESSAGE Could not install bundle plugins/org.apache.batik.util_1.7.0.v201011041433.jar   A bundle is already installed with the name "org.apache.batik.util" and version "1.7.0.v201011041433"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.531
+!MESSAGE Could not install bundle plugins/org.apache.commons.beanutils_1.9.2.jar   A bundle is already installed with the name "org.apache.commons.beanutils" and version "1.9.2"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.533
+!MESSAGE Could not install bundle plugins/org.apache.commons.cli_1.0.0.v201105210649.jar   A bundle is already installed with the name "org.apache.commons.cli" and version "1.0.0.v201105210649"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.535
+!MESSAGE Could not install bundle plugins/org.apache.commons.codec_1.7.0.jar   A bundle is already installed with the name "org.apache.commons.codec" and version "1.7.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.538
+!MESSAGE Could not install bundle plugins/org.apache.commons.collections_3.2.2.jar   A bundle is already installed with the name "org.apache.commons.collections" and version "3.2.2"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.540
+!MESSAGE Could not install bundle plugins/org.apache.commons.compress_1.6.0.v201310281400.jar   A bundle is already installed with the name "org.apache.commons.compress" and version "1.6.0.v201310281400"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.542
+!MESSAGE Could not install bundle plugins/org.apache.commons.dbutils_1.6.0.jar   A bundle is already installed with the name "org.apache.commons.dbutils" and version "1.6.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.544
+!MESSAGE Could not install bundle plugins/org.apache.commons.digester_1.8.1.jar   A bundle is already installed with the name "org.apache.commons.digester" and version "1.8.1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.546
+!MESSAGE Could not install bundle plugins/org.apache.commons.email_1.4.0.jar   A bundle is already installed with the name "org.apache.commons.email" and version "1.4.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.548
+!MESSAGE Could not install bundle plugins/org.apache.commons.io_2.4.0.jar   A bundle is already installed with the name "org.apache.commons.io" and version "2.4.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.550
+!MESSAGE Could not install bundle plugins/org.apache.commons.jxpath_1.3.0.v200911051830.jar   A bundle is already installed with the name "org.apache.commons.jxpath" and version "1.3.0.v200911051830"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.552
+!MESSAGE Could not install bundle plugins/org.apache.commons.lang3_3.6.0.jar   A bundle is already installed with the name "org.apache.commons.lang3" and version "3.6.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.554
+!MESSAGE Could not install bundle plugins/org.apache.commons.lang_2.6.0.jar   A bundle is already installed with the name "org.apache.commons.lang" and version "2.6.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.556
+!MESSAGE Could not install bundle plugins/org.apache.commons.logging_1.2.0.jar   A bundle is already installed with the name "org.apache.commons.logging" and version "1.2.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.558
+!MESSAGE Could not install bundle plugins/org.apache.commons.validator_1.5.0.jar   A bundle is already installed with the name "org.apache.commons.validator" and version "1.5.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.561
+!MESSAGE Could not install bundle plugins/org.apache.felix.gogo.command_0.10.0.v201209301215.jar   A bundle is already installed with the name "org.apache.felix.gogo.command" and version "0.10.0.v201209301215"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.563
+!MESSAGE Could not install bundle plugins/org.apache.felix.gogo.runtime_0.10.0.v201209301036.jar   A bundle is already installed with the name "org.apache.felix.gogo.runtime" and version "0.10.0.v201209301036"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.565
+!MESSAGE Could not install bundle plugins/org.apache.felix.gogo.shell_0.10.0.v201212101605.jar   A bundle is already installed with the name "org.apache.felix.gogo.shell" and version "0.10.0.v201212101605"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.567
+!MESSAGE Could not install bundle plugins/org.apache.httpcomponents.httpclient_4.5.1.jar   A bundle is already installed with the name "org.apache.httpcomponents.httpclient" and version "4.5.1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.569
+!MESSAGE Could not install bundle plugins/org.apache.httpcomponents.httpcore_4.4.4.jar   A bundle is already installed with the name "org.apache.httpcomponents.httpcore" and version "4.4.4"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.571
+!MESSAGE Could not install bundle plugins/org.apache.httpcomponents.httpmime_4.5.1.jar   A bundle is already installed with the name "org.apache.httpcomponents.httpmime" and version "4.5.1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.574
+!MESSAGE Could not install bundle plugins/org.apache.jasper.glassfish_2.2.2.v201501141630.jar   A bundle is already installed with the name "org.apache.jasper.glassfish" and version "2.2.2.v201501141630"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.576
+!MESSAGE Could not install bundle plugins/org.apache.lucene.core_6.3.0.jar   A bundle is already installed with the name "org.apache.lucene.core" and version "6.3.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.582
+!MESSAGE Could not install bundle plugins/org.apache.poi.ooxml.schemas_3.9.0.v201405241750.jar   A bundle is already installed with the name "org.apache.poi.ooxml.schemas" and version "3.9.0.v201405241750"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.585
+!MESSAGE Could not install bundle plugins/org.apache.poi.ooxml_3.9.0.v201405241905.jar   A bundle is already installed with the name "org.apache.poi.ooxml" and version "3.9.0.v201405241905"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.588
+!MESSAGE Could not install bundle plugins/org.apache.poi_3.9.0.v201405241750.jar   A bundle is already installed with the name "org.apache.poi" and version "3.9.0.v201405241750"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.592
+!MESSAGE Could not install bundle plugins/org.apache.xerces.impl_2.11.0.jar   A bundle is already installed with the name "org.apache.xerces.impl" and version "2.11.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.594
+!MESSAGE Could not install bundle plugins/org.apache.xml.apis_1.4.1.jar   A bundle is already installed with the name "org.apache.xml.apis" and version "1.4.1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.596
+!MESSAGE Could not install bundle plugins/org.apache.xmlbeans_2.6.0.jar   A bundle is already installed with the name "org.apache.xmlbeans" and version "2.6.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.599
+!MESSAGE Could not install bundle plugins/org.assertj.core_3.10.0.jar   A bundle is already installed with the name "org.assertj.core" and version "3.10.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.601
+!MESSAGE Could not install bundle plugins/org.beanshell.bsh_2.0.0.0b4.jar   A bundle is already installed with the name "org.beanshell.bsh" and version "2.0.0.0b4"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.604
+!MESSAGE Could not install bundle plugins/org.codehaus.groovy.eclipse.codeassist.completion_2.9.2.xx-201611170128-e46.jar   A bundle is already installed with the name "org.codehaus.groovy.eclipse.codeassist.completion" and version "2.9.2.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.606
+!MESSAGE Could not install bundle plugins/org.codehaus.groovy.eclipse.codebrowsing_2.9.2.xx-201611170128-e46.jar   A bundle is already installed with the name "org.codehaus.groovy.eclipse.codebrowsing" and version "2.9.2.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.607
+!MESSAGE Could not install bundle plugins/org.codehaus.groovy.eclipse.compilerResolver_2.9.2.xx-201611170128-e46.jar   A bundle is already installed with the name "org.codehaus.groovy.eclipse.compilerResolver" and version "2.9.2.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.609
+!MESSAGE Could not install bundle plugins/org.codehaus.groovy.eclipse.core_2.9.2.xx-201611170128-e46.jar   A bundle is already installed with the name "org.codehaus.groovy.eclipse.core" and version "2.9.2.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.612
+!MESSAGE Could not install bundle plugins/org.codehaus.groovy.eclipse.dsl_2.9.2.xx-201611170128-e46.jar   A bundle is already installed with the name "org.codehaus.groovy.eclipse.dsl" and version "2.9.2.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.614
+!MESSAGE Could not install bundle plugins/org.codehaus.groovy.eclipse.quickfix_2.9.2.xx-201611170128-e46.jar   A bundle is already installed with the name "org.codehaus.groovy.eclipse.quickfix" and version "2.9.2.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.616
+!MESSAGE Could not install bundle plugins/org.codehaus.groovy.eclipse.refactoring_2.9.2.xx-201611170128-e46.jar   A bundle is already installed with the name "org.codehaus.groovy.eclipse.refactoring" and version "2.9.2.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.618
+!MESSAGE Could not install bundle plugins/org.codehaus.groovy.eclipse.ui_2.9.2.xx-201611170128-e46.jar   A bundle is already installed with the name "org.codehaus.groovy.eclipse.ui" and version "2.9.2.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.620
+!MESSAGE Could not install bundle plugins/org.codehaus.groovy.eclipse_2.9.2.xx-201611170128-e46/   A bundle is already installed with the name "org.codehaus.groovy.eclipse" and version "2.9.2.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.623
+!MESSAGE Could not install bundle plugins/org.codehaus.groovy_2.4.7.xx-201611170128-e46/   A bundle is already installed with the name "org.codehaus.groovy" and version "2.4.7.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.626
+!MESSAGE Could not install bundle plugins/org.dom4j_1.6.1.v201312101416.jar   A bundle is already installed with the name "org.dom4j" and version "1.6.1.v201312101416"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.628
+!MESSAGE Could not install bundle plugins/org.eclipse.ant.core_3.4.100.v20160505-0642.jar   A bundle is already installed with the name "org.eclipse.ant.core" and version "3.4.100.v20160505-0642"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.630
+!MESSAGE Could not install bundle plugins/org.eclipse.compare.core_3.6.0.v20160418-1534.jar   A bundle is already installed with the name "org.eclipse.compare.core" and version "3.6.0.v20160418-1534"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.632
+!MESSAGE Could not install bundle plugins/org.eclipse.compare_3.7.1.v20170103-1805.jar   A bundle is already installed with the name "org.eclipse.compare" and version "3.7.1.v20170103-1805"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.635
+!MESSAGE Could not install bundle plugins/org.eclipse.core.commands_3.8.1.v20161221-1651.jar   A bundle is already installed with the name "org.eclipse.core.commands" and version "3.8.1.v20161221-1651"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.637
+!MESSAGE Could not install bundle plugins/org.eclipse.core.contenttype_3.5.100.v20160418-1621.jar   A bundle is already installed with the name "org.eclipse.core.contenttype" and version "3.5.100.v20160418-1621"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.640
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.beans_1.3.100.v20160509-1025.jar   A bundle is already installed with the name "org.eclipse.core.databinding.beans" and version "1.3.100.v20160509-1025"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.642
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.observable_1.6.0.v20160511-1747.jar   A bundle is already installed with the name "org.eclipse.core.databinding.observable" and version "1.6.0.v20160511-1747"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.645
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding.property_1.6.0.v20160427-0852.jar   A bundle is already installed with the name "org.eclipse.core.databinding.property" and version "1.6.0.v20160427-0852"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.648
+!MESSAGE Could not install bundle plugins/org.eclipse.core.databinding_1.6.0.v20160412-0910.jar   A bundle is already installed with the name "org.eclipse.core.databinding" and version "1.6.0.v20160412-0910"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.663
+!MESSAGE Could not install bundle plugins/org.eclipse.core.expressions_3.5.100.v20160418-1621.jar   A bundle is already installed with the name "org.eclipse.core.expressions" and version "3.5.100.v20160418-1621"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.667
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filebuffers_3.6.0.v20160503-1849.jar   A bundle is already installed with the name "org.eclipse.core.filebuffers" and version "3.6.0.v20160503-1849"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.670
+!MESSAGE Could not install bundle plugins/org.eclipse.core.filesystem_1.6.1.v20161113-2349.jar   A bundle is already installed with the name "org.eclipse.core.filesystem" and version "1.6.1.v20161113-2349"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.673
+!MESSAGE Could not install bundle plugins/org.eclipse.core.jobs_3.8.0.v20160509-0411.jar   A bundle is already installed with the name "org.eclipse.core.jobs" and version "3.8.0.v20160509-0411"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.676
+!MESSAGE Could not install bundle plugins/org.eclipse.core.net_1.3.0.v20160418-1534.jar   A bundle is already installed with the name "org.eclipse.core.net" and version "1.3.0.v20160418-1534"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.680
+!MESSAGE Could not install bundle plugins/org.eclipse.core.resources_3.11.1.v20161107-2032.jar   A bundle is already installed with the name "org.eclipse.core.resources" and version "3.11.1.v20161107-2032"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.682
+!MESSAGE Could not install bundle plugins/org.eclipse.core.runtime_3.12.0.v20160606-1342.jar   A bundle is already installed with the name "org.eclipse.core.runtime" and version "3.12.0.v20160606-1342"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.685
+!MESSAGE Could not install bundle plugins/org.eclipse.core.variables_3.3.0.v20160419-1720.jar   A bundle is already installed with the name "org.eclipse.core.variables" and version "3.3.0.v20160419-1720"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.689
+!MESSAGE Could not install bundle plugins/org.eclipse.debug.core_3.10.100.v20160419-1720.jar   A bundle is already installed with the name "org.eclipse.debug.core" and version "3.10.100.v20160419-1720"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.694
+!MESSAGE Could not install bundle plugins/org.eclipse.debug.ui_3.11.202.v20161114-0338.jar   A bundle is already installed with the name "org.eclipse.debug.ui" and version "3.11.202.v20161114-0338"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.697
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.core.commands_0.11.100.v20160506-0804.jar   A bundle is already installed with the name "org.eclipse.e4.core.commands" and version "0.11.100.v20160506-0804"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.700
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.core.contexts_1.5.1.v20170203-1100.jar   A bundle is already installed with the name "org.eclipse.e4.core.contexts" and version "1.5.1.v20170203-1100"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.703
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.core.di.annotations_1.5.0.v20151127-1241.jar   A bundle is already installed with the name "org.eclipse.e4.core.di.annotations" and version "1.5.0.v20151127-1241"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.706
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.core.di.extensions_0.14.0.v20160211-1614.jar   A bundle is already installed with the name "org.eclipse.e4.core.di.extensions" and version "0.14.0.v20160211-1614"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.709
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.core.di_1.6.1.v20160712-0927.jar   A bundle is already installed with the name "org.eclipse.e4.core.di" and version "1.6.1.v20160712-0927"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.712
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.core.services_2.0.100.v20160509-1032.jar   A bundle is already installed with the name "org.eclipse.e4.core.services" and version "2.0.100.v20160509-1032"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.715
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.emf.xpath_0.1.200.v20160506-0804.jar   A bundle is already installed with the name "org.eclipse.e4.emf.xpath" and version "0.1.200.v20160506-0804"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.717
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.bindings_0.11.100.v20160509-1025.jar   A bundle is already installed with the name "org.eclipse.e4.ui.bindings" and version "0.11.100.v20160509-1025"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.720
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.css.core_0.12.1.v20161114-0210.jar   A bundle is already installed with the name "org.eclipse.e4.ui.css.core" and version "0.12.1.v20161114-0210"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.722
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.css.swt.theme_0.10.100.v20160523-0836.jar   A bundle is already installed with the name "org.eclipse.e4.ui.css.swt.theme" and version "0.10.100.v20160523-0836"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.725
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.css.swt_0.12.100.v20160517-1505.jar   A bundle is already installed with the name "org.eclipse.e4.ui.css.swt" and version "0.12.100.v20160517-1505"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.728
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.dialogs_1.1.0.v20151127-1218.jar   A bundle is already installed with the name "org.eclipse.e4.ui.dialogs" and version "1.1.0.v20151127-1218"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.730
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.di_1.1.100.v20160506-0759.jar   A bundle is already installed with the name "org.eclipse.e4.ui.di" and version "1.1.100.v20160506-0759"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.732
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.model.workbench_1.2.0.v20160229-1459.jar   A bundle is already installed with the name "org.eclipse.e4.ui.model.workbench" and version "1.2.0.v20160229-1459"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.735
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.services_1.2.100.v20160506-0759.jar   A bundle is already installed with the name "org.eclipse.e4.ui.services" and version "1.2.100.v20160506-0759"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.738
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.widgets_1.1.100.v20160506-0759.jar   A bundle is already installed with the name "org.eclipse.e4.ui.widgets" and version "1.1.100.v20160506-0759"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.740
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.workbench.addons.swt_1.2.101.v20170206-1129.jar   A bundle is already installed with the name "org.eclipse.e4.ui.workbench.addons.swt" and version "1.2.101.v20170206-1129"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.743
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.workbench.renderers.swt_0.14.1.v20170117-1415.jar   A bundle is already installed with the name "org.eclipse.e4.ui.workbench.renderers.swt" and version "0.14.1.v20170117-1415"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.746
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.workbench.swt_0.14.1.v20160829-0832.jar   A bundle is already installed with the name "org.eclipse.e4.ui.workbench.swt" and version "0.14.1.v20160829-0832"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.748
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.workbench3_0.13.100.v20160506-0759.jar   A bundle is already installed with the name "org.eclipse.e4.ui.workbench3" and version "0.13.100.v20160506-0759"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.750
+!MESSAGE Could not install bundle plugins/org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar   A bundle is already installed with the name "org.eclipse.e4.ui.workbench" and version "1.4.0.v20160517-1624"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.753
+!MESSAGE Could not install bundle plugins/org.eclipse.egit.core_4.4.1.201607150455-r.jar   A bundle is already installed with the name "org.eclipse.egit.core" and version "4.4.1.201607150455-r"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.757
+!MESSAGE Could not install bundle plugins/org.eclipse.egit.doc_4.4.1.201607150455-r.jar   A bundle is already installed with the name "org.eclipse.egit.doc" and version "4.4.1.201607150455-r"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.763
+!MESSAGE Could not install bundle plugins/org.eclipse.egit.ui_4.4.1.201607150455-r.jar   A bundle is already installed with the name "org.eclipse.egit.ui" and version "4.4.1.201607150455-r"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.766
+!MESSAGE Could not install bundle plugins/org.eclipse.egit_4.4.1.201607150455-r.jar   A bundle is already installed with the name "org.eclipse.egit" and version "4.4.1.201607150455-r"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.770
+!MESSAGE Could not install bundle plugins/org.eclipse.emf.common_2.12.0.v20160420-0247.jar   A bundle is already installed with the name "org.eclipse.emf.common" and version "2.12.0.v20160420-0247"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.773
+!MESSAGE Could not install bundle plugins/org.eclipse.emf.ecore.change_2.11.0.v20160420-0247.jar   A bundle is already installed with the name "org.eclipse.emf.ecore.change" and version "2.11.0.v20160420-0247"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.776
+!MESSAGE Could not install bundle plugins/org.eclipse.emf.ecore.xmi_2.12.0.v20160420-0247.jar   A bundle is already installed with the name "org.eclipse.emf.ecore.xmi" and version "2.12.0.v20160420-0247"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.780
+!MESSAGE Could not install bundle plugins/org.eclipse.emf.ecore_2.12.0.v20160420-0247.jar   A bundle is already installed with the name "org.eclipse.emf.ecore" and version "2.12.0.v20160420-0247"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.783
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.app_1.3.400.v20150715-1528.jar   A bundle is already installed with the name "org.eclipse.equinox.app" and version "1.3.400.v20150715-1528"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.786
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.bidi_1.0.0.v20160307-1318.jar   A bundle is already installed with the name "org.eclipse.equinox.bidi" and version "1.0.0.v20160307-1318"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.789
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar   A bundle is already installed with the name "org.eclipse.equinox.common" and version "3.8.0.v20160509-1230"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.792
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.concurrent_1.1.0.v20130327-1442.jar   A bundle is already installed with the name "org.eclipse.equinox.concurrent" and version "1.1.0.v20130327-1442"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.795
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.console_1.1.200.v20150929-1405.jar   A bundle is already installed with the name "org.eclipse.equinox.console" and version "1.1.200.v20150929-1405"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.797
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar   A bundle is already installed with the name "org.eclipse.equinox.ds" and version "1.4.400.v20160226-2036"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.800
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.event_1.3.200.v20160324-1850.jar   A bundle is already installed with the name "org.eclipse.equinox.event" and version "1.3.200.v20160324-1850"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.803
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.frameworkadmin.equinox_1.0.700.v20160102-2223.jar   A bundle is already installed with the name "org.eclipse.equinox.frameworkadmin.equinox" and version "1.0.700.v20160102-2223"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.806
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.frameworkadmin_2.0.300.v20160504-1450.jar   A bundle is already installed with the name "org.eclipse.equinox.frameworkadmin" and version "2.0.300.v20160504-1450"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.809
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.jetty_3.3.0.v20160324-1850.jar   A bundle is already installed with the name "org.eclipse.equinox.http.jetty" and version "3.3.0.v20160324-1850"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.812
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.http.servlet_1.3.1.v20160808-1329.jar   A bundle is already installed with the name "org.eclipse.equinox.http.servlet" and version "1.3.1.v20160808-1329"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.815
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.jsp.jasper.registry_1.0.300.v20130327-1442.jar   A bundle is already installed with the name "org.eclipse.equinox.jsp.jasper.registry" and version "1.0.300.v20130327-1442"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.819
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.jsp.jasper_1.0.500.v20150119-1358.jar   A bundle is already installed with the name "org.eclipse.equinox.jsp.jasper" and version "1.0.500.v20150119-1358"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.823
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.401.v20161122-1740/   A bundle is already installed with the name "org.eclipse.equinox.launcher.win32.win32.x86_64" and version "1.1.401.v20161122-1740"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.826
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar   A bundle is already installed with the name "org.eclipse.equinox.launcher" and version "1.3.201.v20161025-1711"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.830
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.core_2.4.100.v20160419-0834.jar   A bundle is already installed with the name "org.eclipse.equinox.p2.core" and version "2.4.100.v20160419-0834"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.833
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.engine_2.4.100.v20160419-0834.jar   A bundle is already installed with the name "org.eclipse.equinox.p2.engine" and version "2.4.100.v20160419-0834"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.840
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata.repository_1.2.300.v20160419-0834.jar   A bundle is already installed with the name "org.eclipse.equinox.p2.metadata.repository" and version "1.2.300.v20160419-0834"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.844
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.metadata_2.3.100.v20160427-2220.jar   A bundle is already installed with the name "org.eclipse.equinox.p2.metadata" and version "2.3.100.v20160427-2220"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.848
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.p2.repository_2.3.200.v20160421-0324.jar   A bundle is already installed with the name "org.eclipse.equinox.p2.repository" and version "2.3.200.v20160421-0324"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.852
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.preferences_3.6.1.v20160815-1406.jar   A bundle is already installed with the name "org.eclipse.equinox.preferences" and version "3.6.1.v20160815-1406"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.858
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.registry_3.6.100.v20160223-2218.jar   A bundle is already installed with the name "org.eclipse.equinox.registry" and version "3.6.100.v20160223-2218"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.861
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security.win32.x86_64_1.0.100.v20130327-1442.jar   A bundle is already installed with the name "org.eclipse.equinox.security.win32.x86_64" and version "1.0.100.v20130327-1442"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.865
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.security_1.2.200.v20150715-1528.jar   A bundle is already installed with the name "org.eclipse.equinox.security" and version "1.2.200.v20150715-1528"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.870
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.simpleconfigurator.manipulator_2.0.200.v20160504-1450.jar   A bundle is already installed with the name "org.eclipse.equinox.simpleconfigurator.manipulator" and version "2.0.200.v20160504-1450"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.876
+!MESSAGE Could not install bundle plugins/org.eclipse.equinox.util_1.0.500.v20130404-1337.jar   A bundle is already installed with the name "org.eclipse.equinox.util" and version "1.0.500.v20130404-1337"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.881
+!MESSAGE Could not install bundle plugins/org.eclipse.help_3.7.0.v20160602-1307.jar   A bundle is already installed with the name "org.eclipse.help" and version "3.7.0.v20160602-1307"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.885
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt.core.manipulation_1.7.0.v20160419-0705.jar   A bundle is already installed with the name "org.eclipse.jdt.core.manipulation" and version "1.7.0.v20160419-0705"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.892
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt.core_3.12.0.xx-201611170128-e46.jar   A bundle is already installed with the name "org.eclipse.jdt.core" and version "3.12.0.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.897
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt.debug.ui_3.7.201.v20160811-0450.jar   A bundle is already installed with the name "org.eclipse.jdt.debug.ui" and version "3.7.201.v20160811-0450"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.899
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt.debug_3.10.1.v20160811-0441/   A bundle is already installed with the name "org.eclipse.jdt.debug" and version "3.10.1.v20160811-0441"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.902
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt.groovy.core_2.9.2.xx-201611170128-e46.jar   A bundle is already installed with the name "org.eclipse.jdt.groovy.core" and version "2.9.2.xx-201611170128-e46"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.905
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt.junit.core_3.8.0.v20160421-1701.jar   A bundle is already installed with the name "org.eclipse.jdt.junit.core" and version "3.8.0.v20160421-1701"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.908
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt.junit.runtime_3.4.600.v20160505-0715.jar   A bundle is already installed with the name "org.eclipse.jdt.junit.runtime" and version "3.4.600.v20160505-0715"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.911
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt.junit_3.9.0.v20160421-1701.jar   A bundle is already installed with the name "org.eclipse.jdt.junit" and version "3.9.0.v20160421-1701"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.915
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt.launching_3.8.101.v20161111-2014.jar   A bundle is already installed with the name "org.eclipse.jdt.launching" and version "3.8.101.v20161111-2014"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.927
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt.ui_3.12.2.v20160929-0804.jar   A bundle is already installed with the name "org.eclipse.jdt.ui" and version "3.12.2.v20160929-0804"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.930
+!MESSAGE Could not install bundle plugins/org.eclipse.jdt_3.12.3.v20170301-0400.jar   A bundle is already installed with the name "org.eclipse.jdt" and version "3.12.3.v20170301-0400"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.933
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.continuation_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.continuation" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.936
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.http_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.http" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.940
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.io_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.io" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.942
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.security_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.security" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.945
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.server_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.server" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.948
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.servlet_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.servlet" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.950
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.util_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.util" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.952
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.websocket.api_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.websocket.api" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.957
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.websocket.client_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.websocket.client" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.959
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.websocket.common_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.websocket.common" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.961
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.websocket.javax.websocket.server_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.websocket.javax.websocket.server" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.964
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.websocket.javax.websocket_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.websocket.javax.websocket" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.967
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.websocket.server_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.websocket.server" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.970
+!MESSAGE Could not install bundle plugins/org.eclipse.jetty.websocket.servlet_9.3.9.v20160517.jar   A bundle is already installed with the name "org.eclipse.jetty.websocket.servlet" and version "9.3.9.v20160517"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.973
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.databinding_1.8.1.v20161026-1531.jar   A bundle is already installed with the name "org.eclipse.jface.databinding" and version "1.8.1.v20161026-1531"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.977
+!MESSAGE Could not install bundle plugins/org.eclipse.jface.text_3.11.2.v20170220-1911.jar   A bundle is already installed with the name "org.eclipse.jface.text" and version "3.11.2.v20170220-1911"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.980
+!MESSAGE Could not install bundle plugins/org.eclipse.jface_3.12.2.v20170113-2113.jar   A bundle is already installed with the name "org.eclipse.jface" and version "3.12.2.v20170113-2113"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.983
+!MESSAGE Could not install bundle plugins/org.eclipse.jgit.lfs_4.4.1.201607150455-r.jar   A bundle is already installed with the name "org.eclipse.jgit.lfs" and version "4.4.1.201607150455-r"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.987
+!MESSAGE Could not install bundle plugins/org.eclipse.jgit.ui_4.4.1.201607150455-r.jar   A bundle is already installed with the name "org.eclipse.jgit.ui" and version "4.4.1.201607150455-r"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.991
+!MESSAGE Could not install bundle plugins/org.eclipse.jgit_4.4.1.201607150455-r.jar   A bundle is already installed with the name "org.eclipse.jgit" and version "4.4.1.201607150455-r"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.994
+!MESSAGE Could not install bundle plugins/org.eclipse.jsch.core_1.3.0.v20160422-1917.jar   A bundle is already installed with the name "org.eclipse.jsch.core" and version "1.3.0.v20160422-1917"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:32.998
+!MESSAGE Could not install bundle plugins/org.eclipse.ltk.core.refactoring_3.7.0.v20160419-0705.jar   A bundle is already installed with the name "org.eclipse.ltk.core.refactoring" and version "3.7.0.v20160419-0705"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.001
+!MESSAGE Could not install bundle plugins/org.eclipse.ltk.ui.refactoring_3.8.0.v20160518-1817.jar   A bundle is already installed with the name "org.eclipse.ltk.ui.refactoring" and version "3.8.0.v20160518-1817"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.017
+!MESSAGE Could not install bundle plugins/org.eclipse.persistence.eclipselink_2.5.0.RC1.jar   A bundle is already installed with the name "org.eclipse.persistence.eclipselink" and version "2.5.0.RC1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.021
+!MESSAGE Could not install bundle plugins/org.eclipse.search_3.11.1.v20161113-1700.jar   A bundle is already installed with the name "org.eclipse.search" and version "3.11.1.v20161113-1700"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.028
+!MESSAGE Could not install bundle plugins/org.eclipse.swt.win32.win32.x86_64_3.105.3.v20170228-0512.jar   A bundle is already installed with the name "org.eclipse.swt.win32.win32.x86_64" and version "3.105.3.v20170228-0512"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.030
+!MESSAGE Could not install bundle plugins/org.eclipse.swt_3.105.3.v20170228-0512.jar   A bundle is already installed with the name "org.eclipse.swt" and version "3.105.3.v20170228-0512"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.033
+!MESSAGE Could not install bundle plugins/org.eclipse.team.core_3.8.0.v20160418-1534.jar   A bundle is already installed with the name "org.eclipse.team.core" and version "3.8.0.v20160418-1534"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.039
+!MESSAGE Could not install bundle plugins/org.eclipse.team.ui_3.8.0.v20160518-1906.jar   A bundle is already installed with the name "org.eclipse.team.ui" and version "3.8.0.v20160518-1906"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.042
+!MESSAGE Could not install bundle plugins/org.eclipse.text_3.6.0.v20160503-1849.jar   A bundle is already installed with the name "org.eclipse.text" and version "3.6.0.v20160503-1849"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.045
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.browser_3.5.2.v20161114-0210.jar   A bundle is already installed with the name "org.eclipse.ui.browser" and version "3.5.2.v20161114-0210"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.049
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.cheatsheets_3.5.0.v20160504-0839.jar   A bundle is already installed with the name "org.eclipse.ui.cheatsheets" and version "3.5.0.v20160504-0839"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.051
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.console_3.6.201.v20161107-0337.jar   A bundle is already installed with the name "org.eclipse.ui.console" and version "3.6.201.v20161107-0337"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.055
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.editors_3.10.1.v20161106-1856.jar   A bundle is already installed with the name "org.eclipse.ui.editors" and version "3.10.1.v20161106-1856"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.059
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.forms_3.7.1.v20161220-1635.jar   A bundle is already installed with the name "org.eclipse.ui.forms" and version "3.7.1.v20161220-1635"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.062
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.ide.application_1.1.101.v20160829-0827.jar   A bundle is already installed with the name "org.eclipse.ui.ide.application" and version "1.1.101.v20160829-0827"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.067
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.ide_3.12.3.v20170119-0935.jar   A bundle is already installed with the name "org.eclipse.ui.ide" and version "3.12.3.v20170119-0935"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.072
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.intro_3.5.2.v20161116-1147.jar   A bundle is already installed with the name "org.eclipse.ui.intro" and version "3.5.2.v20161116-1147"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.076
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.navigator.resources_3.5.101.v20161006-0640.jar   A bundle is already installed with the name "org.eclipse.ui.navigator.resources" and version "3.5.101.v20161006-0640"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.080
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.navigator_3.6.101.v20161006-1120.jar   A bundle is already installed with the name "org.eclipse.ui.navigator" and version "3.6.101.v20161006-1120"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.083
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.views.properties.tabbed_3.7.0.v20160310-0903.jar   A bundle is already installed with the name "org.eclipse.ui.views.properties.tabbed" and version "3.7.0.v20160310-0903"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.086
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.views_3.8.102.v20170111-0801.jar   A bundle is already installed with the name "org.eclipse.ui.views" and version "3.8.102.v20170111-0801"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.091
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench.texteditor_3.10.1.v20160818-1626.jar   A bundle is already installed with the name "org.eclipse.ui.workbench.texteditor" and version "3.10.1.v20160818-1626"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.097
+!MESSAGE Could not install bundle plugins/org.eclipse.ui.workbench_3.108.3.v20170216-1539.jar   A bundle is already installed with the name "org.eclipse.ui.workbench" and version "3.108.3.v20170216-1539"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.100
+!MESSAGE Could not install bundle plugins/org.eclipse.ui_3.108.1.v20160929-1045.jar   A bundle is already installed with the name "org.eclipse.ui" and version "3.108.1.v20160929-1045"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.103
+!MESSAGE Could not install bundle plugins/org.eclipse.update.configurator_3.3.400.v20160506-0750.jar   A bundle is already installed with the name "org.eclipse.update.configurator" and version "3.3.400.v20160506-0750"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.107
+!MESSAGE Could not install bundle plugins/org.greenrobot.eventbus_3.1.1.jar   A bundle is already installed with the name "org.greenrobot.eventbus" and version "3.1.1"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.109
+!MESSAGE Could not install bundle plugins/org.hamcrest.core_1.3.0.v201303031735.jar   A bundle is already installed with the name "org.hamcrest.core" and version "1.3.0.v201303031735"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.113
+!MESSAGE Could not install bundle plugins/org.javalite.common_1.4.12.jar   A bundle is already installed with the name "org.javalite.common" and version "1.4.12"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.116
+!MESSAGE Could not install bundle plugins/org.json_20140107.0.0.jar   A bundle is already installed with the name "org.json" and version "20140107.0.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.119
+!MESSAGE Could not install bundle plugins/org.jsoup_1.7.2.jar   A bundle is already installed with the name "org.jsoup" and version "1.7.2"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.121
+!MESSAGE Could not install bundle plugins/org.junit_4.12.0.jar   A bundle is already installed with the name "org.junit" and version "4.12.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.124
+!MESSAGE Could not install bundle plugins/org.objectweb.asm.all.debug_5.0.3.jar   A bundle is already installed with the name "org.objectweb.asm.all.debug" and version "5.0.3"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.127
+!MESSAGE Could not install bundle plugins/org.objectweb.asm.tree_5.0.1.v201404251740.jar   A bundle is already installed with the name "org.objectweb.asm.tree" and version "5.0.1.v201404251740"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.130
+!MESSAGE Could not install bundle plugins/org.objectweb.asm_5.0.1.v201404251740.jar   A bundle is already installed with the name "org.objectweb.asm" and version "5.0.1.v201404251740"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.133
+!MESSAGE Could not install bundle plugins/org.postgresql.jdbc41_9.4.1208.jre7.jar   A bundle is already installed with the name "org.postgresql.jdbc41" and version "9.4.1208.jre7"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.135
+!MESSAGE Could not install bundle plugins/org.slf4j.api_1.7.2.v20121108-1250.jar   A bundle is already installed with the name "org.slf4j.api" and version "1.7.2.v20121108-1250"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.139
+!MESSAGE Could not install bundle plugins/org.tukaani.xz_1.3.0.v201308270617.jar   A bundle is already installed with the name "org.tukaani.xz" and version "1.3.0.v201308270617"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.142
+!MESSAGE Could not install bundle plugins/org.w3c.css.sac_1.3.1.v200903091627.jar   A bundle is already installed with the name "org.w3c.css.sac" and version "1.3.1.v200903091627"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.144
+!MESSAGE Could not install bundle plugins/org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar   A bundle is already installed with the name "org.w3c.dom.events" and version "3.0.0.draft20060413_v201105210656"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.147
+!MESSAGE Could not install bundle plugins/org.w3c.dom.smil_1.0.1.v200903091627.jar   A bundle is already installed with the name "org.w3c.dom.smil" and version "1.0.1.v200903091627"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.150
+!MESSAGE Could not install bundle plugins/org.w3c.dom.svg_1.1.0.v201011041433.jar   A bundle is already installed with the name "org.w3c.dom.svg" and version "1.1.0.v201011041433"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.153
+!MESSAGE Could not install bundle plugins/org.yaml.snakeyaml_1.18.0.jar   A bundle is already installed with the name "org.yaml.snakeyaml" and version "1.18.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.156
+!MESSAGE Could not install bundle plugins/org.zeroturnaround.zt-exec_1.7.0.jar   A bundle is already installed with the name "org.zeroturnaround.zt-exec" and version "1.7.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.159
+!MESSAGE Could not install bundle plugins/org.zeroturnaround.zt-process_1.3.0.jar   A bundle is already installed with the name "org.zeroturnaround.zt-process" and version "1.3.0"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.162
+!MESSAGE Could not install bundle plugins/stax2-api_3.1.4.jar   A bundle is already installed with the name "stax2-api" and version "3.1.4"
+
+!ENTRY org.eclipse.update.configurator 4 0 2019-01-09 16:34:33.165
+!MESSAGE Could not install bundle plugins/wsdl4j_1.6.2.jar   A bundle is already installed with the name "wsdl4j" and version "1.6.2"
+
+!ENTRY com.kms.katalon 4 0 2019-01-09 16:34:33.332
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2019-01-09 16:34:33.333
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.8.6
+katalon.buildNumber=1
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-09 16:34:48.832
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+Warning: NLS unused message: ACTIVATED_PROP_NAME in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATE_INFO_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_CODE_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_COLLECT_FAIL_MESSAGE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: DIA_TITLE_FUNCTIONS_INTRODUCTION in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ERR_CONSOLE_MODE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: REQUEST_CODE_PROP_NAME in: com.kms.katalon.constants.messages
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:55 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:55 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:55 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:55 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:55 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:55 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:55 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:55 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:55 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:55 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:55 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:55 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:55 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:55 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:55 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:55 -0000
+Jan 09, 2019 4:34:55 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:55 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:55 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:56 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:56 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:56 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:56 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:56 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:56 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:56 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:56 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:56 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:56 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:34:56 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:34:56 -0000
+Jan 09, 2019 4:34:56 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:34:56 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:34:56 -0000
+!SESSION 2019-01-09 16:37:05.420 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\kaurs3\Documents\GitHub\CBIITQA-ICRC-KICKOFF\Test Cases\FileUpload-Simran-updated.tc
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data config C:\Users\kaurs3\Documents\GitHub\CBIITQA-ICRC-KICKOFF\Test Cases\FileUpload-Simran-updated.tc
+
+!ENTRY com.kms.katalon 4 0 2019-01-09 16:37:06.232
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2019-01-09 16:37:06.234
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2019-01-09 16:37:06.435
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2019-01-09 16:37:06.436
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.8.6
+katalon.buildNumber=1
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+Warning: NLS unused message: ACTIVATED_PROP_NAME in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATE_INFO_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_CODE_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_COLLECT_FAIL_MESSAGE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: DIA_TITLE_FUNCTIONS_INTRODUCTION in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ERR_CONSOLE_MODE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: REQUEST_CODE_PROP_NAME in: com.kms.katalon.constants.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-09 16:37:12.882
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:13 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:13 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:13 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:13 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:13 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:13 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:13 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:13 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:13 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:13 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:13 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:13 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:13 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:13 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:13 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:13 -0000
+Jan 09, 2019 4:37:13 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:13 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:13 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:14 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:14 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:14 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:14 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:14 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:14 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:14 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:14 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:14 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:14 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 09 Jan 2019 22:37:14 -0000". Invalid 'expires' attribute: Wed, 09 Jan 2019 22:37:14 -0000
+Jan 09, 2019 4:37:14 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 09 Jan 2039 21:37:14 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 09 Jan 2039 21:37:14 -0000
