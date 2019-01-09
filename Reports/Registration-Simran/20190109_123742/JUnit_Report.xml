@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Registration-Simran" time="28" tests="0" failures="3" errors="0">
+   <testsuite name="Registration-Simran" tests="0" failures="3" errors="0" time="28" timestamp="2019-01-09 12:37:44" hostname="kaurs3 - NCI-02096754-L.nci.nih.gov" id="Test Suites/Registration-Simran">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kaurs3\\Katalon Studio\\ICRC_KickOff_Simran_GitAttempt\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Registration-Simran\\20190109_123742"/>
+         <property name="logFiles" value="C:\\Users\\kaurs3\\Katalon Studio\\ICRC_KickOff_Simran_GitAttempt\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Registration-Simran\\20190109_123742\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\kaurs3\\Katalon Studio\\ICRC_KickOff_Simran_GitAttempt\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Registration-Simran\\20190109_123742\\1547055474238.png, C:\\Users\\kaurs3\\Katalon Studio\\ICRC_KickOff_Simran_GitAttempt\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Registration-Simran\\20190109_123742\\1547055481848.png, C:\\Users\\kaurs3\\Katalon Studio\\ICRC_KickOff_Simran_GitAttempt\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Registration-Simran\\20190109_123742\\1547055491925.png"/>
+         <property name="hostName" value="kaurs3 - NCI-02096754-L.nci.nih.gov"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.172.78.196"/>
+         <property name="sessionId" value="1553edbcf5a3f59b570659cd11c9b20f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ICRC External - Registration - Simran" classname="Test Cases/ICRC External - Registration - Simran" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58775}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 6e696e285507c868277783e3049453fd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-09 12:37:45 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Simran: Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58775}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 6e696e285507c868277783e3049453fd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)
+
+
+2019-01-09 12:37:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 12:37:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 12:37:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-09 12:37:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 12:37:48 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 12:37:49 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 12:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Introduction to Cancer Researc/a_Register")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 12:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 12:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)")): Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 12:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 12:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Alien Registration Number (1)")): Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 12:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 12:37:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "162", true): All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:50 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "164", true): All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:51 - [MESSAGE][PASSED] - All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)")): Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 12:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 12:37:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "149", true): All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:51 - [MESSAGE][PASSED] - All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:37:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)"), "166", true): All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 12:37:51 - [MESSAGE][PASSED] - All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 12:37:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Prefix (1)")): Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 12:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 12:37:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Prefix            --Select (1)")): Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 12:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 12:37:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_First Name (1)")): Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 12:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 12:37:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_First Name (1)")): Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 12:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 12:37:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__firstName (1)"), FirstName): Text 'FirstName4' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 12:37:52 - [MESSAGE][PASSED] - Text 'FirstName4' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 12:37:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__lastName (1)"), LastName): Text 'LastName4' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 12:37:52 - [MESSAGE][PASSED] - Text 'LastName4' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 12:37:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__email (1)"), EmailAddress): Text 'ncitester4@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 12:37:53 - [MESSAGE][PASSED] - Text 'ncitester4@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 12:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 12:37:53 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 12:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__confirmPassword (1)"), ConfirmPassword): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 12:37:53 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 12:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 1_address1 (1)"), "123 Fake St"): Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 12:37:53 - [MESSAGE][PASSED] - Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 12:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 2_address2 (1)"), "Apt 1"): Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 12:37:53 - [MESSAGE][PASSED] - Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 12:37:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/a_State  Province  Region_stat (2)")): Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 12:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 12:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_City_city (1)"), "Rockville"): Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 12:37:54 - [MESSAGE][PASSED] - Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 12:37:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Registration/div_MD - Maryland_2"), 0): Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 12:37:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-09 12:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 12:37:54 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")): click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58775}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 6e696e285507c868277783e3049453fd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)
+
+
+2019-01-09 12:37:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58775}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 6e696e285507c868277783e3049453fd)
+[[ATTACHMENT|C:\\Users\\kaurs3\\Katalon Studio\\ICRC_KickOff_Simran_GitAttempt\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Registration-Simran\\20190109_123742\\1547055474238.png]]
+
+2019-01-09 12:37:54 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58775}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 6e696e285507c868277783e3049453fd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-09 12:37:45 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Simran: Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58775}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 6e696e285507c868277783e3049453fd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ICRC External - Registration - Simran" classname="Test Cases/ICRC External - Registration - Simran" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58833}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 97d9c80edb9935bb792ce6a48441aae4)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-09 12:37:54 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Simran: Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58833}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 97d9c80edb9935bb792ce6a48441aae4)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)
+
+
+2019-01-09 12:37:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 12:37:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-09 12:37:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 12:37:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 12:37:57 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 12:37:57 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 12:37:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Introduction to Cancer Researc/a_Register")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 12:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 12:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)")): Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 12:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 12:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Alien Registration Number (1)")): Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 12:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 12:37:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "162", true): All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:58 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "164", true): All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:59 - [MESSAGE][PASSED] - All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)")): Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 12:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 12:37:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "149", true): All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:59 - [MESSAGE][PASSED] - All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:37:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)"), "166", true): All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 12:37:59 - [MESSAGE][PASSED] - All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 12:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Prefix (1)")): Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 12:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 12:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Prefix            --Select (1)")): Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 12:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 12:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_First Name (1)")): Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 12:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 12:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_First Name (1)")): Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 12:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 12:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__firstName (1)"), FirstName): Text 'FirstName5' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 12:38:00 - [MESSAGE][PASSED] - Text 'FirstName5' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 12:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__lastName (1)"), LastName): Text 'LastName5' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 12:38:00 - [MESSAGE][PASSED] - Text 'LastName5' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 12:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__email (1)"), EmailAddress): Text 'ncitester5@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 12:38:00 - [MESSAGE][PASSED] - Text 'ncitester5@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 12:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 12:38:01 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 12:38:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__confirmPassword (1)"), ConfirmPassword): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 12:38:01 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 12:38:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 1_address1 (1)"), "123 Fake St"): Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 12:38:01 - [MESSAGE][PASSED] - Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 12:38:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 2_address2 (1)"), "Apt 1"): Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 12:38:01 - [MESSAGE][PASSED] - Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 12:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/a_State  Province  Region_stat (2)")): Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 12:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 12:38:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_City_city (1)"), "Rockville"): Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 12:38:01 - [MESSAGE][PASSED] - Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 12:38:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Registration/div_MD - Maryland_2"), 0): Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 12:38:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-09 12:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 12:38:01 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")): click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58833}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 97d9c80edb9935bb792ce6a48441aae4)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)
+
+
+2019-01-09 12:38:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58833}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 97d9c80edb9935bb792ce6a48441aae4)
+[[ATTACHMENT|C:\\Users\\kaurs3\\Katalon Studio\\ICRC_KickOff_Simran_GitAttempt\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Registration-Simran\\20190109_123742\\1547055481848.png]]
+
+2019-01-09 12:38:02 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58833}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 97d9c80edb9935bb792ce6a48441aae4)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-09 12:37:54 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Simran: Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58833}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 97d9c80edb9935bb792ce6a48441aae4)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ICRC External - Registration - Simran" classname="Test Cases/ICRC External - Registration - Simran" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58885}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 1553edbcf5a3f59b570659cd11c9b20f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-09 12:38:02 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Simran: Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58885}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 1553edbcf5a3f59b570659cd11c9b20f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)
+
+
+2019-01-09 12:38:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 12:38:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-09 12:38:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 12:38:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 12:38:04 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 12:38:06 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 12:38:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Introduction to Cancer Researc/a_Register")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 12:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 12:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)")): Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 12:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 12:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Alien Registration Number (1)")): Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 12:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 12:38:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "162", true): All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:38:08 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:38:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "164", true): All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:38:09 - [MESSAGE][PASSED] - All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)")): Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 12:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 12:38:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "149", true): All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:38:09 - [MESSAGE][PASSED] - All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 12:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 12:38:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)"), "166", true): All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 12:38:09 - [MESSAGE][PASSED] - All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 12:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Prefix (1)")): Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 12:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 12:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Prefix            --Select (1)")): Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 12:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 12:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_First Name (1)")): Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 12:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 12:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_First Name (1)")): Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 12:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 12:38:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__firstName (1)"), FirstName): Text 'FirstName6' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 12:38:10 - [MESSAGE][PASSED] - Text 'FirstName6' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 12:38:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__lastName (1)"), LastName): Text 'LastName6' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 12:38:10 - [MESSAGE][PASSED] - Text 'LastName6' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 12:38:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__email (1)"), EmailAddress): Text 'ncitester6@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 12:38:10 - [MESSAGE][PASSED] - Text 'ncitester6@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 12:38:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 12:38:11 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 12:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__confirmPassword (1)"), ConfirmPassword): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 12:38:11 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 12:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 1_address1 (1)"), "123 Fake St"): Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 12:38:11 - [MESSAGE][PASSED] - Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 12:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 2_address2 (1)"), "Apt 1"): Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 12:38:11 - [MESSAGE][PASSED] - Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 12:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/a_State  Province  Region_stat (2)")): Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 12:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 12:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_City_city (1)"), "Rockville"): Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 12:38:11 - [MESSAGE][PASSED] - Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 12:38:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Registration/div_MD - Maryland_2"), 0): Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 12:38:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-09 12:38:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 12:38:11 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")): click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58885}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 1553edbcf5a3f59b570659cd11c9b20f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)
+
+
+2019-01-09 12:38:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58885}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 1553edbcf5a3f59b570659cd11c9b20f)
+[[ATTACHMENT|C:\\Users\\kaurs3\\Katalon Studio\\ICRC_KickOff_Simran_GitAttempt\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Registration-Simran\\20190109_123742\\1547055491925.png]]
+
+2019-01-09 12:38:12 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58885}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 1553edbcf5a3f59b570659cd11c9b20f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-09 12:38:02 - [TEST_CASE][FAILED] - Test Cases/ICRC External - Registration - Simran: Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58885}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 1553edbcf5a3f59b570659cd11c9b20f)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-09 12:37:44 - [TEST_SUITE][FAILED] - Registration-Simran: Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58775}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 6e696e285507c868277783e3049453fd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-09 12:37:44 - [TEST_SUITE][FAILED] - Registration-Simran: Test Cases/ICRC External - Registration - Simran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Registration/div_MD - Maryland_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NCI-02096754-L', ip: '10.172.78.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\kaurs3\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58775}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 6e696e285507c868277783e3049453fd)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at ICRC External - Registration - Simran.run(ICRC External - Registration - Simran:72)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547055462225.run(TempTestSuite1547055462225.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

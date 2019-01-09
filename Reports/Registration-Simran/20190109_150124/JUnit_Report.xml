@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Registration-Simran" time="39" tests="3" failures="0" errors="0">
+   <testsuite name="Registration-Simran" tests="3" failures="0" errors="0" time="39" timestamp="2019-01-09 15:01:27" hostname="kaurs3 - NCI-02096754-L.nci.nih.gov" id="Test Suites/Registration-Simran">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kaurs3\\Katalon Studio\\ICRC_KickOff_Simran_GitAttempt\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Registration-Simran\\20190109_150124"/>
+         <property name="logFiles" value="C:\\Users\\kaurs3\\Katalon Studio\\ICRC_KickOff_Simran_GitAttempt\\CBIITQA-ICRC-KICKOFF 1\\Reports\\Registration-Simran\\20190109_150124\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kaurs3 - NCI-02096754-L.nci.nih.gov"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.172.78.196"/>
+         <property name="sessionId" value="a9e7b3373db9aa48e1fd2fed2a9fa328"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ICRC External - Registration - Liz" classname="Test Cases/ICRC External - Registration - Liz" status="PASSED">
+         <system-out><![CDATA[2019-01-09 15:01:27 - [TEST_CASE][PASSED] - Test Cases/ICRC External - Registration - Liz: Test Cases/ICRC External - Registration - Liz
+
+2019-01-09 15:01:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 15:01:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 15:01:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-09 15:01:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 15:01:30 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 15:01:31 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 15:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Introduction to Cancer Researc/a_Register")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 15:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 15:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)")): Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 15:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 15:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Alien Registration Number (1)")): Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 15:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 15:01:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "162", true): All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:33 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "164", true): All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:33 - [MESSAGE][PASSED] - All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)")): Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 15:01:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "149", true): All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:33 - [MESSAGE][PASSED] - All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)"), "166", true): All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 15:01:33 - [MESSAGE][PASSED] - All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 15:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Prefix (1)")): Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 15:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 15:01:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Prefix            --Select (1)")): Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 15:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 15:01:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_First Name (1)")): Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 15:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 15:01:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_First Name (1)")): Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 15:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 15:01:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__firstName (1)"), FirstName): Text 'FirstName4' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 15:01:34 - [MESSAGE][PASSED] - Text 'FirstName4' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 15:01:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__lastName (1)"), LastName): Text 'LastName4' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 15:01:34 - [MESSAGE][PASSED] - Text 'LastName4' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 15:01:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__email (1)"), EmailAddress): Text 'ncitester4@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 15:01:34 - [MESSAGE][PASSED] - Text 'ncitester4@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 15:01:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 15:01:35 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 15:01:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__confirmPassword (1)"), ConfirmPassword): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 15:01:35 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 15:01:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 1_address1 (1)"), "123 Fake St"): Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 15:01:35 - [MESSAGE][PASSED] - Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 15:01:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 2_address2 (1)"), "Apt 1"): Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 15:01:35 - [MESSAGE][PASSED] - Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 15:01:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_City_city (1)"), "Rockville"): Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 15:01:35 - [MESSAGE][PASSED] - Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 15:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/a_State  Province  Region_stat (2)")): Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 15:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 15:01:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Registration/div_MD - Maryland_2"), 0): Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 15:01:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-09 15:01:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 15:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")): Object: 'Object Repository/Page_Registration/div_MD - Maryland_2' is clicked on
+
+2019-01-09 15:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_MD - Maryland_2' is clicked on
+
+2019-01-09 15:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Postal  Code (1)")): Object: 'Object Repository/Page_Registration/label_Postal  Code (1)' is clicked on
+
+2019-01-09 15:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Postal  Code (1)' is clicked on
+
+2019-01-09 15:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/span_Postal  Code (1)")): Object: 'Object Repository/Page_Registration/span_Postal  Code (1)' is clicked on
+
+2019-01-09 15:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/span_Postal  Code (1)' is clicked on
+
+2019-01-09 15:01:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Postal  Code_postalCode (1)"), "20850"): Text '20850' is set on object 'Object Repository/Page_Registration/input_Postal  Code_postalCode (1)'
+
+2019-01-09 15:01:36 - [MESSAGE][PASSED] - Text '20850' is set on object 'Object Repository/Page_Registration/input_Postal  Code_postalCode (1)'
+
+2019-01-09 15:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Select Question 1 (1)")): Object: 'Object Repository/Page_Registration/label_Select Question 1 (1)' is clicked on
+
+2019-01-09 15:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Select Question 1 (1)' is clicked on
+
+2019-01-09 15:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Select Question 2 (1)")): Object: 'Object Repository/Page_Registration/label_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Select Question 3 (1)")): Object: 'Object Repository/Page_Registration/label_Select Question 3 (1)' is clicked on
+
+2019-01-09 15:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Select Question 3 (1)' is clicked on
+
+2019-01-09 15:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/p_Please select and answer sec (1)")): Object: 'Object Repository/Page_Registration/p_Please select and answer sec (1)' is clicked on
+
+2019-01-09 15:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/p_Please select and answer sec (1)' is clicked on
+
+2019-01-09 15:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/strong_Security Questions (1)")): Object: 'Object Repository/Page_Registration/strong_Security Questions (1)' is clicked on
+
+2019-01-09 15:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/strong_Security Questions (1)' is clicked on
+
+2019-01-09 15:01:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Question 1 ---    W (1)"), "152", true): All options with value '152' are selected in object 'Object Repository/Page_Registration/select_--- Question 1 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:37 - [MESSAGE][PASSED] - All options with value '152' are selected in object 'Object Repository/Page_Registration/select_--- Question 1 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)"), "make1"): Text 'make1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)'
+
+2019-01-09 15:01:37 - [MESSAGE][PASSED] - Text 'make1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)'
+
+2019-01-09 15:01:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Select Question 2 (1)")): Object: 'Object Repository/Page_Registration/div_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:01:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Question 2 ---    W (1)"), "153", true): All options with value '153' are selected in object 'Object Repository/Page_Registration/select_--- Question 2 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:37 - [MESSAGE][PASSED] - All options with value '153' are selected in object 'Object Repository/Page_Registration/select_--- Question 2 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)"), "name1"): Text 'name1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)'
+
+2019-01-09 15:01:37 - [MESSAGE][PASSED] - Text 'name1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)'
+
+2019-01-09 15:01:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Question 3 ---    W (1)"), "154", true): All options with value '154' are selected in object 'Object Repository/Page_Registration/select_--- Question 3 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:38 - [MESSAGE][PASSED] - All options with value '154' are selected in object 'Object Repository/Page_Registration/select_--- Question 3 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)"), "nickname1"): Text 'nickname1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)'
+
+2019-01-09 15:01:38 - [MESSAGE][PASSED] - Text 'nickname1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)'
+
+2019-01-09 15:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Registration/input_CANCEL_registerButton (1)")): Object: 'Object Repository/Page_Registration/input_CANCEL_registerButton (1)' is clicked on
+
+2019-01-09 15:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_CANCEL_registerButton (1)' is clicked on
+
+2019-01-09 15:01:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 15:01:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ICRC External - Registration - Liz" classname="Test Cases/ICRC External - Registration - Liz" status="PASSED">
+         <system-out><![CDATA[2019-01-09 15:01:39 - [TEST_CASE][PASSED] - Test Cases/ICRC External - Registration - Liz: Test Cases/ICRC External - Registration - Liz
+
+2019-01-09 15:01:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 15:01:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 15:01:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 15:01:41 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 15:01:44 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 15:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Introduction to Cancer Researc/a_Register")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 15:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 15:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)")): Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 15:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 15:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Alien Registration Number (1)")): Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 15:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 15:01:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "162", true): All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:45 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "164", true): All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:45 - [MESSAGE][PASSED] - All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)")): Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 15:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 15:01:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "149", true): All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:46 - [MESSAGE][PASSED] - All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)"), "166", true): All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 15:01:46 - [MESSAGE][PASSED] - All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 15:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Prefix (1)")): Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 15:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 15:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Prefix            --Select (1)")): Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 15:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 15:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_First Name (1)")): Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 15:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 15:01:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_First Name (1)")): Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 15:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 15:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__firstName (1)"), FirstName): Text 'FirstName5' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 15:01:47 - [MESSAGE][PASSED] - Text 'FirstName5' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 15:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__lastName (1)"), LastName): Text 'LastName5' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 15:01:47 - [MESSAGE][PASSED] - Text 'LastName5' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 15:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__email (1)"), EmailAddress): Text 'ncitester5@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 15:01:47 - [MESSAGE][PASSED] - Text 'ncitester5@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 15:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 15:01:47 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 15:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__confirmPassword (1)"), ConfirmPassword): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 15:01:48 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 15:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 1_address1 (1)"), "123 Fake St"): Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 15:01:48 - [MESSAGE][PASSED] - Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 15:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 2_address2 (1)"), "Apt 1"): Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 15:01:48 - [MESSAGE][PASSED] - Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 15:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_City_city (1)"), "Rockville"): Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 15:01:48 - [MESSAGE][PASSED] - Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 15:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/a_State  Province  Region_stat (2)")): Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 15:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 15:01:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Registration/div_MD - Maryland_2"), 0): Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 15:01:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-09 15:01:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 15:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")): Object: 'Object Repository/Page_Registration/div_MD - Maryland_2' is clicked on
+
+2019-01-09 15:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_MD - Maryland_2' is clicked on
+
+2019-01-09 15:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Postal  Code (1)")): Object: 'Object Repository/Page_Registration/label_Postal  Code (1)' is clicked on
+
+2019-01-09 15:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Postal  Code (1)' is clicked on
+
+2019-01-09 15:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/span_Postal  Code (1)")): Object: 'Object Repository/Page_Registration/span_Postal  Code (1)' is clicked on
+
+2019-01-09 15:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/span_Postal  Code (1)' is clicked on
+
+2019-01-09 15:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Postal  Code_postalCode (1)"), "20850"): Text '20850' is set on object 'Object Repository/Page_Registration/input_Postal  Code_postalCode (1)'
+
+2019-01-09 15:01:49 - [MESSAGE][PASSED] - Text '20850' is set on object 'Object Repository/Page_Registration/input_Postal  Code_postalCode (1)'
+
+2019-01-09 15:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Select Question 1 (1)")): Object: 'Object Repository/Page_Registration/label_Select Question 1 (1)' is clicked on
+
+2019-01-09 15:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Select Question 1 (1)' is clicked on
+
+2019-01-09 15:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Select Question 2 (1)")): Object: 'Object Repository/Page_Registration/label_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Select Question 3 (1)")): Object: 'Object Repository/Page_Registration/label_Select Question 3 (1)' is clicked on
+
+2019-01-09 15:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Select Question 3 (1)' is clicked on
+
+2019-01-09 15:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/p_Please select and answer sec (1)")): Object: 'Object Repository/Page_Registration/p_Please select and answer sec (1)' is clicked on
+
+2019-01-09 15:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/p_Please select and answer sec (1)' is clicked on
+
+2019-01-09 15:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/strong_Security Questions (1)")): Object: 'Object Repository/Page_Registration/strong_Security Questions (1)' is clicked on
+
+2019-01-09 15:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/strong_Security Questions (1)' is clicked on
+
+2019-01-09 15:01:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Question 1 ---    W (1)"), "152", true): All options with value '152' are selected in object 'Object Repository/Page_Registration/select_--- Question 1 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:49 - [MESSAGE][PASSED] - All options with value '152' are selected in object 'Object Repository/Page_Registration/select_--- Question 1 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)"), "make1"): Text 'make1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)'
+
+2019-01-09 15:01:49 - [MESSAGE][PASSED] - Text 'make1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)'
+
+2019-01-09 15:01:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Select Question 2 (1)")): Object: 'Object Repository/Page_Registration/div_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:01:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Question 2 ---    W (1)"), "153", true): All options with value '153' are selected in object 'Object Repository/Page_Registration/select_--- Question 2 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:50 - [MESSAGE][PASSED] - All options with value '153' are selected in object 'Object Repository/Page_Registration/select_--- Question 2 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)"), "name1"): Text 'name1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)'
+
+2019-01-09 15:01:50 - [MESSAGE][PASSED] - Text 'name1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)'
+
+2019-01-09 15:01:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Question 3 ---    W (1)"), "154", true): All options with value '154' are selected in object 'Object Repository/Page_Registration/select_--- Question 3 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:50 - [MESSAGE][PASSED] - All options with value '154' are selected in object 'Object Repository/Page_Registration/select_--- Question 3 ---    W (1)'  using regular expression
+
+2019-01-09 15:01:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)"), "nickname1"): Text 'nickname1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)'
+
+2019-01-09 15:01:50 - [MESSAGE][PASSED] - Text 'nickname1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)'
+
+2019-01-09 15:01:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Registration/input_CANCEL_registerButton (1)")): Object: 'Object Repository/Page_Registration/input_CANCEL_registerButton (1)' is clicked on
+
+2019-01-09 15:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_CANCEL_registerButton (1)' is clicked on
+
+2019-01-09 15:01:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 15:01:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ICRC External - Registration - Liz" classname="Test Cases/ICRC External - Registration - Liz" status="PASSED">
+         <system-out><![CDATA[2019-01-09 15:01:54 - [TEST_CASE][PASSED] - Test Cases/ICRC External - Registration - Liz: Test Cases/ICRC External - Registration - Liz
+
+2019-01-09 15:01:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 15:01:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 15:01:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 15:01:56 - [TEST_STEP][PASSED] - navigateToUrl("https://icrc-test.nci.nih.gov/"): Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 15:01:57 - [MESSAGE][PASSED] - Navigate to 'https://icrc-test.nci.nih.gov/' successfully
+
+2019-01-09 15:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Introduction to Cancer Researc/a_Register")): Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 15:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Introduction to Cancer Researc/a_Register' is clicked on
+
+2019-01-09 15:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)")): Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 15:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_U.S. Citizen_usPersonTyp (1)' is clicked on
+
+2019-01-09 15:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Alien Registration Number (1)")): Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 15:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Alien Registration Number (1)' is clicked on
+
+2019-01-09 15:01:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "162", true): All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:58 - [MESSAGE][PASSED] - All options with value '162' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "164", true): All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:58 - [MESSAGE][PASSED] - All options with value '164' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)")): Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 15:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Are you U.S. CitizenPerman (1)' is clicked on
+
+2019-01-09 15:01:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Select a level --- (3)"), "149", true): All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:58 - [MESSAGE][PASSED] - All options with value '149' are selected in object 'Object Repository/Page_Registration/select_--- Select a level --- (3)'  using regular expression
+
+2019-01-09 15:01:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/input__usPersonType (3)")): Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input__usPersonType (3)' is clicked on
+
+2019-01-09 15:01:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)"), "166", true): All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 15:01:59 - [MESSAGE][PASSED] - All options with value '166' are selected in object 'Object Repository/Page_Registration/select_--Select--    Dr.    Mr (1)'  using regular expression
+
+2019-01-09 15:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Prefix (1)")): Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 15:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Prefix (1)' is clicked on
+
+2019-01-09 15:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Prefix            --Select (1)")): Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 15:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Prefix            --Select (1)' is clicked on
+
+2019-01-09 15:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_First Name (1)")): Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 15:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_First Name (1)' is clicked on
+
+2019-01-09 15:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_First Name (1)")): Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 15:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_First Name (1)' is clicked on
+
+2019-01-09 15:01:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__firstName (1)"), FirstName): Text 'FirstName6' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 15:01:59 - [MESSAGE][PASSED] - Text 'FirstName6' is set on object 'Object Repository/Page_Registration/input__firstName (1)'
+
+2019-01-09 15:01:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__lastName (1)"), LastName): Text 'LastName6' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 15:02:00 - [MESSAGE][PASSED] - Text 'LastName6' is set on object 'Object Repository/Page_Registration/input__lastName (1)'
+
+2019-01-09 15:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__email (1)"), EmailAddress): Text 'ncitester6@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 15:02:00 - [MESSAGE][PASSED] - Text 'ncitester6@nih.gov' is set on object 'Object Repository/Page_Registration/input__email (1)'
+
+2019-01-09 15:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__password (1)"), Password): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 15:02:00 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__password (1)'
+
+2019-01-09 15:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input__confirmPassword (1)"), ConfirmPassword): Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 15:02:00 - [MESSAGE][PASSED] - Text 'P@ssw0rd1 ' is set on object 'Object Repository/Page_Registration/input__confirmPassword (1)'
+
+2019-01-09 15:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 1_address1 (1)"), "123 Fake St"): Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 15:02:00 - [MESSAGE][PASSED] - Text '123 Fake St' is set on object 'Object Repository/Page_Registration/input_Address Line 1_address1 (1)'
+
+2019-01-09 15:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Address Line 2_address2 (1)"), "Apt 1"): Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 15:02:00 - [MESSAGE][PASSED] - Text 'Apt 1' is set on object 'Object Repository/Page_Registration/input_Address Line 2_address2 (1)'
+
+2019-01-09 15:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_City_city (1)"), "Rockville"): Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 15:02:01 - [MESSAGE][PASSED] - Text 'Rockville' is set on object 'Object Repository/Page_Registration/input_City_city (1)'
+
+2019-01-09 15:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/a_State  Province  Region_stat (2)")): Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 15:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_State  Province  Region_stat (2)' is clicked on
+
+2019-01-09 15:02:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Registration/div_MD - Maryland_2"), 0): Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 15:02:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-09 15:02:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Registration/div_MD - Maryland_2' is present
+
+2019-01-09 15:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_MD - Maryland_2")): Object: 'Object Repository/Page_Registration/div_MD - Maryland_2' is clicked on
+
+2019-01-09 15:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_MD - Maryland_2' is clicked on
+
+2019-01-09 15:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Postal  Code (1)")): Object: 'Object Repository/Page_Registration/label_Postal  Code (1)' is clicked on
+
+2019-01-09 15:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Postal  Code (1)' is clicked on
+
+2019-01-09 15:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/span_Postal  Code (1)")): Object: 'Object Repository/Page_Registration/span_Postal  Code (1)' is clicked on
+
+2019-01-09 15:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/span_Postal  Code (1)' is clicked on
+
+2019-01-09 15:02:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Postal  Code_postalCode (1)"), "20850"): Text '20850' is set on object 'Object Repository/Page_Registration/input_Postal  Code_postalCode (1)'
+
+2019-01-09 15:02:01 - [MESSAGE][PASSED] - Text '20850' is set on object 'Object Repository/Page_Registration/input_Postal  Code_postalCode (1)'
+
+2019-01-09 15:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Select Question 1 (1)")): Object: 'Object Repository/Page_Registration/label_Select Question 1 (1)' is clicked on
+
+2019-01-09 15:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Select Question 1 (1)' is clicked on
+
+2019-01-09 15:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Select Question 2 (1)")): Object: 'Object Repository/Page_Registration/label_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/label_Select Question 3 (1)")): Object: 'Object Repository/Page_Registration/label_Select Question 3 (1)' is clicked on
+
+2019-01-09 15:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/label_Select Question 3 (1)' is clicked on
+
+2019-01-09 15:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/p_Please select and answer sec (1)")): Object: 'Object Repository/Page_Registration/p_Please select and answer sec (1)' is clicked on
+
+2019-01-09 15:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/p_Please select and answer sec (1)' is clicked on
+
+2019-01-09 15:02:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/strong_Security Questions (1)")): Object: 'Object Repository/Page_Registration/strong_Security Questions (1)' is clicked on
+
+2019-01-09 15:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/strong_Security Questions (1)' is clicked on
+
+2019-01-09 15:02:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Question 1 ---    W (1)"), "152", true): All options with value '152' are selected in object 'Object Repository/Page_Registration/select_--- Question 1 ---    W (1)'  using regular expression
+
+2019-01-09 15:02:02 - [MESSAGE][PASSED] - All options with value '152' are selected in object 'Object Repository/Page_Registration/select_--- Question 1 ---    W (1)'  using regular expression
+
+2019-01-09 15:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)"), "make1"): Text 'make1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)'
+
+2019-01-09 15:02:02 - [MESSAGE][PASSED] - Text 'make1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)'
+
+2019-01-09 15:02:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration/div_Select Question 2 (1)")): Object: 'Object Repository/Page_Registration/div_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/div_Select Question 2 (1)' is clicked on
+
+2019-01-09 15:02:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Question 2 ---    W (1)"), "153", true): All options with value '153' are selected in object 'Object Repository/Page_Registration/select_--- Question 2 ---    W (1)'  using regular expression
+
+2019-01-09 15:02:02 - [MESSAGE][PASSED] - All options with value '153' are selected in object 'Object Repository/Page_Registration/select_--- Question 2 ---    W (1)'  using regular expression
+
+2019-01-09 15:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)"), "name1"): Text 'name1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)'
+
+2019-01-09 15:02:02 - [MESSAGE][PASSED] - Text 'name1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)'
+
+2019-01-09 15:02:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Registration/select_--- Question 3 ---    W (1)"), "154", true): All options with value '154' are selected in object 'Object Repository/Page_Registration/select_--- Question 3 ---    W (1)'  using regular expression
+
+2019-01-09 15:02:03 - [MESSAGE][PASSED] - All options with value '154' are selected in object 'Object Repository/Page_Registration/select_--- Question 3 ---    W (1)'  using regular expression
+
+2019-01-09 15:02:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)"), "nickname1"): Text 'nickname1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)'
+
+2019-01-09 15:02:03 - [MESSAGE][PASSED] - Text 'nickname1' is set on object 'Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)'
+
+2019-01-09 15:02:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Registration/input_CANCEL_registerButton (1)")): Object: 'Object Repository/Page_Registration/input_CANCEL_registerButton (1)' is clicked on
+
+2019-01-09 15:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/input_CANCEL_registerButton (1)' is clicked on
+
+2019-01-09 15:02:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 15:02:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-09 15:01:27 - [TEST_SUITE][PASSED] - Registration-Simran: Test Cases/ICRC External - Registration - Liz]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

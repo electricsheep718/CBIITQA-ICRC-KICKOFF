@@ -13,19 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/Page_ICRC Application/input__upload'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input__upload'), 0)
 
-WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input__upload'), 'C:\\Users\\andreyeve\\Desktop\\NewFile.pdf')
+WebUI.uploadFile(findTestObject('Page_ICRC Application/input__upload'), 'C:\\Users\\kaurs3\\Documents\\ICRC-NG\\PDFs_Test\\BusinessNeed.pdf')
 
 WebUI.scrollToElement(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Resume(s)_upload'), 0)
 
-WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Resume(s)_upload'), 'C:\\Users\\andreyeve\\Desktop\\NewFile.pdf')
+WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Resume(s)_upload'), 'C:\\Users\\kaurs3\\Documents\\ICRC-NG\\PDFs_Test\\BusinessNeed.pdf')
 
 WebUI.scrollToElement(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Financial Document - Mus'), 0)
 
-WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Financial Document - Mus'), 'C:\\Users\\andreyeve\\Desktop\\NewFile.pdf')
+WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Financial Document - Mus'), 'C:\\Users\\kaurs3\\Documents\\ICRC-NG\\PDFs_Test\\BusinessNeed.pdf')
 

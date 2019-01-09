@@ -4,39 +4,39 @@
    <name>ICRC External - Registration - Simran</name>
    <tag>Login</tag>
    <comment></comment>
-   <testCaseGuid>31168b83-d10c-4edf-9b9b-c66f387b74da</testCaseGuid>
+   <testCaseGuid>d459dbc6-ecaa-4825-b4b9-595b1684fdf6</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d2acdb10-2201-470c-bba5-f812159e30a2</id>
+      <id>f3471f88-f01f-4c17-b7df-a8caf0f15297</id>
       <masked>false</masked>
       <name>FirstName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f151c29f-3627-4fd8-8c38-753740712d11</id>
+      <id>9d050f91-1b24-4fef-83e3-847bdcbe8d02</id>
       <masked>false</masked>
       <name>LastName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ffabbafc-d503-4621-a1f1-5d2144b347b8</id>
+      <id>8225cb9c-0cea-414b-a7ad-97d85922a8d2</id>
       <masked>false</masked>
       <name>EmailAddress</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>67f46b1b-92f0-4a72-be5c-d408e5c4d58d</id>
+      <id>1258aad7-bbbb-45eb-827c-e2725386d115</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>3c6905b6-e409-4309-9729-b209ba807f53</id>
+      <id>0a88ea79-32df-4e3b-9459-5b4f6ac78931</id>
       <masked>false</masked>
       <name>ConfirmPassword</name>
    </variable>
