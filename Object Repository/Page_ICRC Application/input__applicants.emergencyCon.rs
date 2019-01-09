@@ -41,13 +41,6 @@
       <value>120</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>LastName_EMCP</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
@@ -74,6 +67,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;emergencyContactPerson&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>LastName_EMCP</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

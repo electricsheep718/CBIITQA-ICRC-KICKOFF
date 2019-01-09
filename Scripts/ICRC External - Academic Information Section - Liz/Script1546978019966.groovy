@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow()
 
@@ -84,4 +84,10 @@ WebUI.scrollToElement(findTestObject('Page_ICRC Application/a_Add (1)'), 0)
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_Add                    Upd (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_Add (1)'))
+
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'), 0)
+
+WebUI.click(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'))
+
+WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input__methodsaveApplication (1)'))
 

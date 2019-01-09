@@ -107,5 +107,3 @@ WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Enter Yo
 'disabled for now!'
 WebUI.click(findTestObject('Page_Registration/input_CANCEL_registerButton (1)'))
 
-WebUI.closeBrowser()
-

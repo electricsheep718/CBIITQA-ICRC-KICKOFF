@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>TESTER1.1</value>
+      <value>LastName1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
