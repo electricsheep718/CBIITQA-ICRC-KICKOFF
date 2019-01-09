@@ -17,63 +17,33 @@ WebUI.callTestCase(findTestCase('ICRC External - Login'), [:], FailureHandling.S
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.firstname'), 'NCI1.1')
+WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.firstname'), 'FirstName1')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.lastname'), 'TESTERT1.1')
+WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.lastname'), 'LastName1')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.primaryPhone'), '2402760000')
+WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.primaryPhone'), '2017289999')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input_Secondary Phone_applican'), '2402764444')
+WebUI.setText(findTestObject('Page_ICRC Application/input_Secondary Phone_applican'), '2090980000')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input_Secondary Email_applican'), 'ncitester1.1@nih.gov')
+WebUI.setText(findTestObject('Page_ICRC Application/input_Secondary Email_applican'), 'test@test.com')
 
-WebUI.click(findTestObject('Page_ICRC Application/input__applicants.previousNciI'))
+WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.emergencyCon'), 'EmergencyContact1')
 
-WebUI.click(findTestObject('Page_ICRC Application/input_Yes_applicants.previousN'))
-
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.emergencyCon'), 'LasName_EmergencyContact')
-
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.emergencyCon_11'), '3018000000')
-
-WebUI.click(findTestObject('Page_ICRC Application/input__applicants.marcStudentF'))
+WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.emergencyCon_11'), '3019870000')
 
 WebUI.click(findTestObject('Page_ICRC Application/input_Yes_applicants.marcStude'))
 
-WebUI.click(findTestObject('Page_ICRC Application/div_YesNo'))
+WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.address1'), '123 Main street')
 
-WebUI.click(findTestObject('Page_ICRC Application/input__applicants.marcStudentF'))
+WebUI.setText(findTestObject('Page_ICRC Application/input_Address Line 2_applicant'), '30')
 
-WebUI.click(findTestObject('Page_ICRC Application/a_10'))
+WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.city'), 'Gaithersburg')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.address1'), '900 Main Street')
+WebUI.click(findTestObject('Page_ICRC Application/span__closeStateSelect'))
 
-WebUI.setText(findTestObject('Page_ICRC Application/input_Address Line 2_applicant'), '301')
+WebUI.click(findTestObject('Page_ICRC Application/div_AR - Arkansas'))
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.city'), 'New York')
-
-WebUI.setText(findTestObject('Page_ICRC Application/input__stateSelect'), 'ny')
-
-WebUI.click(findTestObject('Page_ICRC Application/div_NY - New York'))
-
-WebUI.setText(findTestObject('Page_ICRC Application/input__stateSelect'), 'NY - New York')
-
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.zip'), '100000')
-
-WebUI.setText(findTestObject('Page_ICRC Application/input_Address Line 1_applicant'), '700 Temp Street')
-
-WebUI.setText(findTestObject('Page_ICRC Application/input_Address Line 2_applicant_4'), '800')
-
-WebUI.setText(findTestObject('Page_ICRC Application/input_City_applicants.appAcade'), 'Rockville')
-
-WebUI.setText(findTestObject('Page_ICRC Application/input_StateProvinceRegion_temp'), 'm')
-
-WebUI.click(findTestObject('Page_ICRC Application/div_MD - Maryland'))
-
-WebUI.setText(findTestObject('Page_ICRC Application/input_StateProvinceRegion_temp'), 'MD - Maryland')
-
-WebUI.setText(findTestObject('Page_ICRC Application/input_ZipPostal Code_applicant'), '20850')
-
-WebUI.click(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'))
+WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.zip'), '20877')
 
 WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'), 0)
 
