@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>cb0b2b00-2965-448a-a20d-faa18aa2b58b</dataFileGUID>
-   <dataSourceUrl>C:\Users\kaurs3\Katalon Studio\ICRC_KickOff_Simran_GitAttempt\CBIITQA-ICRC-KICKOFF 1\DataOne-Registration.Simran.xlsx</dataSourceUrl>
+   <dataSourceUrl>DataOne-Registration.Simran.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>
