@@ -3,3 +3,11 @@
 /.settings/
 /.classpath
 .svn/
+*.class
+*.swp
+\.classpath
+\.project
+\.settings/
+bin/lib/
+Libs/
+Reports/
