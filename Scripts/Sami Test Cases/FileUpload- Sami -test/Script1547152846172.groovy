@@ -13,19 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Introduction to Cancer Researc/a_Login'))
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_Resume(s)_upload'), 0)
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email Address_username'), emailaddress)
+WebUI.uploadFile(findTestObject('Page_ICRC Application/input_Resume(s)_upload'), 'C:\\Users\\rashids2\\Downloads\\KendrickJiffyLubeLiveTickets.pdf')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password_password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input__upload'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_userlogin_0'))
+WebUI.uploadFile(findTestObject('Page_ICRC Application/input__upload'), 'C:\\Users\\rashids2\\Downloads\\KendrickJiffyLubeLiveTickets.pdf')
 
-WebUI.click(findTestObject('Page_ICRC Application/a_Log out (1)'))
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_Financial Document - Mus'), 0)
 
-WebUI.closeBrowser()
+WebUI.uploadFile(findTestObject('Page_ICRC Application/input_Financial Document - Mus'), 'C:\\Users\\rashids2\\Downloads\\KendrickJiffyLubeLiveTickets.pdf')
+
+not_run: WebUI.closeBrowser()
+
+//WebUI.acceptAlert()
 

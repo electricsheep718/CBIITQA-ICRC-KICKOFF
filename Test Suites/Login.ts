@@ -11,21 +11,21 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>046f73f3-44e4-4bf3-8707-833c27ef36ac</testSuiteGuid>
    <testCaseLink>
-      <guid>752bf749-8818-4c74-b002-2d3d8d597fe3</guid>
+      <guid>8e670464-3a34-487f-9f7a-47f167fa09dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ICRC External - Login Sample Data File</testCaseId>
+      <testCaseId>Test Cases/Sami Test Cases/ICRC External - Login Sample Data File</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>175c75be-d673-4fde-8019-19d433d2d364</id>
+         <id>f24f4eba-0c61-4aef-88f5-35875f2d87e3</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Test Data 1</testDataId>
+         <testDataId>Data Files/Sample Login Data Test</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>175c75be-d673-4fde-8019-19d433d2d364</testDataLinkId>
+         <testDataLinkId>f24f4eba-0c61-4aef-88f5-35875f2d87e3</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email address</value>
          <variableId>3c697e63-05f6-47c7-9b17-a4bff0413025</variableId>
