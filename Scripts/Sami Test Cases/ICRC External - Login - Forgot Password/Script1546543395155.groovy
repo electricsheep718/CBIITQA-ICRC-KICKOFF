@@ -20,22 +20,35 @@ WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 'testuser1@nih.gov'
 WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login'))
 
-<<<<<<< HEAD
 WebUI.delay(0)
 
-=======
->>>>>>> branch 'master' of https://github.com/electricsheep718/CBIITQA-ICRC-KICKOFF
 WebUI.click(findTestObject('Page_Login/a_Forgot your password'))
 
 WebUI.setText(findTestObject('Page_Forgot Your Password/input__username'), 'testuser1@nih.gov')
 
 WebUI.click(findTestObject('Page_Forgot Your Password/input__usertoForgotPassword_0'))
 
-WebUI.acceptAlert()
+if (true) {
+    WebUI.verifyTextPresent('What is your nickname?', false)
 
-WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__answer1'), 'nick')
+    WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__answer1'), 'nick')
 
-WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__answer2'), 'first')
+    if (true) {
+    } else {
+        switch (true) {
+            default:
+                break
+        }
+    }
+    
+    WebUI.verifyTextPresent('What was the make and model of your first car?', false)
+
+    WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__answer2'), 'make')
+
+    WebUI.verifyTextPresent('What is the name of your first school?', false)
+
+    WebUI.setText(findTestObject(null), '')
+}
 
 WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoSecurityQuestion_'))
 
