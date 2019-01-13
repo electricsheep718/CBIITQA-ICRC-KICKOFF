@@ -33,21 +33,14 @@ if (true) {
 
     WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__answer1'), 'nick')
 
-    if (true) {
-    } else {
-        switch (true) {
-            default:
-                break
-        }
-    }
-    
     WebUI.verifyTextPresent('What was the make and model of your first car?', false)
 
     WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__answer2'), 'make')
 
     WebUI.verifyTextPresent('What is the name of your first school?', false)
 
-    WebUI.setText(findTestObject(null), '')
+    WebUI.setText(findTestObject(null), 'first')
+} else {
 }
 
 WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoSecurityQuestion_'))
