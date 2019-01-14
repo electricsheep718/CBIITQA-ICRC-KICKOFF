@@ -71,5 +71,3 @@ WebUI.click(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input__methodsaveApplication (1)'))
 
-WebUI.acceptAlert()
-
