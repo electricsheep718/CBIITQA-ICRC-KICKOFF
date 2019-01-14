@@ -15,19 +15,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ICRC External - Personal Information - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Personal Information - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ICRC External - Academic Information Section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Academic Information Section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ICRC External - Research Experience - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Research Experience - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ICRC External - Work Experience - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Work Experience - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ICRC - External - Publications and Awards - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC - External - Publications and Awards - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ICRC External - File Upload - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - File Upload - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ICRC - External - References section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC - External - References section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ICRC - External - Checkboxes section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC - External - Checkboxes section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -14,7 +14,7 @@
       <guid>277a180b-6efa-4b99-93a2-0960a81142c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ICRC External - Registration - Simran</testCaseId>
+      <testCaseId>Test Cases/Simran Test Cases/ICRC External - Registration - Simran</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0ebd8355-994c-4e81-b6c0-39109c4074fc</id>

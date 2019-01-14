@@ -14,7 +14,7 @@
       <guid>c2c3f274-3bea-463e-a633-b44dc7a5c04c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ICRC External - Registration - Liz</testCaseId>
+      <testCaseId>Test Cases/Liz Test Cases/ICRC External - Registration - Liz</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e4bdb9eb-c430-4130-8768-fe6f21326655</id>
