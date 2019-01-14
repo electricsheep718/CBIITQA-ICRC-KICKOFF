@@ -19,9 +19,9 @@ WebUI.callTestCase(findTestCase('ICRC External - Personal Information - Liz'), [
 
 WebUI.callTestCase(findTestCase('ICRC External - Academic Information Section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ICRC Exrenal - Research Experience - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ICRC External - Research Experience - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ICRC - External - Work Experiance - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ICRC External - Work Experience - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ICRC - External - Publications and Awards - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
