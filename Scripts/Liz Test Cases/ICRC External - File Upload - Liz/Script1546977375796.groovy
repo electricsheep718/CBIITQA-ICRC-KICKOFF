@@ -31,9 +31,9 @@ WebUI.scrollToElement(findTestObject('Page_ICRC Application/Page_ICRC Applicatio
 
 WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Financial Document - Mus'), 'C:\\Users\\kaurs3\\Documents\\ICRC-NG\\PDFs_Test\\BusinessNeed.pdf')
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'))
+WebUI.click(findTestObject('Page_ICRC Application/input_save_button'))
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input__methodsaveApplication (1)'))
 

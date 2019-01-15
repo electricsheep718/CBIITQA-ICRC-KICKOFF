@@ -65,9 +65,9 @@ WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_If O
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_If Other please indicate_16'))
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'))
+WebUI.click(findTestObject('Page_ICRC Application/input_save_button'))
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input__methodsaveApplication (1)'))
 
