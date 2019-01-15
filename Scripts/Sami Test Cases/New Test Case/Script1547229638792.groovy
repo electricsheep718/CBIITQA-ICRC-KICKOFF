@@ -41,3 +41,5 @@ WebUI.click(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov
 
 WebUI.click(findTestObject('Page_ICRC Application/input_delete_button'))
 
+WebUI.click(findTestObject('Page_ICRC Application/button_Cancel_deletePopup'))
+
