@@ -4,6 +4,16 @@
    <name>input_methoddeleteApplication</name>
    <tag></tag>
    <elementGuidId>e454714b-bc14-42cf-9151-76c8eca1c0a7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='deleteApplication']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'submit' and @id = 'deleteApplication' and @name = 'method:deleteApplication']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
