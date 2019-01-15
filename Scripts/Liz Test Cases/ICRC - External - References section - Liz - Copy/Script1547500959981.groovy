@@ -51,13 +51,9 @@ WebUI.setText(findTestObject('Page_ICRC Application/input__reference2.referenceP
 
 WebUI.setText(findTestObject('Page_ICRC Application/input__reference2.referenceEma'), 'test2@test.com')
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button_application'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'))
+WebUI.click(findTestObject('Page_ICRC Application/input_save_button_application'))
 
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input__methodsaveApplication (1)'))
-
-selenium.click('id=submitApplication')
-
-selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'ICRC-Contact@mail.nih.gov\'])[2]/following::button[1]')
+WebUI.click(findTestObject('Page_ICRC Application/input_submit_button'))
 

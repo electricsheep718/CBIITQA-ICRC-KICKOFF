@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -48,7 +47,7 @@ selenium.click('id=submitApplication')
 
 selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'ICRC-Contact@mail.nih.gov\'])[2]/following::button[1]')
 
-=======
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -94,4 +93,4 @@ WebUI.click(findTestObject('Page_ICRC Application/input_save_button'))
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input__methodsaveApplication (1)'))
 
->>>>>>> branch 'master' of https://github.com/electricsheep718/CBIITQA-ICRC-KICKOFF.git
+
