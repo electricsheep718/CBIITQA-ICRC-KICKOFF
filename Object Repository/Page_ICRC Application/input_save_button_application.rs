@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ICRC-Contactmail.nih.gov</name>
+   <name>input_save_button_application</name>
    <tag></tag>
-   <elementGuidId>c767bf1f-e452-456f-9d03-a92b5f1aacc2</elementGuidId>
+   <elementGuidId>084eee4f-ba9d-40b2-8344-c7f84ddd946e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='saveApplication']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
