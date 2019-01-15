@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ICRC-Contactmail.nih.gov</name>
+   <name>input_save_button</name>
    <tag></tag>
    <elementGuidId>c767bf1f-e452-456f-9d03-a92b5f1aacc2</elementGuidId>
    <selectorCollection>
@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='saveApplication']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'submit' and @id = 'saveApplication' and @name = 'method:saveApplication']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

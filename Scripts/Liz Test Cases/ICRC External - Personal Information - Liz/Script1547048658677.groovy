@@ -45,9 +45,9 @@ WebUI.click(findTestObject('Page_ICRC Application/div_AR - Arkansas'))
 
 WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.zip'), '20877')
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_ICRC-Contactmail.nih.gov'))
+WebUI.click(findTestObject('Page_ICRC Application/input_save_button'))
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input__methodsaveApplication (1)'))
 
