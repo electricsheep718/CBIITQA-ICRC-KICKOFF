@@ -1,3 +1,4 @@
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -42,6 +43,7 @@ WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button_ap
 WebUI.click(findTestObject('Page_ICRC Application/input_save_button_application'))
 
 WebUI.click(findTestObject('Page_ICRC Application/Page_ICRC Application/input_submit_button'))
+
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -137,4 +139,5 @@ WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button'),
 WebUI.click(findTestObject('Page_ICRC Application/input_save_button'))
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input__methodsaveApplication (1)'))
+
 
