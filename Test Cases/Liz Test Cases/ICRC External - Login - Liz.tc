@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to ICRC Application Form</description>
+   <name>ICRC External - Login - Liz</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>598a6b51-8377-4dee-b07c-b6e9be18ffe4</testCaseGuid>
+</TestCaseEntity>
