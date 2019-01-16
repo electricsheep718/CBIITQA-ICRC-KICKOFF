@@ -90,19 +90,19 @@ WebUI.click(findTestObject('Object Repository/Page_Registration/strong_Security 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Registration/select_--- Question 1 ---    W (1)'), '152', 
     true)
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)'), 'make1')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Enter Your Answer for Qu (1)'), 'make')
 
 WebUI.click(findTestObject('Object Repository/Page_Registration/div_Select Question 2 (1)'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Registration/select_--- Question 2 ---    W (1)'), '153', 
     true)
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)'), 'name1')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Enter Your Answer for Qu_6 (1)'), 'make')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Registration/select_--- Question 3 ---    W (1)'), '154', 
     true)
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)'), 'nickname1')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)'), 'make')
 
 'disabled for now!'
 WebUI.click(findTestObject('Page_Registration/input_CANCEL_registerButton (1)'))
