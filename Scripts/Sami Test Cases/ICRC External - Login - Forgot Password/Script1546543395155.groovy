@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('Page_Enter a New Password/input__confirmPassword')
 
 WebUI.click(findTestObject('Page_Enter a New Password/input__saveButton_forgotPasswordPage'))
 
-WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'ncitester7@nih.gov')
+WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), emailaddress)
 
 WebUI.setText(findTestObject('Page_Login/input_Password_password'), loginPassword)
 

@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Login - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_delete_button'))
+WebUI.click(findTestObject('input_exit_button_application'))
 
 WebUI.click(findTestObject('Page_ICRC Application/button_Cancel_deletePopup'))
 
