@@ -6,6 +6,10 @@
    <elementGuidId>8ac7b1e7-63a4-4376-b8b1-34f3c2e2d074</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value></value>
       </entry>
