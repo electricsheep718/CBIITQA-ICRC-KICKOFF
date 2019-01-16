@@ -20,7 +20,7 @@
          <id>78d08025-56a1-4480-b195-c97234d85de8</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>1-1</value>
+            <value>2-2</value>
          </iterationEntity>
          <testDataId>Data Files/ForgotPassword Test Data</testDataId>
       </testDataLink>
@@ -29,7 +29,7 @@
          <id>cf8207af-486a-44ef-937f-e843f7fd9aa1</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>2-2</value>
+            <value>3-3</value>
          </iterationEntity>
          <testDataId>Data Files/Registration Sami</testDataId>
       </testDataLink>
