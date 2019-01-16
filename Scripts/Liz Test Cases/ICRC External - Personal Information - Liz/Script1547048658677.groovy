@@ -13,41 +13,58 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Login - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.firstname'), 'FirstName1')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.firstname (1)'), 'FirstName')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.lastname'), 'LastName1')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Middle Name_applicants.m'), 'MiddleName')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.primaryPhone'), '2017289999')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.lastname (1)'), 'LastName')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input_Secondary Phone_applican'), '2090980000')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.primaryPhone (2)'), '2403334444')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input_Secondary Email_applican'), 'test@test.com')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Secondary Phone_applican (2)'), '2408881111')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.emergencyCon'), 'EmergencyContact1')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Secondary Email_applican (1)'), 'email@email.com')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.emergencyCon_11'), '3019870000')
+'This date picker does not work'
+not_run: WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_16 (1)'))
 
-WebUI.click(findTestObject('Page_ICRC Application/input_Yes_applicants.marcStude'))
+WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Yes_applicants.previousN (2)'))
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.address1'), '123 Main street')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon (2)'), 'EmergencyContact')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input_Address Line 2_applicant'), '30')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_11 (2)'), '2407777777')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.city'), 'Gaithersburg')
+WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Yes_applicants.marcStude (2)'))
 
-WebUI.click(findTestObject('Page_ICRC Application/span__closeStateSelect'))
+WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Yes_applicants.marcStude (2)'))
 
-WebUI.click(findTestObject('Page_ICRC Application/div_AR - Arkansas'))
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.address1 (1)'), '9090 Rodeo Drive')
 
-WebUI.setText(findTestObject('Page_ICRC Application/input__applicants.zip'), '20877')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Address Line 2_applicant (1)'), '900')
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button'), 0)
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.city (1)'), 'Los Angeles')
 
-WebUI.click(findTestObject('Page_ICRC Application/input_save_button'))
+WebUI.click(findTestObject('Object Repository/Page_ICRC Application/span__closeStateSelect (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input__methodsaveApplication (1)'))
+WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_CA - California'))
+
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.zip (1)'), '20990')
+
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Address Line 1_applicant (1)'), '4040 5th Ave')
+
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_City_applicants.appAcade (1)'), 'New York')
+
+WebUI.click(findTestObject('Object Repository/Page_ICRC Application/span_StateProvinceRegion_close'))
+
+WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_NY - New York (1)'))
+
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_ZipPostal Code_applicant (1)'), '80988')
+
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button_application'), 0)
+
+WebUI.click(findTestObject('Page_ICRC Application/input_save_button_application'))
 
