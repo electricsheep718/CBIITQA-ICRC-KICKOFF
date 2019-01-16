@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_If Other please indicate</name>
+   <name>button_Cancel</name>
    <tag></tag>
-   <elementGuidId>4c7feaba-6e25-4a34-ac99-d5aa09e74fe9</elementGuidId>
+   <elementGuidId>93d2d5a0-1c96-48d4-86d2-d7ab7932e4b0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='certifyStmtCheckbox']</value>
+         <value>(//button[@type='button'])[5]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'checkbox' and @name = 'applicants.certifyStmt' and @id = 'certifyStmtCheckbox']</value>
+         <value>//button[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,83 +21,57 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>checkbox</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>text</name>
       <type>Main</type>
-      <value>applicants.certifyStmt</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>certifyStmtCheckbox</value>
+      <value>Cancel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;certifyStmtCheckbox&quot;)</value>
+      <value>id(&quot;page-home&quot;)/div[@class=&quot;ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-dialog-buttons ui-draggable ui-resizable&quot;]/div[@class=&quot;ui-dialog-buttonpane ui-widget-content ui-helper-clearfix&quot;]/div[@class=&quot;ui-dialog-buttonset&quot;]/button[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@id='certifyStmtCheckbox']</value>
+      <value>(//button[@type='button'])[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='applicationForm']/div[6]/div[2]/div/div/label/input</value>
+      <value>//body[@id='page-home']/div[9]/div[3]/div/button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='If Other please indicate:'])[2]/following::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other (please specify below)'])[6]/following::input[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[51]/preceding::input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reason for Withdrawal:'])[1]/preceding::input[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ICRC-Contact@mail.nih.gov'])[2]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div/label/input</value>
+      <value>//button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

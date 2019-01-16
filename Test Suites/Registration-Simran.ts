@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>0ebd8355-994c-4e81-b6c0-39109c4074fc</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>4-4</value>
          </iterationEntity>
          <testDataId>Data Files/DataOne-Registration-Simran</testDataId>
       </testDataLink>

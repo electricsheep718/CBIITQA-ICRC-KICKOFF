@@ -26,7 +26,7 @@ WebUI.delay(0)
 
 WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/a_Forgot your password'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__username (2)'), 'ncitester7@nih.gov')
+WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__username (2)'), emailaddress)
 
 WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoForgotPassword_0 (2)'))
 
@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Page_Enter a New Password/input__saveButton_forgotPa
 
 WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'ncitester7@nih.gov')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'iFGeFYmXIrVXkUXHumJCLw==')
+WebUI.setText(findTestObject('Page_Login/input_Password_password'), loginPassword)
 
 WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0'))
 

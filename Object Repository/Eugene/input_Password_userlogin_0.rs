@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Virology_scientificMetho</name>
+   <name>input_Password_userlogin_0</name>
    <tag></tag>
-   <elementGuidId>96465a2c-fddf-4d01-b17c-2c5774a53c02</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='scientificMethodology220']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'checkbox' and @name = 'scientificMethodologySelections' and @id = 'scientificMethodology220']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>625e6556-e8f7-4313-8ab7-27ecd8c2fa18</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,83 +18,77 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>checkbox</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>scientificMethodologySelections</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>220</value>
+      <value>LOGIN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>scientificMethodology220</value>
+      <value>userlogin_0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>scientificMethodologyCheckboxlist</value>
+      <value>btn btn-primary pull-right</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;scientificMethodology220&quot;)</value>
+      <value>id(&quot;userlogin_0&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@id='scientificMethodology220']</value>
+      <value>//input[@id='userlogin_0']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>(//div[@id='Scientific-Meth-list']/div/input)[111]</value>
+      <value>//div[@id='newboxes1']/div[5]/div[3]/input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Virology'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vaccine Development'])[1]/following::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address:'])[1]/following::input[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other (please specify below)'])[3]/preceding::input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='If Other, please indicate:'])[1]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register now'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[58]/div/input</value>
+      <value>//input[2]</value>
    </webElementXpaths>
 </WebElementEntity>

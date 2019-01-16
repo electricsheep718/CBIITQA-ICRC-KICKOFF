@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Virology_scientificMetho</name>
+   <name>input_submit_button_application</name>
    <tag></tag>
-   <elementGuidId>96465a2c-fddf-4d01-b17c-2c5774a53c02</elementGuidId>
+   <elementGuidId>c205d5f3-6f9b-45b4-b3ed-7f4f6bfd1e01</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='scientificMethodology220']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'checkbox' and @name = 'scientificMethodologySelections' and @id = 'scientificMethodology220']</value>
+         <value>//input[@id='submitApplication']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,83 +24,77 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>checkbox</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>scientificMethodologySelections</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>220</value>
+      <value>Submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>scientificMethodology220</value>
+      <value>submitApplication</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>method:submitApplication</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>scientificMethodologyCheckboxlist</value>
+      <value>btn btn-primary submitApplication</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;scientificMethodology220&quot;)</value>
+      <value>id(&quot;applicationForm&quot;)/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12 text-right&quot;]/div[@class=&quot;button_wrapper&quot;]/input[@id=&quot;submitApplication&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@id='scientificMethodology220']</value>
+      <value>//input[@id='submitApplication']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>(//div[@id='Scientific-Meth-list']/div/input)[111]</value>
+      <value>//form[@id='applicationForm']/div[4]/div/div/input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Virology'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ICRC-Contact@mail.nih.gov'])[1]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vaccine Development'])[1]/following::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You can save a draft of your application and continue at a later time.'])[1]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other (please specify below)'])[3]/preceding::input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='If Other, please indicate:'])[1]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Application Deadline: Sunday, Mar 17, 2019.'])[1]/preceding::input[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[58]/div/input</value>
+      <value>//div/input[2]</value>
    </webElementXpaths>
 </WebElementEntity>
