@@ -3,15 +3,11 @@
    <description></description>
    <name>input__password</name>
    <tag></tag>
-   <elementGuidId>2d31db6e-59c9-46fb-98b2-18e024b90c7e</elementGuidId>
+   <elementGuidId>257447fa-cc96-4e4a-89f0-d40621299079</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='password']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'password' and @name = 'password' and @id = 'password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

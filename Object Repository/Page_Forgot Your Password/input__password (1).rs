@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__password</name>
+   <name>input__password (1)</name>
    <tag></tag>
-   <elementGuidId>2d31db6e-59c9-46fb-98b2-18e024b90c7e</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='password']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'password' and @name = 'password' and @id = 'password']</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>f73bd1ed-049f-45d2-9061-c07d8291004a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

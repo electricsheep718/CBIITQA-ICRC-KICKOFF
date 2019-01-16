@@ -17,31 +17,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login'))
 
-'testuser1@nih.gov'
-WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/a_Login'))
+WebUI.click(findTestObject('Page_Login/a_Forgot your password'))
 
-WebUI.delay(0)
+WebUI.setText(findTestObject('Page_Forgot Your Password/input__username'), 'ncitester7@nih.gov')
 
-WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/a_Forgot your password'))
+WebUI.click(findTestObject('Page_Forgot Your Password/input__usertoForgotPassword_0'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__username (2)'), 'ncitester7@nih.gov')
+WebUI.setText(findTestObject('Page_Forgot Your Password/input__answer1'), 'make')
 
-WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoForgotPassword_0 (2)'))
+WebUI.setText(findTestObject('Page_Forgot Your Password/input__answer2'), 'make')
 
-WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__answer1 (1)'), 'make')
+WebUI.click(findTestObject('Page_Forgot Your Password/input__usertoSecurityQuestion_'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input__answer2 (1)'), 'make')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Forgot Your Password/input__password (1)'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoSecurityQuestion_ (1)'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Forgot Your Password/input__confirmPassword (1)'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
-WebUI.setText(findTestObject('Page_Enter a New Password/input__password'), password)
-
-'P@ssw0rd2'
-WebUI.setText(findTestObject('Page_Enter a New Password/input__confirmPassword'), confirmPassword)
-
-WebUI.click(findTestObject('Page_Enter a New Password/input__saveButton_forgotPasswordPage'))
+WebUI.click(findTestObject('Page_Forgot Your Password/input_Save_Button_ConfirmNewPassword'))
 
 WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'ncitester7@nih.gov')
 
