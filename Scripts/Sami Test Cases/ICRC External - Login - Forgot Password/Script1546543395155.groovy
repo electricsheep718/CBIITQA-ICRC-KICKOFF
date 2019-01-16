@@ -17,6 +17,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
+WebUI.maximizeWindow()
+
 'testuser1@nih.gov'
 WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/a_Login'))
 
@@ -34,14 +36,14 @@ WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input_
 
 WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoSecurityQuestion_ (1)'))
 
-WebUI.setText(findTestObject('Page_Enter a New Password/input__password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
+WebUI.setEncryptedText(findTestObject('Page_Enter a New Password/input__password'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
-'P@ssword2'
-WebUI.setText(findTestObject('Page_Enter a New Password/input__confirmPassword'), 'iFGeFYmXIrWy72D5I5E8Dw==')
+'P@ssw0rd2'
+WebUI.setEncryptedText(findTestObject('Page_Enter a New Password/input__confirmPassword'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
 WebUI.click(findTestObject('Page_Enter a New Password/input__saveButton_forgotPasswordPage'))
 
-WebUI.setText(findTestObject('Page_Enter a New Password/input__confirmPassword'), 'iFGeFYmXIrVXkUXHumJCLw==')
+WebUI.setEncryptedText(findTestObject('Page_Enter a New Password/input__confirmPassword'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
 WebUI.click(findTestObject('Page_Enter a New Password/input__saveButton_forgotPasswordPage'))
 
