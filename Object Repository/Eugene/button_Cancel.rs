@@ -4,6 +4,16 @@
    <name>button_Cancel</name>
    <tag></tag>
    <elementGuidId>93d2d5a0-1c96-48d4-86d2-d7ab7932e4b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

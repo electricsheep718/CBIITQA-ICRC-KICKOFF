@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Virology_scientificMetho</name>
+   <name>input_other_scientificMetho</name>
    <tag></tag>
-   <elementGuidId>96465a2c-fddf-4d01-b17c-2c5774a53c02</elementGuidId>
+   <elementGuidId>38e34776-fdcc-46e3-a017-12ecc1e84d90</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='scientificMethodology220']</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'checkbox' and @name = 'scientificMethodologySelections' and @id = 'scientificMethodology220']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
