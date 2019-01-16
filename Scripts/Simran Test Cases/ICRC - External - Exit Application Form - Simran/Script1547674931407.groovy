@@ -13,13 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Login - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC External - Login - Simran'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_delete_button'))
+WebUI.click(findTestObject('Page_ICRC Application/input_exit_button_application'))
 
-WebUI.click(findTestObject('Page_ICRC Application/button_Cancel_deletePopup'))
+WebUI.click(findTestObject('Page_ICRC Application/div_popupWindow_Are you sure you want to exit'))
 
-WebUI.click(findTestObject('Page_ICRC Application/input_delete_button'))
-
-WebUI.click(findTestObject('Page_ICRC Application/button_Delete_deletePopup'))
+WebUI.click(findTestObject('Page_ICRC Application/Exit_Confirm_Popup_application'))
 
