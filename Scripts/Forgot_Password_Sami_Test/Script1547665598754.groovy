@@ -35,7 +35,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Forgot Your Passwo
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Forgot Your Password/input__confirmPassword (1)'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoResetPassword_0'))
+WebUI.click(findTestObject('Page_Forgot Your Password/input_Save_Button_ConfirmNewPassword'))
 
 WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'ncitester7@nih.gov')
 
