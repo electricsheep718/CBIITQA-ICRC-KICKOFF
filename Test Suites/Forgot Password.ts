@@ -17,12 +17,24 @@
       <testCaseId>Test Cases/Sami Test Cases/ICRC External - Login - Forgot Password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>68853b1e-8f87-4cca-8185-cd2554dd05cd</id>
+         <id>2cb1f767-7c0d-4f72-b0d4-4063431d48b1</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/ForgotPassword Test Data</testDataId>
       </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>04b667c6-ed59-4e64-8c71-847dce039aaa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>86b69079-1a19-4eb0-a177-41be1b9e0d36</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

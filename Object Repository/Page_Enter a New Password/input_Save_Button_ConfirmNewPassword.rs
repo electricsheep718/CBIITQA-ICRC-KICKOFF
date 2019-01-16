@@ -4,7 +4,17 @@
    <name>input_Save_Button_ConfirmNewPassword</name>
    <tag></tag>
    <elementGuidId>0c448908-c3e5-4f50-bf22-8de71c766036</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='usertoResetPassword_0']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'submit' and @id = 'usertoResetPassword_0']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

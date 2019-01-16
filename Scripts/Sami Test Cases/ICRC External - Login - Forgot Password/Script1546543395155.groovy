@@ -36,12 +36,12 @@ WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input_
 
 WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoSecurityQuestion_ (1)'))
 
-WebUI.setEncryptedText(findTestObject('Page_Enter a New Password/input__password'), password)
+WebUI.setText(findTestObject('Page_Enter a New Password/input__password'), password)
 
 'P@ssw0rd2'
-WebUI.setEncryptedText(findTestObject('Page_Enter a New Password/input__confirmPassword'), password)
+WebUI.setText(findTestObject('Page_Enter a New Password/input__confirmPassword'), confirmPassword)
 
-WebUI.click(findTestObject('Page_Forgot Your Password/input_Save_Button_ConfirmNewPassword'))
+WebUI.click(findTestObject('Page_Enter a New Password/input__saveButton_forgotPasswordPage'))
 
 WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'ncitester7@nih.gov')
 
