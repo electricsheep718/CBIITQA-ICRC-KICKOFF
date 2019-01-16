@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to ICRC Application Form</description>
+   <name>ICRC External - Login - Simran</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>cb792c40-6fb4-49bc-a81f-59fd1f5c0a8b</testCaseGuid>
+</TestCaseEntity>
