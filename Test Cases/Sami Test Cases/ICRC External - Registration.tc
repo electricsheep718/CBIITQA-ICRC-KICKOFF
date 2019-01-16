@@ -5,4 +5,25 @@
    <tag>Login</tag>
    <comment></comment>
    <testCaseGuid>32b87e48-46f5-4996-a105-27130249c5e9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c708f2b5-e226-495e-9943-557a75d9de39</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>26f712fc-67cb-4fdd-9281-acc1ace96cd2</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>383e42f1-4ab2-4aae-8e91-a81c082ee929</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
 </TestCaseEntity>
