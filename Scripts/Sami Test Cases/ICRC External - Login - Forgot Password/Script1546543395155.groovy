@@ -36,10 +36,10 @@ WebUI.setText(findTestObject('Object Repository/Page_Forgot Your Password/input_
 
 WebUI.click(findTestObject('Object Repository/Page_Forgot Your Password/input__usertoSecurityQuestion_ (1)'))
 
-WebUI.setEncryptedText(findTestObject('Page_Enter a New Password/input__password'), 'iFGeFYmXIrVXkUXHumJCLw==')
+WebUI.setEncryptedText(findTestObject('Page_Enter a New Password/input__password'), password)
 
 'P@ssw0rd2'
-WebUI.setEncryptedText(findTestObject('Page_Enter a New Password/input__confirmPassword'), 'iFGeFYmXIrVXkUXHumJCLw==')
+WebUI.setEncryptedText(findTestObject('Page_Enter a New Password/input__confirmPassword'), password)
 
 WebUI.click(findTestObject('Page_Forgot Your Password/input_Save_Button_ConfirmNewPassword'))
 
@@ -52,3 +52,4 @@ WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0'))
 WebUI.click(findTestObject('Page_ICRC Application/a_Log out'))
 
 WebUI.closeBrowser()
+
