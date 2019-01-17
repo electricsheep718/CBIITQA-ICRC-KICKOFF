@@ -13,15 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Login - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 1.0 - ICRC Login'), 
+    [('FirstName') : 'FirstName1', ('LastName') : 'LastName1', ('EmailAddress') : 'ncitester1@nih.gov'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.firstname (1)'), 'FirstName')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.firstname (1)'), 'FirstName')
 
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Middle Name_applicants.m'), 'MiddleName')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Middle Name_applicants.m'), 'MiddleName')
 
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.lastname (1)'), 'LastName')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.lastname (1)'), 'LastName')
+
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input__applicants.primaryPhone (2)'), 0)
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.primaryPhone (2)'), '2403334444')
 

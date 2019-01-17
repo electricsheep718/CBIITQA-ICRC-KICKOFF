@@ -13,9 +13,11 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Login - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Login - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
+
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input__reference1.referenceNam'), 0)
 
 WebUI.setText(findTestObject('Page_ICRC Application/input__reference1.referenceNam'), 'Simran Kaur')
 

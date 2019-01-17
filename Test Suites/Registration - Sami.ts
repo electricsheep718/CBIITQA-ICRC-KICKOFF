@@ -19,8 +19,8 @@
          <combinationType>ONE</combinationType>
          <id>a1db7f97-6227-49a7-b5c6-d226cfb5c8ae</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Registration Sami</testDataId>
       </testDataLink>
