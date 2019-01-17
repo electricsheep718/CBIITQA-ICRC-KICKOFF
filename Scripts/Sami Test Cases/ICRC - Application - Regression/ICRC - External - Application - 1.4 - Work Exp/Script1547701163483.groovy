@@ -13,10 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 1.0 - ICRC Login'), 
+not_run: WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 1.0 - ICRC Login'), 
     [('FirstName') : '', ('LastName') : '', ('EmailAddress') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
 WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_Place of Employment_expA (1)'), 0)
 
