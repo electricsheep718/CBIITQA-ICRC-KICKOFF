@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Work Experience 
 
 WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC - External - Publications and Awards - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Sami Test Cases/FileUpload- Sami -test'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC External - FileUpload- Sami -test'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC - External - References section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 

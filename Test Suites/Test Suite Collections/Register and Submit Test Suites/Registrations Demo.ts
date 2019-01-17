@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Registrations Demo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>ff9c7b00-a23a-40f9-ac00-e842c274cb79</testSuiteGuid>
+   <testCaseLink>
+      <guid>a7ef6186-39a2-481c-a7d3-04cc9c372779</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 0.0 - Registration</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>727f99a5-2e81-4a07-ba21-f6af6246ec49</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Registration Sami</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d99c7add-8b06-49be-9b09-ba1f9912e84a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a5c65c2-480d-4d9c-8e75-e5c26ac10d6f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0479a115-0b89-43da-8dd2-dfe4b397ee02</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c65fb432-0b81-4b0d-a406-b3051b40fcb7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 1.0 - ICRC Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>10ce1399-819c-43eb-babb-e456c1bc979b</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Registration Sami</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>10ce1399-819c-43eb-babb-e456c1bc979b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FirstName</value>
+         <variableId>4a3339cf-cc2c-4481-9f3f-46b7c2af306e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>10ce1399-819c-43eb-babb-e456c1bc979b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LastName</value>
+         <variableId>08ef57ca-9b9a-4cd1-8b1e-1fcae7e6d8b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>10ce1399-819c-43eb-babb-e456c1bc979b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EmailAddress</value>
+         <variableId>e94af8d9-641d-4c9c-832c-b061e48620e2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8fa2d5cd-10f8-46a9-b8a8-4c32c311c2e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sami Test Cases/ICRC - External - Application - Submit - Sami</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>47ecc195-d796-4cf0-b215-0e2302fa132c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Registration Sami</testDataId>
+      </testDataLink>
+   </testCaseLink>
+</TestSuiteEntity>
