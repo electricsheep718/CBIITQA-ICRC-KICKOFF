@@ -16,8 +16,8 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 0.0 - Registration'), 
     [('FirstName') : 'FirstName1', ('LastName') : 'LastName1', ('EmailAddress') : 'ncitester1@nih.gov'], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 1.0 - ICRC Login'), 
-    [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 1.0 - ICRC Login'), 
+    [('FirstName') : 'FirstName1', ('LastName') : 'LastName1', ('EmailAddress') : 'ncitester1@nih.gov'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 1.1 - Personal Info'), 
     [:], FailureHandling.STOP_ON_FAILURE)

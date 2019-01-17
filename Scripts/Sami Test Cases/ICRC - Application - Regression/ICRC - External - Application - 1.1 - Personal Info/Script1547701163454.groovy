@@ -13,10 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 1.0 - ICRC Login'), 
+WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 1.0 - ICRC Login'), 
     [('FirstName') : 'FirstName1', ('LastName') : 'LastName1', ('EmailAddress') : 'ncitester1@nih.gov'], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.maximizeWindow()
+WebUI.maximizeWindow()
 
 not_run: WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.firstname (1)'), 'FirstName')
 
@@ -43,7 +43,9 @@ WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__app
 
 not_run: WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Yes_applicants.marcStude (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Yes_applicants.marcStude (2)'))
+WebUI.click(findTestObject('Page_ICRC Application/input_Yes_applicants.marcStude'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Yes_applicants.marcStude (2)'))
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.address1 (1)'), '9090 Rodeo Drive')
 
