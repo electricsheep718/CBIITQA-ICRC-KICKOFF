@@ -13,33 +13,33 @@
    <testCaseLink>
       <guid>a7ef6186-39a2-481c-a7d3-04cc9c372779</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - Regression/ICRC - External - Application - 0.0 - Registration</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>727f99a5-2e81-4a07-ba21-f6af6246ec49</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Registration Sami</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>727f99a5-2e81-4a07-ba21-f6af6246ec49</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FirstName</value>
          <variableId>d99c7add-8b06-49be-9b09-ba1f9912e84a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>727f99a5-2e81-4a07-ba21-f6af6246ec49</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LastName</value>
          <variableId>6a5c65c2-480d-4d9c-8e75-e5c26ac10d6f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>727f99a5-2e81-4a07-ba21-f6af6246ec49</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EmailAddress</value>
          <variableId>0479a115-0b89-43da-8dd2-dfe4b397ee02</variableId>
       </variableLink>
    </testCaseLink>
@@ -79,7 +79,7 @@
    <testCaseLink>
       <guid>8fa2d5cd-10f8-46a9-b8a8-4c32c311c2e2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sami Test Cases/ICRC - External - Application - Submit - Sami</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
