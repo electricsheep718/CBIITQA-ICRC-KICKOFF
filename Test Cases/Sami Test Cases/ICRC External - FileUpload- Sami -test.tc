@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>FileUpload- Sami -test</name>
+   <name>ICRC External - FileUpload- Sami -test</name>
    <tag>file upload</tag>
    <comment></comment>
    <testCaseGuid>43564cee-6e8d-4ebb-8ed2-d360481e6db8</testCaseGuid>
