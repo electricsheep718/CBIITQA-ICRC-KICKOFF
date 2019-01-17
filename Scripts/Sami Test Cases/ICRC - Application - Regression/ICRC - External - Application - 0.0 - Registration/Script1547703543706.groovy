@@ -113,3 +113,5 @@ WebUI.delay(2)
 
 not_run: WebUI.closeBrowser()
 
+WebUI.back()
+
