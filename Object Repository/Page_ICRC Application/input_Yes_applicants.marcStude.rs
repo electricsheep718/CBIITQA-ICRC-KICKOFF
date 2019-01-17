@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//input[@id='marcStudentFlagfalse']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'radio' and @name = 'applicants.marcStudentFlag' and @id = 'marcStudentFlagfalse']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

@@ -52,8 +52,8 @@
          <combinationType>ONE</combinationType>
          <id>00319097-fda1-48dd-af94-5f1d04c8e948</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Registration Sami</testDataId>
       </testDataLink>

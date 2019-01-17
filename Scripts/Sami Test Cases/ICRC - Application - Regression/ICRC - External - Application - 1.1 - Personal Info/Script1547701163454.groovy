@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__app
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__applicants.emergencyCon_11 (2)'), '2407777777')
 
-WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Yes_applicants.marcStude (2)'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Yes_applicants.marcStude (2)'))
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Yes_applicants.marcStude (2)'))
 

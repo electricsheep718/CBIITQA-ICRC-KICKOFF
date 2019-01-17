@@ -4,7 +4,17 @@
    <name>input_Yes_applicants.marcStude (2)</name>
    <tag></tag>
    <elementGuidId>05487437-9f10-4bc6-807d-b43b6168edea</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='marcStudentFlagfalse']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'radio' and @name = 'applicants.marcStudentFlag' and @id = 'marcStudentFlagfalse' and @checked = 'checked']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
