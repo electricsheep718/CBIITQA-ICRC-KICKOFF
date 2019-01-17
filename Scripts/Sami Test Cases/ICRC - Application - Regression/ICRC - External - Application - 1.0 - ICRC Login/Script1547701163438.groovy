@@ -17,6 +17,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/Page_Introduction to Cancer Researc/a_Login'))
 
 WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), EmailAddress)
