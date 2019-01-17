@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>C:\Users\rashids2\Documents\GitHub\CBIITQA-ICRC-KICKOFF\DataOne-Registration.Sami.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>Sheet2</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2019-01-17T00:19:22.958</taken-date>
+   <column-names>
+      <column-name>FirstName</column-name>
+      <column-name>LastName</column-name>
+      <column-name>EmailAddress</column-name>
+      <column-name></column-name>
+      <column-name></column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "FirstName10",
+      "checked": false
+    },
+    {
+      "value": "LastName10",
+      "checked": false
+    },
+    {
+      "value": "ncitester10@nih.gov",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "FirstName11",
+      "checked": false
+    },
+    {
+      "value": "LastName11",
+      "checked": false
+    },
+    {
+      "value": "ncitester11@nih.gov",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "FirstName12",
+      "checked": false
+    },
+    {
+      "value": "LastName12",
+      "checked": false
+    },
+    {
+      "value": "ncitester12@nih.gov",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
