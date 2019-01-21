@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Test Environment</description>
+      <initValue>'https://icrc-test.nci.nih.gov'</initValue>
+      <name>baseurl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
