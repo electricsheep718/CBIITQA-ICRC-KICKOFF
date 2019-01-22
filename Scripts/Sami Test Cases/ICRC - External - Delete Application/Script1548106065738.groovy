@@ -28,11 +28,11 @@ WebUI.setText(findTestObject('Object Repository/input_Email Address_username'), 
 
 WebUI.setEncryptedText(findTestObject('Object Repository/input_Password_password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
-WebUI.click(findTestObject('Object Repository/input_Password_LoginButton_LoginPage'))
+WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0'))
 
 WebUI.click(findTestObject('Page_ICRC Application/delete_button_PageApplication'))
 
-WebUI.click(findTestObject('Page_ICRC Application/button_Delete'))
+WebUI.click(findTestObject('Page_ICRC Application/button_OK_deleteCONFIRM'))
 
 WebUI.closeBrowser()
 

@@ -20,7 +20,7 @@
          <id>a1db7f97-6227-49a7-b5c6-d226cfb5c8ae</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>2-3</value>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Registration Sami</testDataId>
       </testDataLink>
