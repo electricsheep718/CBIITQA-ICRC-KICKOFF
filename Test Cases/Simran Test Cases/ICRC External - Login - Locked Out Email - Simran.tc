@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negative Test - Incorrect Email</description>
+   <name>ICRC External - Login - Locked Out Email - Simran</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>e7fa7d85-4fb3-460d-bf62-f813a941490d</testCaseGuid>
+</TestCaseEntity>

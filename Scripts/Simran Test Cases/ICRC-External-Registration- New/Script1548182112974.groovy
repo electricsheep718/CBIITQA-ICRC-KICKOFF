@@ -23,15 +23,15 @@ WebUI.click(findTestObject('Object Repository/input__usPersonType'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/select_--- Select a level ---'), '163', true)
 
-WebUI.setText(findTestObject('Object Repository/input__firstName'), 'Firstname')
+WebUI.setText(findTestObject('Object Repository/input__firstName'), FirstName)
 
-WebUI.setText(findTestObject('Object Repository/input__lastName'), 'Lastname')
+WebUI.setText(findTestObject('Object Repository/input__lastName'), LastName)
 
-WebUI.setText(findTestObject('Object Repository/input__email'), 'ncitester15@nih.gov')
+WebUI.setText(findTestObject('Object Repository/input__email'), EmailAddress)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/input__password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
+WebUI.setText(findTestObject('Object Repository/input__password'), Password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/input__confirmPassword'), 'iFGeFYmXIrWy72D5I5E8Dw==')
+WebUI.setText(findTestObject('Object Repository/input__confirmPassword'), ConfirmPassword)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/select_--- Question 1 ---    W'), '152', true)
 
