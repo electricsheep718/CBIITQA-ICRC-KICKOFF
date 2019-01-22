@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Registration - Sami</name>
+   <name>TestSuite - GlobalVariable TEst</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,38 +9,38 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>f7354f2d-06f9-46eb-a0c3-41342e451bcc</testSuiteGuid>
+   <testSuiteGuid>dae716a2-c256-4894-89d3-9ed4b1eb2f12</testSuiteGuid>
    <testCaseLink>
-      <guid>86dbc8f2-53be-4e1a-83e8-608d8c36ab7d</guid>
+      <guid>d4ee324e-fb22-4371-a8c0-9f3a6e0dbd47</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sami Test Cases/ICRC External - Registration</testCaseId>
+      <testCaseId>Test Cases/Sami Test Cases/New Test Case2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>a1db7f97-6227-49a7-b5c6-d226cfb5c8ae</id>
+         <id>01cf2092-8ecc-49c5-8c3e-b74daa7d4e60</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>2-3</value>
+            <iterationType>ALL</iterationType>
+            <value></value>
          </iterationEntity>
          <testDataId>Data Files/Registration Sami</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>a1db7f97-6227-49a7-b5c6-d226cfb5c8ae</testDataLinkId>
+         <testDataLinkId>01cf2092-8ecc-49c5-8c3e-b74daa7d4e60</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FirstName</value>
-         <variableId>c708f2b5-e226-495e-9943-557a75d9de39</variableId>
+         <variableId>8e9033b4-0890-4aa8-b5da-60a9e748881c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1db7f97-6227-49a7-b5c6-d226cfb5c8ae</testDataLinkId>
+         <testDataLinkId>01cf2092-8ecc-49c5-8c3e-b74daa7d4e60</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>LastName</value>
-         <variableId>26f712fc-67cb-4fdd-9281-acc1ace96cd2</variableId>
+         <variableId>a4b1e140-7004-42e5-897c-c0b0761321f2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a1db7f97-6227-49a7-b5c6-d226cfb5c8ae</testDataLinkId>
+         <testDataLinkId>01cf2092-8ecc-49c5-8c3e-b74daa7d4e60</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>EmailAddress</value>
-         <variableId>383e42f1-4ab2-4aae-8e91-a81c082ee929</variableId>
+         <variableId>2d69014b-d6ab-417e-82f4-9b0a10a4e13a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

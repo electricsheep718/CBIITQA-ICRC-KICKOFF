@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_delete_button_application</name>
+   <name>input_delete_button_application (1)</name>
    <tag></tag>
-   <elementGuidId>00c417a0-d204-4768-bdf8-38104c19610a</elementGuidId>
+   <elementGuidId>62780df9-f8a8-42d8-b3f8-dea4f52e03e1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

@@ -9,4 +9,19 @@
       <initValue>'https://icrc-test.nci.nih.gov'</initValue>
       <name>baseurl</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('GlobalVariables').getValue(findTestData('GlobalVariables'), findTestData('GlobalVariables'))</initValue>
+      <name>GlobalVariable_test_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Registration Sami')</initValue>
+      <name>GlobalVariable_Registration_TestDataValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Registration Sami')</initValue>
+      <name>GlobalVariable_Registration_Test_TestData</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
