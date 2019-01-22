@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23d489dc-c650-4b62-943c-e376d5f2c324</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.GlobalVariable_Registration_TestDataValue</defaultValue>
+      <description></description>
+      <id>8e9033b4-0890-4aa8-b5da-60a9e748881c</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.GlobalVariable_Registration_TestDataValue</defaultValue>
+      <description></description>
+      <id>a4b1e140-7004-42e5-897c-c0b0761321f2</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.GlobalVariable_Registration_TestDataValue</defaultValue>
+      <description></description>
+      <id>2d69014b-d6ab-417e-82f4-9b0a10a4e13a</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ICRC - External - Delete Application</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1f3a882-fad8-4614-9ff6-ed8a8c5210c5</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Registration Sami').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9d0af916-e17b-46f8-aef1-d93d38043746</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+</TestCaseEntity>

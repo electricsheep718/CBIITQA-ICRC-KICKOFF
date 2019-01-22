@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>GlobalVariables</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>de5dfbe5-9fb2-4720-9b1c-cfb7f5fc0f59</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>FirstName11 LastName11 ncitester11%40nih.gov</data>
+   <data>FirstName12 LastName12 ncitester12%40nih.gov</data>
+   <data>FirstName13 LastName13 ncitester13%40nih.gov</data>
+   <data>FirstName14 LastName14 ncitester14%40nih.gov</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Firstname</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>LastName</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>EmailAddress</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

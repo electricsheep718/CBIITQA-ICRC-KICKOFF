@@ -31,5 +31,3 @@ WebUI.uploadFile(findTestObject('Page_ICRC Application/input_Financial Document 
 
 not_run: WebUI.closeBrowser()
 
-//WebUI.acceptAlert()
-
