@@ -42,17 +42,5 @@
          <value>EmailAddress</value>
          <variableId>ea93b3a7-2c96-4d6b-87ee-ea304af9b05f</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId>ed526138-2723-4ca2-b82f-cbef302d7680</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Password</value>
-         <variableId>c449bbb3-ba76-437d-9dee-90705222b812</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>ed526138-2723-4ca2-b82f-cbef302d7680</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ConfirmPassword</value>
-         <variableId>27f2fac2-a1a2-4693-9be4-13bb71a61c00</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

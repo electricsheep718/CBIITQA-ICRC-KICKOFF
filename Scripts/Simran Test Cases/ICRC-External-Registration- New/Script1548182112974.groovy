@@ -29,9 +29,9 @@ WebUI.setText(findTestObject('Object Repository/input__lastName'), LastName)
 
 WebUI.setText(findTestObject('Object Repository/input__email'), EmailAddress)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/input__password'), Password)
+WebUI.setEncryptedText(findTestObject('Object Repository/input__password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/input__confirmPassword'), ConfirmPassword)
+WebUI.setEncryptedText(findTestObject('Object Repository/input__confirmPassword'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/select_--- Question 1 ---    W'), '152', true)
 
