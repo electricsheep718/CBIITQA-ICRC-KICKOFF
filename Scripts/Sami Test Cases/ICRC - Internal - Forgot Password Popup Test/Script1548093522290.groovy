@@ -33,29 +33,25 @@ WebUI.delay(2)
 
 WebUI.mouseOver(findTestObject('Page_Home/div_rollover_ApplicationProcess'))
 
-WebUI.click(findTestObject('Page_Application Process/span_Go to page_aHref'))
+WebUI.click(findTestObject('Page_Application Process/Tile_Application_Process'))
+
+WebUI.click(findTestObject('Page_Application Process/Tile_Application_Process'))
 
 WebUI.click(findTestObject('Object Repository/Page_Application Process/i_user_ncitester4'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Application Process/div_Reset Applicant Password (3)'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Application Process/div_Reset Applicant Password (3)'), 
     0)
 
-WebUI.waitForElementVisible(findTestObject('Page_Application Process/input_SendEmailNotification_Confirm'), 0)
+WebUI.waitForElementPresent(findTestObject('Page_Application Process/input_SendEmailNotification_Confirm'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Application Process/input_SendEmailNotification_Confirm'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Application Process/div_Reset Applicant Password (3)'), 
     0)
 
+WebUI.focus(findTestObject('Page_Application Process/div_Reset Applicant Password (3)'))
+
 WebUI.click(findTestObject('Object Repository/Page_Application Process/input_verifySend_Close'))
 
-WebUI.click(findTestObject('Page_Application Process/input_Close_button_ResetApplicantPassword'))
-
-WebUI.click(findTestObject('Object Repository/Page_Application Process/input_An email notification co (2)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Application Process/input_CLose_SendEmail_Button'))
-
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
 

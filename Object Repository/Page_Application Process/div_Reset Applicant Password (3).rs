@@ -4,7 +4,65 @@
    <name>div_Reset Applicant Password (3)</name>
    <tag></tag>
    <elementGuidId>891446fc-28f8-462c-b7ae-db4b50235508</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '
+		
+			×
+	
+		Reset Applicant Password
+		
+		
+						
+				
+                	
+                   		You are about to send a reset password notification to applicant Agarwal, Aditya.
+                   	
+                   	
+                   An email notification containing a temporary password has been sent to the Applicant.
+                   	
+				
+				 
+				
+					
+						
+						
+					
+				
+		
+		' or . = '
+		
+			×
+	
+		Reset Applicant Password
+		
+		
+						
+				
+                	
+                   		You are about to send a reset password notification to applicant Agarwal, Aditya.
+                   	
+                   	
+                   An email notification containing a temporary password has been sent to the Applicant.
+                   	
+				
+				 
+				
+					
+						
+						
+					
+				
+		
+		')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='myModal_rp']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
