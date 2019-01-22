@@ -57,3 +57,5 @@ WebUI.click(findTestObject('Object Repository/Page_Application Process/input_CLo
 
 WebUI.closeBrowser()
 
+WebUI.acceptAlert()
+
