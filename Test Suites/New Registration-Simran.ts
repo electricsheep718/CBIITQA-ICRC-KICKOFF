@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Registration-Simran</name>
+   <name>New Registration-Simran</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,50 +9,50 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>e292698a-02be-40fb-bfe5-43bf17289724</testSuiteGuid>
+   <testSuiteGuid>8992032b-8cde-4480-946c-53f86cbde51b</testSuiteGuid>
    <testCaseLink>
-      <guid>277a180b-6efa-4b99-93a2-0960a81142c1</guid>
+      <guid>1be168b4-c742-4344-9647-e08152035737</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Simran Test Cases/ICRC External - Registration - Simran</testCaseId>
+      <testCaseId>Test Cases/Simran Test Cases/ICRC-External-Registration- New</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0ebd8355-994c-4e81-b6c0-39109c4074fc</id>
+         <id>ed526138-2723-4ca2-b82f-cbef302d7680</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>1-1</value>
+            <value>2-2</value>
          </iterationEntity>
          <testDataId>Data Files/DataOne-Registration-Simran</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>0ebd8355-994c-4e81-b6c0-39109c4074fc</testDataLinkId>
+         <testDataLinkId>ed526138-2723-4ca2-b82f-cbef302d7680</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FirstName</value>
-         <variableId>f3471f88-f01f-4c17-b7df-a8caf0f15297</variableId>
+         <variableId>70ef550f-77f3-43ce-9ed0-931f1915d6c7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0ebd8355-994c-4e81-b6c0-39109c4074fc</testDataLinkId>
+         <testDataLinkId>ed526138-2723-4ca2-b82f-cbef302d7680</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>LastName</value>
-         <variableId>9d050f91-1b24-4fef-83e3-847bdcbe8d02</variableId>
+         <variableId>42db4a5e-83d6-4bbb-9052-a34ad9d95ccf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0ebd8355-994c-4e81-b6c0-39109c4074fc</testDataLinkId>
+         <testDataLinkId>ed526138-2723-4ca2-b82f-cbef302d7680</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>EmailAddress</value>
-         <variableId>8225cb9c-0cea-414b-a7ad-97d85922a8d2</variableId>
+         <variableId>ea93b3a7-2c96-4d6b-87ee-ea304af9b05f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0ebd8355-994c-4e81-b6c0-39109c4074fc</testDataLinkId>
+         <testDataLinkId>ed526138-2723-4ca2-b82f-cbef302d7680</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
-         <variableId>1258aad7-bbbb-45eb-827c-e2725386d115</variableId>
+         <variableId>c449bbb3-ba76-437d-9dee-90705222b812</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0ebd8355-994c-4e81-b6c0-39109c4074fc</testDataLinkId>
+         <testDataLinkId>ed526138-2723-4ca2-b82f-cbef302d7680</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ConfirmPassword</value>
-         <variableId>0a88ea79-32df-4e3b-9459-5b4f6ac78931</variableId>
+         <variableId>27f2fac2-a1a2-4693-9be4-13bb71a61c00</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

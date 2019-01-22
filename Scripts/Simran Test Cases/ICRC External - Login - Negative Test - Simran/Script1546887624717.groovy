@@ -19,7 +19,7 @@ WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
 WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login'))
 
-WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'firstname1@nih.gov')
+WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'ncitester0@nih.gov')
 
 WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'iFGeFYmXIrVXkUXHumJCLw==')
 
@@ -31,7 +31,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Login/button_'))
 
-WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'firstname1@nih.edu')
+WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'ncitester7@nih.gov')
 
 WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'iFGeFYmXIrVXkUXHumJCLw==')
 

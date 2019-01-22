@@ -105,7 +105,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Registration/se
 WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Enter Your Answer for Qu_16 (1)'), 'make')
 
 'disabled for now!'
-WebUI.click(findTestObject('Page_Registration/input_CANCEL_registerButton (1)'))
+not_run: WebUI.click(findTestObject('Page_Registration/input_CANCEL_registerButton (1)'))
 
 WebUI.closeBrowser()
 
