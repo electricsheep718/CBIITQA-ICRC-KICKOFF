@@ -15,19 +15,19 @@ import internal.GlobalVariable as GlobalVariable
 
 not_run: WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Personal Information - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC External - Personal Information - Simran'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Academic Information Section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC External - Academic Information Section -Simran'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Research Experience - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC External- Research Experience-Simran'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Work Experience - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC External-Work Experience- Simran'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC - External - Publications and Awards - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC External- Awards and Publications-Simran'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Simran Test Cases/FileUpload-Simran-updated'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC - External - References section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC - External - References section - Simran'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC - External - Checkboxes section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC - External - Checkboxes section - Simran'), [:], FailureHandling.STOP_ON_FAILURE)
 

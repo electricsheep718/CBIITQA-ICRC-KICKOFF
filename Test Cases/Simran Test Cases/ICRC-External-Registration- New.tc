@@ -26,18 +26,4 @@
       <masked>false</masked>
       <name>EmailAddress</name>
    </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>c449bbb3-ba76-437d-9dee-90705222b812</id>
-      <masked>false</masked>
-      <name>Password</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>27f2fac2-a1a2-4693-9be4-13bb71a61c00</id>
-      <masked>false</masked>
-      <name>ConfirmPassword</name>
-   </variable>
 </TestCaseEntity>
