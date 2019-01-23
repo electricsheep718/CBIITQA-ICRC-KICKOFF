@@ -35,3 +35,9 @@ WebUI.scrollToElement(findTestObject('Page_ICRC Application/a_Add_2 (1)'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_Add_2 (1)'))
 
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button'), 0)
+
+WebUI.click(findTestObject('Page_ICRC Application/input_save_button'))
+
+WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input__methodsaveApplication (1)'))
+

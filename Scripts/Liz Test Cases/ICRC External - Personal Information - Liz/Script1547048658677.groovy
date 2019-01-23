@@ -29,8 +29,7 @@ WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Seco
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Secondary Email_applican (1)'), 'email@email.com')
 
-'This date picker does not work'
-not_run: WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_16 (1)'))
+WebUI.click(findTestObject('Page_ICRC Application/input__applicants.dateOfBirth', [('variable') : '01/01/2000']))
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_Yes_applicants.previousN (2)'))
 

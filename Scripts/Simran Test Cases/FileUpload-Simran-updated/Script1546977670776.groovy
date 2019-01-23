@@ -13,11 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC External - Login - Simran'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC External - Login - Simran'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+not_run: WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Register'))
+not_run: WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Register'))
 
 WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_Resume(s)_upload'), 0)
 
@@ -31,5 +31,5 @@ WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_Financial Docu
 
 WebUI.uploadFile(findTestObject('Page_ICRC Application/input_Financial Document - Mus'), 'C:\\Users\\kaurs3\\Documents\\ICRC-NG\\PDFs_Test\\BusinessNeed.pdf')
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 
