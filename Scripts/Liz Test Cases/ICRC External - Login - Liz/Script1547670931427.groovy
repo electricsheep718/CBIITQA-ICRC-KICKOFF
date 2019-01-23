@@ -21,8 +21,6 @@ WebUI.click(findTestObject('Object Repository/Page_Introduction to Cancer Resear
 
 WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email Address_username'), 'ncitester11@nih.gov')
 
-not_run: WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email Address_username'), 'ncitester9@nih.gov')
-
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password_password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_userlogin_0'))
