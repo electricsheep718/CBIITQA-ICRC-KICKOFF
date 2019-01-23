@@ -6,11 +6,11 @@
    <elementGuidId>00c417a0-d204-4768-bdf8-38104c19610a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='deleteApplication']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//input[@id='deleteApplication']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

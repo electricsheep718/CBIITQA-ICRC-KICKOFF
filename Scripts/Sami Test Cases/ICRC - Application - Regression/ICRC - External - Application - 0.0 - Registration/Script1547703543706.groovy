@@ -111,5 +111,5 @@ WebUI.click(findTestObject('Page_Registration/input_CANCEL_registerButton (1)'))
 
 WebUI.delay(2)
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_delete_button_application</name>
+   <name>select_--- Select a level ---</name>
    <tag></tag>
-   <elementGuidId>62780df9-f8a8-42d8-b3f8-dea4f52e03e1</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='deleteApplication']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>1cf89792-546c-4dbb-85f3-ed730bb033b4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,63 +11,82 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Delete</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>deleteApplication</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>method:deleteApplication</value>
+      <value>educationLevel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>btn btn-secondary deleteApplication</value>
+      <value>3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>educationLevel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+    --- Select a level ---
+    Associate
+    Undergraduate
+    Post-Baccalaureate
+    Graduate
+    Post-Graduate
+    Doctoral
+    Other Professional or Technical School
+
+
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;applicationForm&quot;)/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;col-md-12 text-right&quot;]/div[@class=&quot;button_wrapper&quot;]/input[@id=&quot;deleteApplication&quot;]</value>
+      <value>id(&quot;educationLevel&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ICRC-Contact@mail.nih.gov'])[1]/following::input[5]</value>
+      <name>xpath:attributes</name>
+      <value>//select[@id='educationLevel']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='You can save a draft of your application and continue at a later time.'])[1]/following::input[5]</value>
+      <name>xpath:idRelative</name>
+      <value>//form[@id='registerForm']/div[4]/div[2]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Application Deadline: Sunday, Mar 17, 2019.'])[1]/preceding::input[1]</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prefix'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//select</value>
    </webElementXpaths>
 </WebElementEntity>

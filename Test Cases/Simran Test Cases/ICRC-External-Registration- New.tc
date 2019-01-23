@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ICRC-External-Registration- New</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>563dc436-27c4-45cb-b864-350578651438</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>70ef550f-77f3-43ce-9ed0-931f1915d6c7</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42db4a5e-83d6-4bbb-9052-a34ad9d95ccf</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea93b3a7-2c96-4d6b-87ee-ea304af9b05f</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c449bbb3-ba76-437d-9dee-90705222b812</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27f2fac2-a1a2-4693-9be4-13bb71a61c00</id>
+      <masked>false</masked>
+      <name>ConfirmPassword</name>
+   </variable>
+</TestCaseEntity>

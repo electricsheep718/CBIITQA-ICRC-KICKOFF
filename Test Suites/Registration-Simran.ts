@@ -20,7 +20,7 @@
          <id>0ebd8355-994c-4e81-b6c0-39109c4074fc</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>4-4</value>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/DataOne-Registration-Simran</testDataId>
       </testDataLink>

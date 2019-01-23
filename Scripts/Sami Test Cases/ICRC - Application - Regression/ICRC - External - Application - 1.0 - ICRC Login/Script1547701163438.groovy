@@ -27,7 +27,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Passwo
 
 WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_userlogin_0'))
 
-not_run: WebUI.click(findTestObject('Page_ICRC Application/a_Log out (1)'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_ICRC Application/a_Log out (1)'))
 
 not_run: WebUI.closeBrowser()
 

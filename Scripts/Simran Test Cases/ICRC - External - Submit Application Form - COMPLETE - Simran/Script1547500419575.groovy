@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Personal Information - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - Work Experience 
 
 WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC - External - Publications and Awards - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC External - File Upload - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Simran Test Cases/FileUpload-Simran-updated'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Liz Test Cases/ICRC - External - References section - Liz'), [:], FailureHandling.STOP_ON_FAILURE)
 

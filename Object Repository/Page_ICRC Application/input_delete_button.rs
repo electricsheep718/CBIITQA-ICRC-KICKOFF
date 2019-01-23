@@ -17,7 +17,7 @@
          <value>//input[@type = 'submit' and @id = 'deleteApplication' and @name = 'method:deleteApplication']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
