@@ -17,26 +17,17 @@
       <testCaseId>Test Cases/Sami Test Cases/ICRC External - Login Sample Data File</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>f24f4eba-0c61-4aef-88f5-35875f2d87e3</id>
+         <id>a37738cb-c2ac-4cbe-9049-fbbbe26c8f3a</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
             <value>1-1</value>
          </iterationEntity>
-         <testDataId>Data Files/Sample Login Data Test</testDataId>
-      </testDataLink>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>a37738cb-c2ac-4cbe-9049-fbbbe26c8f3a</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
          <testDataId>Data Files/Registration Sami</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>f24f4eba-0c61-4aef-88f5-35875f2d87e3</testDataLinkId>
+         <testDataLinkId>a37738cb-c2ac-4cbe-9049-fbbbe26c8f3a</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>email address</value>
+         <value>EmailAddress</value>
          <variableId>3c697e63-05f6-47c7-9b17-a4bff0413025</variableId>
       </variableLink>
    </testCaseLink>
