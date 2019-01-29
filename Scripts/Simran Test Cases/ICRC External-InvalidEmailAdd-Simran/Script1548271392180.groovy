@@ -20,7 +20,7 @@ WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
 WebUI.click(findTestObject('Page_Introduction to Cancer Researc/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email Address_username (5)'), 'abc@')
+WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'abc@')
 
 WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_userlogin_0'))
 

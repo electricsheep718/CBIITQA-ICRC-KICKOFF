@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>1be168b4-c742-4344-9647-e08152035737</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Simran Test Cases/ICRC-External-Registration- New</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -46,13 +46,13 @@
    <testCaseLink>
       <guid>9709d85a-ec1c-4a40-9489-25b09924acc8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Simran Test Cases/ICRC External - Login - Locked Out Email - Simran</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e045a3cc-c0aa-4c31-9bef-a1866ea91c39</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Simran Test Cases/ICRC External - Login - Negative LoginTest - Simran</testCaseId>
    </testCaseLink>
    <testCaseLink>
