@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fill out the ICRC Candidate Application</description>
+   <name>ICRC External - Personal Information - Liz</name>
+   <tag>Application Fill</tag>
+   <comment></comment>
+   <testCaseGuid>a571695f-7e1b-499d-8b5d-6c3972e9af48</testCaseGuid>
+</TestCaseEntity>

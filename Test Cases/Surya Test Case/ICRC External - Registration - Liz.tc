@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case for Sign-Up</description>
+   <name>ICRC External - Registration - Liz</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>83fdf558-8369-42f5-babb-3f7aa78db92f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>71e4738c-ff1e-4293-a078-fe08c2bf5bc1</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b5462e31-808c-4ed3-8de5-14fd00551acb</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c9b11e59-6083-42ea-9046-a525d254513e</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea5cb898-360b-4812-8a25-1024bc69571d</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04fb5515-5664-41f2-876a-355cd9dfa0a8</id>
+      <masked>false</masked>
+      <name>ConfirmPassword</name>
+   </variable>
+</TestCaseEntity>
