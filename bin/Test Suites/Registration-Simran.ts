@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Registration-Simran</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>e292698a-02be-40fb-bfe5-43bf17289724</testSuiteGuid>
+   <testCaseLink>
+      <guid>277a180b-6efa-4b99-93a2-0960a81142c1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Simran Test Cases/ICRC External - Registration - Simran</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0ebd8355-994c-4e81-b6c0-39109c4074fc</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/DataOne-Registration-Simran</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0ebd8355-994c-4e81-b6c0-39109c4074fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FirstName</value>
+         <variableId>f3471f88-f01f-4c17-b7df-a8caf0f15297</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0ebd8355-994c-4e81-b6c0-39109c4074fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LastName</value>
+         <variableId>9d050f91-1b24-4fef-83e3-847bdcbe8d02</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0ebd8355-994c-4e81-b6c0-39109c4074fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EmailAddress</value>
+         <variableId>8225cb9c-0cea-414b-a7ad-97d85922a8d2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0ebd8355-994c-4e81-b6c0-39109c4074fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>1258aad7-bbbb-45eb-827c-e2725386d115</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0ebd8355-994c-4e81-b6c0-39109c4074fc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ConfirmPassword</value>
+         <variableId>0a88ea79-32df-4e3b-9459-5b4f6ac78931</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
