@@ -31,11 +31,11 @@ WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC - External - References 
 
 WebUI.callTestCase(findTestCase('Simran Test Cases/ICRC - External - Checkboxes section - Simran'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Page_ICRC Application/input_submit_button'))
+WebUI.click(findTestObject('Page_ICRC Application/input_submit_button'))
 
-not_run: WebUI.click(findTestObject('Page_ICRC Application/button_Cancel_submitPopup'))
+WebUI.click(findTestObject('Page_ICRC Application/button_Cancel_submitPopup'))
 
-not_run: WebUI.click(findTestObject('Page_ICRC Application/input_submit_button'))
+WebUI.click(findTestObject('Page_ICRC Application/input_submit_button'))
 
-not_run: WebUI.click(findTestObject('Page_ICRC Application/button_Confirm_submitPopup'))
+WebUI.click(findTestObject('Page_ICRC Application/button_Confirm_submitPopup'))
 
