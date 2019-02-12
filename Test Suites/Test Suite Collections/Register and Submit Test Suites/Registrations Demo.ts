@@ -19,7 +19,7 @@
          <combinationType>ONE</combinationType>
          <id>727f99a5-2e81-4a07-ba21-f6af6246ec49</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
+            <iterationType>RANGE</iterationType>
             <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Registration Sami</testDataId>
