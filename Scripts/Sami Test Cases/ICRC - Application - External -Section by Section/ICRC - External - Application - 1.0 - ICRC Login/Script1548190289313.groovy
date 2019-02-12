@@ -21,7 +21,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_Introduction to Cancer Researc/a_Login'))
 
-WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), ncitester11@nih.gov)
+WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), 'ncitester11@nih.gov')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password_password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 

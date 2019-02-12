@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>4e34b400-2ba0-4456-9150-21df2654bc69</testCaseGuid>
    <variable>
-      <defaultValue>findTestData('Registration Sami').getValue(1, 1)</defaultValue>
+      <defaultValue>'FirstName1'.getValue(1, 1)</defaultValue>
       <description></description>
       <id>d99c7add-8b06-49be-9b09-ba1f9912e84a</id>
       <masked>false</masked>
