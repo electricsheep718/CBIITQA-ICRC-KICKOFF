@@ -19,10 +19,13 @@ WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
 
 WebUI.click(findTestObject('Object Repository/Page_Introduction to Cancer Researc/a_Login'))
 
+'Input Field - Entry for Username/Email id'
 WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email Address_username'), 'ncitester4@nih.gov')
 
+'Input Field - Entry for Password\r\n'
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password_password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
+'Button Select - Function Will Submit Entry for System validation\r\n\t\r\n'
 WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_userlogin_0'))
 
 not_run: WebUI.click(findTestObject('Page_ICRC Application/a_Log out (1)'))
