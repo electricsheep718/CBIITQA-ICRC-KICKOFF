@@ -25,6 +25,7 @@ WebUI.setEncryptedText(findTestObject('Page_Login/input_Password_password'), 'iF
 
 WebUI.click(findTestObject('Page_Login/input_Password_userlogin_0'))
 
+'Verify Warning Message'
 WebUI.verifyElementPresent(findTestObject('Page_Login/div_Incorrect Email Address.'), 5)
 
 WebUI.verifyElementPresent(findTestObject('Page_Login/span_Incorrect Email Address.'), 5)
@@ -43,6 +44,7 @@ WebUI.verifyElementPresent(findTestObject('Page_Login/div_Incorrect Password.'),
 
 WebUI.verifyElementPresent(findTestObject('Page_Login/span_Incorrect Password.'), 5)
 
+'Verify Warning Message'
 WebUI.verifyTextPresent('Incorrect Password', false)
 
 WebUI.click(findTestObject('Page_Login/button_'))

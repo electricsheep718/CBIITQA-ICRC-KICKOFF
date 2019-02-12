@@ -13,23 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://icrc-test.nci.nih.gov/')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/Page_Introduction to Cancer Researc/a_Login'))
-
-WebUI.setText(findTestObject('Page_Login/input_Email Address_username'), ncitester11@nih.gov)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password_password'), 'iFGeFYmXIrWy72D5I5E8Dw==')
-
-WebUI.click(findTestObject('Object Repository/Page_Login/input_Password_userlogin_0'))
-
-WebUI.delay(1)
-
-not_run: WebUI.click(findTestObject('Page_ICRC Application/a_Log out (1)'))
-
-not_run: WebUI.closeBrowser()
+WebUI.acceptAlert()
 
