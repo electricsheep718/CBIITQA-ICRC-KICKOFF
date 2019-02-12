@@ -44,15 +44,21 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>2fd6bbaf-506d-4a2e-b275-3107ce2bae96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Simran Test Cases/ICRC External - Login - Simran</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9709d85a-ec1c-4a40-9489-25b09924acc8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Simran Test Cases/ICRC External - Login - Locked Out Email - Simran</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e045a3cc-c0aa-4c31-9bef-a1866ea91c39</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Simran Test Cases/ICRC External - Login - Negative LoginTest - Simran</testCaseId>
    </testCaseLink>
    <testCaseLink>

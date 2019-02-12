@@ -55,7 +55,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Middle N
 
 WebUI.setText(findTestObject('Object Repository/Page_Registration/input__lastName (1)'), LastName)
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__email (1)'), 'ncitester11@nih.gov')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__email (1)'), EmailAddress)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Registration/input__password (1)'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
