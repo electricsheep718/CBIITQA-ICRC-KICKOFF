@@ -13,23 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.maximizeWindow()
+WebUI.maximizeWindow()
 
 WebUI.scrollToElement(findTestObject('Page_ICRC Application/input__upload'), 0)
 
-WebUI.uploadFile(findTestObject('Page_ICRC Application/input__upload'), 'C:\\Users\\rashids2\\Downloads\\KendrickJiffyLubeLiveTickets.pdf')
+WebUI.uploadFile(findTestObject('Page_ICRC Application/input__upload'), 'C:\\Users\\rashids2\\Downloads\\UserGuide.pdf')
 
-WebUI.uploadFile(findTestObject('Page_ICRC Application/input__upload'), 'C:\\Users\\rashids2\\Downloads\\KendrickJiffyLubeLiveTickets.pdf')
+WebUI.uploadFile(findTestObject('Page_ICRC Application/input__upload'), 'C:\\Users\\rashids2\\Downloads\\UserGuide.pdf')
 
 WebUI.scrollToElement(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Resume(s)_upload'), 0)
 
-WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Resume(s)_upload'), 'C:\\Users\\rashids2\\Downloads\\KendrickJiffyLubeLiveTickets.pdf')
+WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Resume(s)_upload'), 'C:\\Users\\rashids2\\Downloads\\UserGuide.pdf')
 
 WebUI.scrollToElement(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Financial Document - Mus'), 0)
 
-WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Financial Document - Mus'), 'C:\\Users\\rashids2\\Downloads\\KendrickJiffyLubeLiveTickets.pdf')
+WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Financial Document - Mus'), 'C:\\Users\\rashids2\\Downloads\\UserGuide.pdf')
 
 WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button'), 0)
 

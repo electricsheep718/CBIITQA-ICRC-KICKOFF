@@ -24,23 +24,5 @@
          </iterationEntity>
          <testDataId>Data Files/Registration Sami</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId>727f99a5-2e81-4a07-ba21-f6af6246ec49</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>FirstName</value>
-         <variableId>d99c7add-8b06-49be-9b09-ba1f9912e84a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>727f99a5-2e81-4a07-ba21-f6af6246ec49</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>LastName</value>
-         <variableId>6a5c65c2-480d-4d9c-8e75-e5c26ac10d6f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>727f99a5-2e81-4a07-ba21-f6af6246ec49</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>EmailAddress</value>
-         <variableId>0479a115-0b89-43da-8dd2-dfe4b397ee02</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -5,25 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4e34b400-2ba0-4456-9150-21df2654bc69</testCaseGuid>
-   <variable>
-      <defaultValue>'FirstName1'.getValue(1, 1)</defaultValue>
-      <description></description>
-      <id>d99c7add-8b06-49be-9b09-ba1f9912e84a</id>
-      <masked>false</masked>
-      <name>FirstName</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Registration Sami').getValue(2, 1)</defaultValue>
-      <description></description>
-      <id>6a5c65c2-480d-4d9c-8e75-e5c26ac10d6f</id>
-      <masked>false</masked>
-      <name>LastName</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Registration Sami').getValue(3, 1)</defaultValue>
-      <description></description>
-      <id>0479a115-0b89-43da-8dd2-dfe4b397ee02</id>
-      <masked>false</masked>
-      <name>EmailAddress</name>
-   </variable>
 </TestCaseEntity>

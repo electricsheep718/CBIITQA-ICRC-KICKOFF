@@ -49,13 +49,16 @@ WebUI.click(findTestObject('Object Repository/Page_Registration/label_First Name
 
 WebUI.click(findTestObject('Object Repository/Page_Registration/div_First Name (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__firstName (1)'), FirstName)
+'First NAME'
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__firstName (1)'), 'Larry')
 
 WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Middle Name_middleName (1)'), 'Middle_1')
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__lastName (1)'), LastName)
+'Last Name'
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__lastName (1)'), 'Johnson')
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__email (1)'), EmailAddress)
+'EMAIL'
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__email (1)'), 'knickstape3@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Registration/input__password (1)'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
