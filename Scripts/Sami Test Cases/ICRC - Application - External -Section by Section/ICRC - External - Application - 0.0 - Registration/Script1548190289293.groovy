@@ -55,10 +55,10 @@ WebUI.setText(findTestObject('Object Repository/Page_Registration/input__firstNa
 WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Middle Name_middleName (1)'), 'Middle_1')
 
 'Last Name'
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__lastName (1)'), 'Houston')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__lastName (1)'), 'Anthony')
 
 'EMAIL'
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__email (1)'), 'knickstape1@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__email (1)'), 'knickstape2@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Registration/input__password (1)'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
