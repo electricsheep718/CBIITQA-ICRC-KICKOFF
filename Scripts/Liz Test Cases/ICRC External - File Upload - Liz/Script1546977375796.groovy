@@ -31,7 +31,7 @@ WebUI.scrollToElement(findTestObject('Page_ICRC Application/Page_ICRC Applicatio
 
 WebUI.uploadFile(findTestObject('Page_ICRC Application/Page_ICRC Application/input_Financial Document - Mus'), 'C:\\Users\\andreyeve\\Documents\\GitHub\\QA_Automation\\CBIITQA-ICRC-KICKOFF\\NewFile.pdf')
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button_application'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_TOP_save_button_app'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_save_button_application'))
+WebUI.click(findTestObject('Page_ICRC Application/input_TOP_save_button_app'))
 

@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('Page_ICRC Application/input__reference2.referenceP
 
 WebUI.setText(findTestObject('Page_ICRC Application/input__reference2.referenceEma'), 'test2@test.com')
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button_application'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_TOP_save_button_app'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_save_button_application'))
+WebUI.click(findTestObject('Page_ICRC Application/input_TOP_save_button_app'))
 

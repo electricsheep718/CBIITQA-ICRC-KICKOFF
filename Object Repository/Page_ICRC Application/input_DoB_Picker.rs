@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_DoB_Picker</name>
+   <tag></tag>
+   <elementGuidId>ff2db390-0d97-4fa5-afa6-eb0661a87e88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;datepicker10&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#datepicker10</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -12,6 +12,9 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC - Application - External -Section by Section/ICRC - External - Application - 1.0 - ICRC Login'), 
     [('FirstName') : '', ('LastName') : '', ('EmailAddress') : ''], FailureHandling.STOP_ON_FAILURE)
@@ -31,6 +34,10 @@ WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__app
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Secondary Phone_applican (2)'), '2408881111')
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_Secondary Email_applican (1)'), 'email@email.com')
+
+WebUI.setText(findTestObject('Page_ICRC Application/input_DoB_Picker'), '07/18/1980')
+
+WebUI.sendKeys(findTestObject('Page_ICRC Application/input_DoB_Picker'), Keys.chord(Keys.ENTER))
 
 'This date picker does not work'
 not_run: WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_16 (1)'))
@@ -69,7 +76,7 @@ WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_NY - New
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_ZipPostal Code_applicant (1)'), '80988')
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button_application'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_TOP_save_button_app'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_save_button_application'))
+WebUI.click(findTestObject('Page_ICRC Application/input_TOP_save_button_app'))
 

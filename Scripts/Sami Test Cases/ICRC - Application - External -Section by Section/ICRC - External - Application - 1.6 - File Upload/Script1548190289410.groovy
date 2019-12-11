@@ -12,12 +12,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 not_run: WebUI.callTestCase(findTestCase('Sami Test Cases/ICRC External - Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.maximizeWindow()
 
 WebUI.scrollToElement(findTestObject('Page_ICRC Application/input__upload'), 0)
+
+WebUI.focus(findTestObject('Page_ICRC Application/input__upload'))
 
 WebUI.uploadFile(findTestObject('Page_ICRC Application/input__upload'), 'C:\\Users\\rashids2\\Documents\\GitHub\\CBIITQA-ICRC-KICKOFF\\UserGuide')
 

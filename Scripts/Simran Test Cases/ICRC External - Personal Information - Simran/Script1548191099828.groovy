@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_NY - New
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_ZipPostal Code_applicant (1)'), '11111')
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button_application'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_TOP_save_button_app'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_save_button_application'))
+WebUI.click(findTestObject('Page_ICRC Application/input_TOP_save_button_app'))
 

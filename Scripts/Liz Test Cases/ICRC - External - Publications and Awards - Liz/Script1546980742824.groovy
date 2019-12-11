@@ -51,7 +51,7 @@ WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/textarea_W
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/textarea_(NOT-OD-18-210)_appli (1)'), 'Diversity Statement for Biomedical Statement')
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button_application'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_TOP_save_button_app'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_save_button_application'))
+WebUI.click(findTestObject('Page_ICRC Application/input_TOP_save_button_app'))
 

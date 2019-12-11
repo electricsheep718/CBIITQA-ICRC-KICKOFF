@@ -67,7 +67,7 @@ WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input_If O
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/input_If Other please indicate_16'))
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button_application'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_TOP_save_button_app'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_save_button_application'))
+WebUI.click(findTestObject('Page_ICRC Application/input_TOP_save_button_app'))
 

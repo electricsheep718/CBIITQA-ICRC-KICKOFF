@@ -85,7 +85,7 @@ WebUI.click(findTestObject('Object Repository/Page_ICRC Application/div_Add     
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_Add (1)'))
 
-WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_save_button_application'), 0)
+WebUI.scrollToElement(findTestObject('Page_ICRC Application/input_TOP_save_button_app'), 0)
 
-WebUI.click(findTestObject('Page_ICRC Application/input_save_button_application'))
+WebUI.click(findTestObject('Page_ICRC Application/input_TOP_save_button_app'))
 
