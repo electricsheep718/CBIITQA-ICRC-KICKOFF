@@ -5,25 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>3f46778b-5632-4568-9b1c-29fd5e78f21f</testCaseGuid>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>0ca5c25e-d10b-40df-bfaf-ab0a64c1bfc1</id>
-      <masked>false</masked>
-      <name>FirstName</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>3fe723a4-f8bd-466b-a122-c92fdc87d898</id>
-      <masked>false</masked>
-      <name>LastName</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>56848e98-39b3-403c-938c-909f7630bfd6</id>
-      <masked>false</masked>
-      <name>EmailAddress</name>
-   </variable>
 </TestCaseEntity>

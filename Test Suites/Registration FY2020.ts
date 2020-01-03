@@ -15,6 +15,24 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - External -Section by Section/ICRC - External - Application - 0.0 - Registration</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8225b901-bea2-4e32-8f14-e5a8536a7d90</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c02d42b8-e3c4-4909-8fe2-da0e71e919d4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>11854f78-6ab3-4e16-a77b-0a1c218b0139</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>57dd9b7b-08f9-4d54-a16d-253bc15760f9</guid>
@@ -45,72 +63,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - External -Section by Section/ICRC - External - Application - 1.1 - Personal Info</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0ca5c25e-d10b-40df-bfaf-ab0a64c1bfc1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3fe723a4-f8bd-466b-a122-c92fdc87d898</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>56848e98-39b3-403c-938c-909f7630bfd6</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3f5fe832-8651-49db-9d40-f5f3e306ada6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - External -Section by Section/ICRC - External - Application - 1.2 - Academic Info</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0102cb08-cca6-4b6a-b45e-b07346c49f51</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3f48395d-28f8-4b75-823a-d33f102a44d5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8379e7a1-7bb3-4303-802c-f78f2f4de55a</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6b1c274e-18e6-4864-ab7b-80dad56bb718</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - External -Section by Section/ICRC - External - Application - 1.3 - Research Exp</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>628165fc-778b-4783-ac6b-02d574ebfd72</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e63dbd2a-5b71-4530-804b-25531a0c7e1d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2fe0d549-2ce9-4229-9c57-7f74a4f3938c</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ed9d7d7f-4991-49e5-bcb2-402488104452</guid>

@@ -5,25 +5,4 @@
    <tag>Application</tag>
    <comment></comment>
    <testCaseGuid>c8035b09-fc1a-46eb-9837-af9cb4c21fc1</testCaseGuid>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>0102cb08-cca6-4b6a-b45e-b07346c49f51</id>
-      <masked>false</masked>
-      <name>FirstName</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>3f48395d-28f8-4b75-823a-d33f102a44d5</id>
-      <masked>false</masked>
-      <name>LastName</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>8379e7a1-7bb3-4303-802c-f78f2f4de55a</id>
-      <masked>false</masked>
-      <name>EmailAddress</name>
-   </variable>
 </TestCaseEntity>

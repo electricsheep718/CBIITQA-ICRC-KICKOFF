@@ -50,15 +50,15 @@ WebUI.click(findTestObject('Object Repository/Page_Registration/label_First Name
 WebUI.click(findTestObject('Object Repository/Page_Registration/div_First Name (1)'))
 
 'First NAME'
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__firstName (1)'), 'Gary')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__firstName (1)'), FirstName)
 
 WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Middle Name_middleName (1)'), '')
 
 'Last Name'
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__lastName (1)'), 'Neville')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__lastName (1)'), LastName)
 
 'EMAIL'
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__email (1)'), 'mufc14@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__email (1)'), EmailAddress)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Registration/input__password (1)'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
