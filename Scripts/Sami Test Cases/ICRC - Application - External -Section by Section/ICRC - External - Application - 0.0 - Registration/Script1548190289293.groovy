@@ -50,25 +50,25 @@ WebUI.click(findTestObject('Object Repository/Page_Registration/label_First Name
 WebUI.click(findTestObject('Object Repository/Page_Registration/div_First Name (1)'))
 
 'First NAME'
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__firstName (1)'), 'Allan')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__firstName (1)'), 'Gary')
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Middle Name_middleName (1)'), 'Middle_1')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Middle Name_middleName (1)'), '')
 
 'Last Name'
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__lastName (1)'), 'Anthony')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__lastName (1)'), 'Neville')
 
 'EMAIL'
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input__email (1)'), 'knickstape2@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input__email (1)'), 'mufc14@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Registration/input__password (1)'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Registration/input__confirmPassword (1)'), 'iFGeFYmXIrWy72D5I5E8Dw==')
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Address Line 1_address1 (1)'), '123 Fake St')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Address Line 1_address1 (1)'), '25 5th Avenue')
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Address Line 2_address2 (1)'), 'Apt 1')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Address Line 2_address2 (1)'), '1123')
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input_City_city (1)'), 'Rockville')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input_City_city (1)'), 'Cleveland')
 
 WebUI.click(findTestObject('Object Repository/Page_Registration/a_State  Province  Region_stat (2)'))
 
@@ -80,7 +80,7 @@ WebUI.click(findTestObject('Object Repository/Page_Registration/label_Postal  Co
 
 WebUI.click(findTestObject('Object Repository/Page_Registration/span_Postal  Code (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Postal  Code_postalCode (1)'), '20850')
+WebUI.setText(findTestObject('Object Repository/Page_Registration/input_Postal  Code_postalCode (1)'), '11241')
 
 WebUI.click(findTestObject('Object Repository/Page_Registration/label_Select Question 1 (1)'))
 

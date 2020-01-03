@@ -22,13 +22,13 @@ WebUI.scrollToElement(findTestObject('Page_ICRC Application/h3_Academic Informat
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/h3_Academic InformationEducati (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduSchool (1)'), 'Maryland University')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduSchool (1)'), 'Tulane University')
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduDateFrom (1)'), '01/01/2000')
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduDateTo (1)'), '01/01/2004')
 
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduSchoolCity (1)'), 'Baltimore, MD')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduSchoolCity (1)'), 'New Orleans')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_ICRC Application/select_--- Select Education Le (1)'), 
     '163', true)
@@ -56,13 +56,13 @@ WebUI.click(findTestObject('Object Repository/Page_ICRC Application/a_Add (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_ICRC Application/h3_Academic InformationEducati (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduSchool (1)'), 'New York University')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduSchool (1)'), 'Ravenclaw')
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduDateFrom (1)'), '01/01/2000')
 
 WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduDateTo (1)'), '01/01/2007')
 
-WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduSchoolCity (1)'), 'New York, NY')
+WebUI.setText(findTestObject('Object Repository/Page_ICRC Application/input__eduSchoolCity (1)'), 'Tuscaloosa')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_ICRC Application/select_--- Select Education Le (1)'), 
     '163', true)

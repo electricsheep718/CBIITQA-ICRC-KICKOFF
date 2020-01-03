@@ -11,19 +11,10 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>ff9c7b00-a23a-40f9-ac00-e842c274cb79</testSuiteGuid>
    <testCaseLink>
-      <guid>a7ef6186-39a2-481c-a7d3-04cc9c372779</guid>
+      <guid>4f59cbcb-8248-4aaa-927b-aee1bf84cea9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - External -Section by Section/ICRC - External - Application - 0.0 - Registration</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>727f99a5-2e81-4a07-ba21-f6af6246ec49</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>3-4</value>
-         </iterationEntity>
-         <testDataId>Data Files/Registration Sami</testDataId>
-      </testDataLink>
    </testCaseLink>
    <testCaseLink>
       <guid>314c162a-1e51-42d8-9e31-52306df71085</guid>
@@ -122,16 +113,16 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ee8d2f27-de13-4718-8f1b-1c2e7cf14624</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - External -Section by Section/ICRC - External - Application - 1.5 - Publications and Awards</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>abbd4ff5-27d2-4a74-a8a0-99ad604b935c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - External -Section by Section/ICRC - External - Application - 1.4 - Work Exp</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee8d2f27-de13-4718-8f1b-1c2e7cf14624</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sami Test Cases/ICRC - Application - External -Section by Section/ICRC - External - Application - 1.5 - Publications and Awards</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c1ccf280-fb48-465a-ba7a-8420977020c8</guid>
